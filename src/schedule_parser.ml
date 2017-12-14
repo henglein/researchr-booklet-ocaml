@@ -113,12 +113,12 @@ let subevents : subevent list =
     }
   ; { se_name   = "CPP 2018 - The 7th ACM SIGPLAN International Conference on Certified Programs and Proofs"
     ; se_dates  = ["2018/01/08"; "2018/01/09"]
-    ; se_title  = "PADL"
+    ; se_title  = "CPP"
     ; se_pos    = 3
     }
   ; { se_name   = "20th International Symposium on  Practical Aspects of Declarative Languages "
     ; se_dates  = ["2018/01/08"; "2018/01/09"]
-    ; se_title  = "CPP"
+    ; se_title  = "PADL"
     ; se_pos    = 4
     }
   ; { se_name   = "Off the Beaten Track 2018"
