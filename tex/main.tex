@@ -1,0 +1,64 @@
+\newif\ifbaskerville \baskervilletrue
+
+\newif\ifpictures \picturesfalse
+
+\documentclass[a4paper,11pt]{article}
+\ifbaskerville
+%% \usepackage{gill-sans,newbaskerville}
+%% \renewcommand{\sfdefault}{gill-sans}
+\fi
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem} \setdescription{noitemsep}
+\DeclareUnicodeCharacter{00A0}{~}
+\setlength{\topmargin}{-2.5cm}
+\setlength{\textheight}{26.5cm}
+\setlength{\oddsidemargin}{-5mm}
+\setlength{\textwidth}{17cm}
+
+%\makeatletter
+%\def\@oddfoot{\reset@font\sffamily\hfil\thepage\hfil}
+%\let\@evenfoot\@oddfoot
+%\makeatother
+
+\newcommand{\header}[4]{{\noindent \makebox[2cm][l]{#1} \hfill #2
+    \hfill \makebox[2cm][r]{#3\hspace{-1mm}} \vspace{-1ex} \\ \rule{\textwidth}{1pt}
+    \begin{center} \Large\sffamily\bfseries #4 \end{center}} \vspace{5ex}}
+% \newcommand{\weekday}[1]{\begin{flushleft}\bfseries #1 \end{flushleft}}
+\newcommand{\weekday}[1]{\medskip}
+\newcommand{\closeday}{}
+\newcommand{\overview}[3]
+{\noindent \makebox[17cm][l]{#2\dotfill page~#3} \\}
+% {\noindent \makebox[3.5cm][l]{#1}\makebox[12cm][l]{#2} page~#3 \\}
+
+\newcommand{\emptysession}[2]
+{\noindent \colorbox{gray!30}{\makebox[2.5cm][c]{#1}\hspace{3mm}%
+\makebox[13.9cm][l]{\bfseries #2}} \medskip \\}
+\newcommand{\session}[2]
+{\noindent \colorbox{gray!30}{\makebox[2.5cm][c]{#1}\hspace{3mm}%
+\makebox[13.9cm][l]{\bfseries #2}} \medskip \\
+\noindent\begin{tabular}{@{~~~}cp{15cm}}}
+\newcommand\chair[1]{\small\mdseries\hfill Chair: #1}
+\newcommand{\slot}[2]{#1 & #2 \\}
+\newcommand{\slotnumbered}[3]{\slot{#1}{#2 [\##3]}}
+\newcommand{\authors}[1]{\multicolumn{2}{@{\hspace{2cm}}p{14.5cm}}{#1} \\}
+\newcommand{\tutorialauthors}[1]{\multicolumn{2}{@{\hspace{3cm}}p{13.5cm}}{#1} \\}
+\newcommand{\closesession}{\end{tabular} \bigskip \\}
+\let\author=\textit
+
+\ifpictures
+\newcommand{\outputmap}{\includegraphics[width=\textwidth]{social-map.png}}
+\else
+\newcommand{\outputmap}{\bigskip (For a location map, see the inside back cover.)}
+\fi
+
+\begin{document}
+%%% UNSKIP ME \input{overview}
+%%% UNSKIP ME \input{preface}
+%%% UNSKIP ME \input{committees}
+%%% UNSKIP ME \ifpictures \input{floorplan} \fi
+%%% UNSKIP ME \input{keynotes}
+\input{out/schedule}
+\ifpictures\else \header{Notes}{}{}{Notes} \fi
+\end{document}
