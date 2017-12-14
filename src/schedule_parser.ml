@@ -111,13 +111,37 @@ let subevents : subevent list =
     ; se_title  = "TutorialFest"
     ; se_pos    = 5
     }
-  (* "POPL: TutorialFest"
-  ,  CPP
-  ,  PADL
-  ,  OBT
-  ,  NetPL
-  ,  CoqPL
-  ,  PLMW
+  ; { se_name   = "CPP 2018 - The 7th ACM SIGPLAN International Conference on Certified Programs and Proofs"
+    ; se_dates  = ["2018/01/08"; "2018/01/09"]
+    ; se_title  = "PADL"
+    ; se_pos    = 3
+    }
+  ; { se_name   = "20th International Symposium on  Practical Aspects of Declarative Languages "
+    ; se_dates  = ["2018/01/08"; "2018/01/09"]
+    ; se_title  = "CPP"
+    ; se_pos    = 4
+    }
+  ; { se_name   = "Off the Beaten Track 2018"
+    ; se_dates  = ["2018/01/13"]
+    ; se_title  = "OBT"
+    ; se_pos    = 2
+    }
+  ; { se_name   = "NetPL 2018"
+    ; se_dates  = ["2018/01/13"]
+    ; se_title  = "NetPL"
+    ; se_pos    = 5
+    }
+  ; { se_name   = "Programming Languages Mentoring Workshop"
+    ; se_dates  = ["2018/01/09"]
+    ; se_title  = "PLMW"
+    ; se_pos    = 7
+    }
+  ; { se_name   = "The Fourth International Workshop on Coq for Programming Languages"
+    ; se_dates  = ["2018/01/13"]
+    ; se_title  = "CoqPL"
+    ; se_pos    = 1
+    }
+  (*
   -- TODO: PPS
   -- TODO: PriSC
   *)
@@ -513,7 +537,7 @@ let output_overview ~days day_pages ~details oc =
   fprintf oc "\\header{%s}{%s}{%s -- %s}{Overview}\n\n"
     details.e_acronym details.e_location details.e_start details.e_end;
   List.iter day_pages ~f:begin fun (day, date, ps) ->
-    fprintf oc "\\weekday{%s %s}\n" day (date_day date);
+    fprintf oc "\\weekday{%s, %s January}\n" day (date_day date);
     List.iter ps ~f:begin fun p ->
       let name  = p.tr_name in
       let date  = p.tr_date in
