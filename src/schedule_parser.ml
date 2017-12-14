@@ -1,4 +1,4 @@
-(* Parser to build ICFP program *)
+(* Parser to build ICFP program, by Jacques Garrigue, Jeremy Gibbons, Ranjit Jhala *)
 (* Uses Xml-Light *)
 
 open StdLabels
