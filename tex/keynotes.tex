@@ -3,44 +3,114 @@
 
 \def\talktitle#1{\subsection*{#1}}
 \def\speaker#1#2{\begin{flushleft} #1 (#2) \end{flushleft}}
-
-\talktitle{Compositional Creativity: Some Principles for Talking to Computers}
-\speaker{Chris Martens}{North Carolina State University}
 \def\talkabstract{\noindent \textbf{Abstract:}~}
 \def\bio{\medskip\noindent \textbf{Bio:}~}
 
-\talkabstract
-\emph{Generativity} is an increasingly popular and useful concept, referring to a machine’s ability to respond to user input with new constructions not foreseen by the programmer. Yet increasingly, people treat computational systems as unknowable black-box systems, writing off the possibility of forming mental models that allow a collaborative relationship between human insight and fast computation. 
+\talktitle{The Type Soundness Theorem That You Really Want to Prove (and Now You Can)}
 
-I argue for the efficacy of transparent, compositional semantics for collaborating with virtual agents and deriving insights from system models. Having built systems based on automated reasoning for linear logic and epistemic modal logic, we can formalize notions of belief, intention, and action, in order to create virtual agents that behave in ways that humans can reason about based on intuitions about goal-driven behavior. For example, some of Grice’s maxims of conversation can be seen as derivable consequences of these principles. Ongoing work includes applying these formalisms to the tasks of navigating unknown rule systems in virtual environments, social skills training, and generative storytelling.
+\speaker{Derek Dreyer}{MPI-SWS}
+
+\talkabstract
+Type systems—and the associated concept of “type soundness”—are one of the
+biggest success stories of foundational PL research. Originally proposed by
+Robin Milner in 1978, type soundness asserts that well-typed programs can’t “go
+wrong” (\emph{i.e.}, exhibit undefined behaviors), and it is widely viewed as the
+canonical theorem one must prove to establish that a type system is doing its
+job. In the early 1990s, Wright and Felleisen introduced a simple syntactic
+approach to proving type soundness, which was subsequently popularized as the
+method of ``progress and preservation'' and has had a huge impact on the study and
+teaching of PL foundations. Many research papers that propose new type systems
+conclude with a triumphant statement of syntactic type soundness, and for many
+students it is the only thing they learn to prove about a type system.
+
+Unfortunately, syntactic type soundness is a rather weak theorem. First of all,
+its premise is too strong for many practical purposes. It only applies to
+programs that are completely well-typed, and thus tells us nothing about the
+many programs written in ``safe'' languages that make use of ``unsafe'' language
+features. Even worse, it tells us nothing about whether type systems achieve one
+of their main goals: enforcement of data abstraction. One can easily define a
+language that enjoys syntactic soundness and yet fails to support even the most
+basic modular reasoning principles for closures, objects, and ADTs.
+
+In this talk, I argue that we should no longer be satisfied with just proving
+syntactic type soundness, and should instead start proving a stronger
+theorem—semantic type soundness—that captures more accurately what type systems
+are actually good for. In a semantic soundness proof, one defines a semantic
+model of types as predicates on values, and then verifies the soundness of
+typing rules as lemmas about the model. By explaining directly what types
+``mean'', the semantic approach to type soundness is a lot more informative than
+the syntactic one. In particular, it can serve to establish what data
+abstraction guarantees a language provides, as well as what it means for uses of
+unsafe language features to be ``safely encapsulated''.
+
+Semantic type soundness is a very old idea—Milner’s original formulation of type
+soundness was a semantic one—but it fell out of favor in the 1990s due to
+limitations and complexities of denotational models. In the succeeding decades,
+such limitations have been overcome and complexities tamed, via proof techniques
+that work directly over operational semantics. Thanks to the development of
+step-indexed Kripke logical relations, we can now scale semantic soundness to
+handle real languages, and thanks to advances in higher-order concurrent
+separation logic, we can now build (machine-checked) semantic soundness proofs
+at a much higher level of abstraction than was previously possible. The
+resulting ``logical'' approach to semantic type soundness yields proofs that are
+demonstrably more useful than their syntactic counterparts, and more fun as
+well.
 
 \bio
-Chris Martens is an Assistant Professor at North Carolina State University, where she directs the Principles of Expressive Machines (POEM) lab. She was a postdoctoral researcher with UC Santa Cruz’s Expressive Intelligence Studio after completing her Ph.D. with the Principles of Programming group at Carnegie Mellon in 2015. At CMU she worked on logical frameworks, dependent type theory, and representing narrative structure with linear logic. Her current research activities include applying automated reasoning and compositional semantics to the authorship of generative systems, games, and narrative, as well as designing accessible tools for system modeling and logical specification.
+Derek Dreyer is a professor of computer science at the Max Planck Institute for
+Software Systems (MPI-SWS), and recipient of the 2017 ACM SIGPLAN Robin Milner
+Young Researcher Award.  His research runs the gamut from the type theory of
+high-level functional languages, down to the verification of compilers and
+low-level concurrent programs under relaxed memory models.  He is currently
+leading the RustBelt project, which focuses on building the first formal
+foundations for the Rust programming language.  He also knows a thing or two
+about Scotch whisky.
 
 \medskip
 
-\talktitle{Ten Years of Clojure---FP Out of the Box}
-\speaker{Rich Hickey}{Cognitect Inc.}
+\talktitle{Some Principles of Differential Programming Languages}
+
+\speaker{Gordon Plotkin}{University of Edinburgh}
 
 \talkabstract
-Since its first release in 2007, Clojure has seen considerable adoption in industries as
-diverse as Fortune 5 retail, international banking and finance, climate science and the
-latest startups. Clojure has tens of thousands of users and is a top 20 language in the
-RedMonk 2017 index. This is somewhat unexpected (especially by its author!)\ given that
-Clojure is a Lisp dialect emphasizing functional programming. What happened?
-
-This talk examines the objectives of Clojure and its initial and ongoing design decisions.
-Moreover, we can now examine how that's worked out---which features are valued by its users
-and how it is employed to build systems. We will briefly touch on Datomic, a functional
-database system written in Clojure by the same authors that completes the model of
-programming Clojure espouses. Finally we'll look at what challenges remain for programmers
-and how Clojure might grow to address them.
+TODO
 
 \bio
-Rich Hickey is the author of Clojure, and the designer of Datomic. Rich has 30 years of
-professional experience in all facets of software development. Rich has worked on
-scheduling systems, broadcast automation, audio analysis and fingerprinting, database
-systems, yield management, exit poll systems, and machine listening, in a variety of
-languages.
+Gordon David Plotkin, FRS, FRSE (born 9 September 1946) is a theoretical
+computer scientist in the School of Informatics at the University of Edinburgh.
+Plotkin is probably best known for his introduction of structural operational
+semantics (SOS) and his work on denotational semantics. In particular, his notes
+on A Structural Approach to Operational Semantics were very influential.
+
+Plotkin was elected a Fellow of the Royal Society in 1992, is a Fellow of the
+Royal Society of Edinburgh and a Member of the Academia Europaea. He is also a
+winner of the Royal Society Wolfson Research Merit Award. Plotkin received the
+2012 Royal Society Milner Award for ``his fundamental research into programming
+semantics with lasting impact on both the principles and design of programming
+languages.''
+
+\medskip
+
+\talktitle{Formal Methods and the Law}
+
+\speaker{Sarah Lawsky}{Northwestern Pritzker School of Law}
+
+\talkabstract
+TODO
+
+\bio
+Sarah Lawsky is Professor of Law at Northwestern Pritzker School of Law. She
+teaches or has taught federal income tax, corporate tax, partnership tax, tax
+policy, tax deals, and contracts. Her research focuses on tax law and on the
+application of formal logic and artificial intelligence to the law.
+
+Prior to joining Northwestern Pritzker in 2016, Lawsky taught at UC Irvine
+School of Law and George Washington University Law School, and as an adjunct in
+NYU’s tax LL.M. program. Before beginning her teaching career, she practiced tax
+law in New York.
+
+Lawsky received her B.A. from the University of Chicago, her J.D. from Yale Law
+School, her LL.M. in tax from NYU School of Law, and her Ph.D. in philosophy
+from the UC Irvine Department of Logic and Philosophy of Science.
 
 \newpage

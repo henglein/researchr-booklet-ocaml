@@ -9,14 +9,19 @@ PDFFILE=out/main.pdf
 XMLFILE=xml/popl18-info.xml
 TEXFILE=tex/main
 SCHEDULE=out/schedule.tex
+OVERVIEW=out/overview.tex
 LOG=log
 
-program.pdf: $(TEXFILE).tex $(SCHEDULE)
+program.pdf: $(TEXFILE).tex $(OVERVIEW) $(SCHEDULE)
 	pdflatex -8bit $(TEXFILE)
 	pdflatex -8bit $(TEXFILE) # for cross-references
 
 $(SCHEDULE) : $(XMLFILE) schedule_parser
-	./schedule_parser $(XMLFILE) > $@
+	./schedule_parser --schedule $(XMLFILE) > $@
+
+
+$(OVERVIEW) : $(XMLFILE) schedule_parser
+	./schedule_parser --overview $(XMLFILE) > $@
 
 # The location for xml-light below is if you have installed ocaml through opam,
 # otherwise you may have to change it

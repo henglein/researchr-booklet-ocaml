@@ -1,10 +1,10 @@
-# TODO 
+# TODO
 
-- [X] Wierd unicode font issues
-- [X] POPL-business meeting
-- [] PPS, PriSC 
-- [] Fix: NetPL
-- [] Fix: PADL
 - [] Social Events
-- [] Committees 
-- [] Remarks
+- [] Fix the rooms
+- [] SRC, PPS, PriSC
+- [] External reviewers
+- [] POPL: Plotkin abstract
+- [] POPL: TBA/Lawsky abstract
+- [] PEPM: TBA/Conal Elliott
+- [] Chairs Remarks

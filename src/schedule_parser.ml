@@ -127,7 +127,7 @@ let subevents : subevent list =
     ; se_pos    = 2
     }
   ; { se_name   = "NetPL 2018"
-    ; se_dates  = ["2018/01/13"]
+    ; se_dates  = ["2018/01/09"]
     ; se_title  = "NetPL"
     ; se_pos    = 5
     }
@@ -261,6 +261,8 @@ let replacements = [
   Str.regexp "λ", "$\\lambda$";   (* UTF8 characters not supported by TeX *)
   Str.regexp "ū", "u";
   Str.regexp "ė", "e";
+  Str.regexp "Σ", "$\\Sigma$";
+  Str.regexp "Π", "$\\Pi$";
   Str.regexp "[#%&]", "\\\\\\0";  (* require escaping in TeX *)
 ]
 let protect s =
@@ -373,12 +375,12 @@ let parse_timeslot lst =
   in
   let t_start = find_str_element ~key:"start_time" lst
   and t_end   = find_str_element ~key:"end_time" lst in
-  (* Hack for HOPE *)
-  let t_start =
-    if t_start <= "09:10" && t_end >= "09:15" then "09:10" else t_start in
-  {t_title = find_title lst;
-   t_track = map_track track;
-   t_start; t_end; t_authors}
+  { t_title = find_title lst
+  ; t_track = map_track track
+  ; t_start
+  ; t_end
+  ; t_authors
+  }
 
 
 let parse_subevent lst =
@@ -536,6 +538,7 @@ let group_pages_by_date pages =
 let output_overview ~days day_pages ~details oc =
   fprintf oc "\\header{%s}{%s}{%s -- %s}{Overview}\n\n"
     details.e_acronym details.e_location details.e_start details.e_end;
+  fprintf oc "\\input{tex/overview-custom}\n\n";
   List.iter day_pages ~f:begin fun (day, date, ps) ->
     fprintf oc "\\weekday{%s, %s January}\n" day (date_day date);
     List.iter ps ~f:begin fun p ->
@@ -549,7 +552,7 @@ let output_overview ~days day_pages ~details oc =
   end;
   fprintf oc "\\newpage\n\n"
 
-let output_all ~days pages ~details oc sorted =
+let output_all mode ~days pages ~details oc sorted =
   let night_events = extract_night_events sorted in
   let pages =
     if night_events = [] then pages else
@@ -560,34 +563,38 @@ let output_all ~days pages ~details oc sorted =
      } :: pages
   in
   let day_pages = group_pages_by_date pages in
-  output_overview ~days day_pages ~details oc;
-  (* HIDE output_page ~track:night_track ~title:"Evening Events" oc night_events; *)
-  (* let _ = failwith ("PAGES = " ^ string_of_int (List.length pages)) in *)
-  List.iter day_pages ~f:begin fun (day, date, ps) ->
-    List.iter ps ~f:begin fun p ->
-      output_page p oc (get_sessions p.tr_name sorted)
+  if mode = "--overview" then
+    output_overview ~days day_pages ~details oc
+  else
+    (* HIDE output_page ~track:night_track ~title:"Evening Events" oc night_events; *)
+    (* let _ = failwith ("PAGES = " ^ string_of_int (List.length pages)) in *)
+    List.iter day_pages ~f:begin fun (day, date, ps) ->
+      List.iter ps ~f:begin fun p ->
+        output_page p oc (get_sessions p.tr_name sorted)
+      end
     end
-  end
 
 (* Full processing *)
 
-let process ?out xml =
+let process mode xml =
   let schedule = parse_file xml in
   let details = parse_event_details schedule in
   let subevs = extract_subevents schedule in
   (* let _      = failwith ("SUBEVS:" ^ string_of_int (List.length subevs)) in *)
   let sorted = sort_by_track subevs in
   let sorted_sessions = SMap.map (List.map ~f:parse_subevent) sorted in
-  let oc = match out with None -> stdout | Some f -> open_out f in
-  output_all ~days pages ~details oc sorted_sessions;
-  if out <> None then close_out oc;;
+  let oc  = stdout in
+  let _ = output_all mode ~days pages ~details oc sorted_sessions in
+  let _ = close_out oc in
+  ()
 
 let () =
-  if Array.length Sys.argv >= 2
-  && Filename.check_suffix Sys.argv.(1) ".xml" then
-    (process Sys.argv.(1); exit 0)
+  if Array.length Sys.argv >= 3
+  && Filename.check_suffix Sys.argv.(2) ".xml" then
+    (process Sys.argv.(1) Sys.argv.(2); exit 0)
   else
-    (prerr_endline "Usage: schedule_parser schedule.xml > schedule.tex"; exit 1)
+    (prerr_endline "Usage: schedule_parser --schedule foo.xml OR schedule_parser --overview foo.xml";
+    exit 1)
 ;;
 
 (* Code after this line is not executed when compiled *)
