@@ -41,6 +41,7 @@ type page =
   ; tr_date   : string
   ; tr_title  : string
   ; tr_day    : int option
+  ; tr_pos    : int
   }
 
 type subevent =
@@ -114,12 +115,12 @@ let subevents : subevent list =
   ; { se_name   = "CPP 2018 - The 7th ACM SIGPLAN International Conference on Certified Programs and Proofs"
     ; se_dates  = ["2018/01/08"; "2018/01/09"]
     ; se_title  = "CPP"
-    ; se_pos    = 3
+    ; se_pos    = 4
     }
   ; { se_name   = "20th International Symposium on  Practical Aspects of Declarative Languages "
     ; se_dates  = ["2018/01/08"; "2018/01/09"]
     ; se_title  = "PADL"
-    ; se_pos    = 4
+    ; se_pos    = 3
     }
   ; { se_name   = "Off the Beaten Track 2018"
     ; se_dates  = ["2018/01/13"]
@@ -141,6 +142,21 @@ let subevents : subevent list =
     ; se_title  = "CoqPL"
     ; se_pos    = 1
     }
+  ; { se_name   = "Probabilistic Programming Languages, Semantics, and Systems (PPS 2018)"
+    ; se_dates  = ["2018/01/09"]
+    ; se_title  = "PPS"
+    ; se_pos    = 6
+    }
+  ; { se_name   = "Principles of Secure Compilation"
+    ; se_dates  = ["2018/01/13"]
+    ; se_title  = "PriSC"
+    ; se_pos    = 3
+    }
+  ; { se_name   = "Student Research Competition"
+    ; se_dates  = ["2018/01/11"]
+    ; se_title  = "SRC"
+    ; se_pos    = 20
+    }
   (*
   -- TODO: PPS
   -- TODO: PriSC
@@ -154,6 +170,7 @@ let subevent_pages (e: subevent) : page list =
                 ; tr_date   = d
                 ; tr_title  = e.se_title
                 ; tr_day    = if multi then Some (i + 1) else None
+                ; tr_pos    = e.se_pos
                 })
     e.se_dates
 
@@ -448,7 +465,7 @@ let output_session ~track ~room oc ss =
   let slots =
     List.filter (fun t -> not (List.mem t.t_title omit_event)) ss.s_slots in
   (* Hack to push receptions to bottom *)
-  if ss.s_time > night && track <> night_track then fprintf oc "\\vfill\n";
+  if false && ss.s_time > night && track <> night_track then fprintf oc "\\vfill\n";
   let title =
     if ss.s_room <> room then title ^ " \\hfill " ^ ss.s_room else
     if chair <> "" then title ^ " \\hfill \\normalfont \\small \\sf " ^ chair
@@ -525,7 +542,7 @@ let group_pages_by_date pages =
   let date_ps = group (List.map pages ~f:(fun p -> (p.tr_date, p))) in
   let res0 = List.map date_ps ~f:begin fun (date, ps) ->
                      let day = try Hashtbl.find days date with Not_found -> "Unknown" in
-                     (day, date, ps)
+                     (day, date, sort_by ps ~prj:(fun p -> p.tr_pos))
                    end
   in
   let res1 = sort_by res0 ~prj:snd3 in
@@ -553,6 +570,7 @@ let output_overview ~days day_pages ~details oc =
   fprintf oc "\\newpage\n\n"
 
 let output_all mode ~days pages ~details oc sorted =
+  (*
   let night_events = extract_night_events sorted in
   let pages =
     if night_events = [] then pages else
@@ -561,7 +579,7 @@ let output_all mode ~days pages ~details oc sorted =
      ; tr_title = "Evening Events"
      ; tr_day   = None
      } :: pages
-  in
+  in *)
   let day_pages = group_pages_by_date pages in
   if mode = "--overview" then
     output_overview ~days day_pages ~details oc

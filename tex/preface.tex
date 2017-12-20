@@ -1,41 +1,268 @@
 \header{Preface}{}{}{Message from the Chairs}
 \label{Preface}
 
+\newcommand\person[1]{{#1}}
+%\newcommand\person[1]{\emph{#1}}
+
 \noindent
-Welcome to Oxford, and to ICFP 2017, the \textit{22\textsuperscript{nd} ACM SIGPLAN International Conference on Functional Programming}!
 
-ICFP provides a forum for sharing and discussing the latest work on the art and science of functional programming. We hope that you will enjoy the conference, including not only the technical presentations on a wide spectrum of topics, but also the opportunities for learning from and interacting with many researchers, developers, and students from around the world.
+Welcome to POPL 2018, the
+\emph{45\textsuperscript{th} ACM SIGPLAN Symposium
+on the Principles of Programming Languages}.
+%
+POPL is a premier forum for the discussion of all aspects
+of programming languages and programming systems, welcoming
+both theoretical and experimental work on a wide variety of
+topics, with an emphasis on work that is principled and enduring.
+%
+We hope that you will enjoy the proceedings,
+including both the talks covering a wide range
+of technical topics as well as the ``hallway track''
+that presents opportunities for learning from
+and interacting with researchers, developers,
+and students across the planet.
 
-This year's call for papers resulted in a near-record of 127 submissions, including 20 functional pearls and 4 experience reports. From these, the program committee selected 44 papers for presentation at the conference, including 6 pearls and 2 experience reports. In addition, the technical program includes invited keynotes by Chris Martens and Rich Hickey.
+%%% BEGIN:ANDREW
 
-Following recent practice, ICFP 2017 employed a lightweight double-blind reviewing process, with each paper receiving three or more reviews from members of the program committee and a pool of external reviewers. Initial reviews were made available to authors, many of whom provided useful feedback and clarification during a 72-hour author response period. This was followed by online discussion and an in-person meeting of the program committee in Portland, Oregon, where the final selection of papers was made. Papers whose author list included a member of the program committee were not discussed until all other decisions had been made, and were held to a higher standard; ultimately, 4 of the 12 papers in this category were accepted.
+\paragraph{Technical Program}
+%
+There were 271 reviewed submissions to POPL 2018.
+%
+A program committee comprising 52 experts from 15 countries,
+aided by 130 external reviewers, did the hard work of
+thoughtfully evaluating these submissions.
+%
+Ultimately the program committee selected 66 papers (24\%)
+to be presented at the conference and to appear in the
+proceedings.
+%
+In addition, the technical program includes invited keynotes
+by Derek Dreyer, Gordon Plotkin and Sarah Lawsky.
 
-All of the papers accepted for ICFP 2017 are being published in the inaugural edition of a new journal, Proceedings of the ACM on Programming Languages (PACMPL), which is a Gold Open Access journal publishing research on all aspects of programming languages, from design to implementation and from mathematical formalisms to empirical studies. 
+\paragraph{Proceedings of the ACM}
+%
+All papers accepted for POPL 2018 are also being published as one
+of the first issues of a new journal, Proceedings of the ACM on
+Programming Languages (PACMPL), a Gold Open Access journal publishing
+research on all aspects of programming languages, from design to
+implementation and from mathematical formalisms to empirical studies.
+The publication of these papers in PACMPL is also responsible for
+the change to a larger-font, single-column format and the consequent
+increase in the maximum page length of papers.
 
-One of the more visible changes resulting from our participation in PACMPL is the new, single-column document format. The transition from the previous two-column format was not always easy, either for authors or reviewers. We thank everyone for their patience and goodwill throughout multiple iterations of this process, and we hope that the community will benefit from resulting improvements in readability and accessibility.
+\paragraph{Reviewing Process}
+%
+As in previous years, and in keeping with ``Principles of POPL'' (Dreyer et
+al.), a light-weight double-blind process was used, in which reviews were
+written without exposing authorship to reviewers until the discussion phase.
+However, a few changes were made to the reviewing process this year,
+some dictated by participation in PACMPL and some more experimental.
 
-A less obvious impact of the move to PACMPL was the introduction of a new, two-phase selection and reviewing process, further enhancing the already rigorous approach that had been used in prior years. Concretely, this allowed for papers to be ``conditionally accepted'' at the end of the program committee meeting, and for the associated reviews to be annotated with a list of ``mandatory revisions.''  Authors of conditionally accepted papers then had approximately five weeks to revise and submit their papers for a second and final reviewing phase, including a cover letter to explain how the mandatory revisions had been addressed. In total, 30 papers were conditionally accepted, with mandatory revisions ranging from minor to more substantial but all judged to be feasible given the limited five week period for revision. While it is difficult to quantify the overall impact of this process, there were many cases where the extended opportunities for interaction between authors and reviewers helped to improve quality in both technical details and presentation. Ultimately, all conditionally accepted papers were accepted for inclusion in the conference.
+The significant change in the former category was that all papers were
+accepted on a conditional basis. Each conditionally accepted paper
+was assigned a ``shepherd'' from the PC, who worked with the authors
+and reviewers to ensure that reviewer feedback was addressed by the
+final version of every paper. Every conditionally accepted paper was
+eventually revised to the satisfaction of the reviewers.
 
-Another new feature for ICFP this year that will be apparent from the papers in the proceedings is the introduction of an artifact evaluation process, with selected papers receiving a corresponding ``badge'' or ``seal of approval'' on their first page. Artifact evaluation, which supports future researchers in reproducing and building on current work, has proved to be a valuable component of other conferences, and we are confident that the ICFP community will benefit in a similar way. Although the process is optional, all authors of accepted papers were invited to prepare and submit artifacts to accompany and support their paper. These items were reviewed by an artifact evaluation committee that also provided feedback to authors to help improve the quality of submitted artifacts. The committee received 31 artifact submissions, all of which were accepted, and 27 of the associated papers are further badged as having a publicly available artifact.
+A second, experimental change was the absence of a physical meeting of
+the program committee. Instead, all discussion of papers took place
+online. Discussion proceeded primarily on the reviewing system,
+the excellent HotCRP system developed and supported by Eddie Kohler.
+For a few papers, other media such as phone calls were used to achieve
+consensus. The
+rationale for this change was that while physical meetings have real
+benefits, these benefits have not kept pace with the costs as the PC
+has grown in size.  Having the entire PC fly to one spot on the globe
+for a one-day meeting requires considerable and energy from program
+committee members, and the travel comes with significant monetary and
+environmental cost as well. While a face-to-face meeting does promote
+engaging discussions and also helps build research community in a way
+that is especially useful to junior members of the PC, these positive
+effects have diminished as the PC has grown. Having no physical
+meeting made it possible to grow the PC to more than 50 members; as
+a result, it was also possible to reduce the reviewing load per PC
+member slightly from that in recent years.
 
-As usual, the main conference is complemented by a range of affiliated events, including twelve co-hosted conferences, workshops or symposia, as well as the ICFP Programming Contest and the Student Research Competition, with results for both announced during the conference.  In addition to technically focussed workshops on a broad range of topics, we are proud to include the SIGPLAN \textit{Programming Languages Mentoring Workshop} (PLMW) at ICFP. The purpose of this mentoring workshop is to encourage senior undergraduate and beginning graduate students to pursue careers in programming language research, and to engage them in a process of imagining how they might contribute to the world. A novelty this year is that ICFP will run in parallel with FSCD 2017, the \textit{Second International Conference on Formal Structures for Computation and Deduction}, with joint lunch and coffee breaks and the same overall schedule structure so that registrants at either conference can attend talks at the other. 
+A poll of the program committee was used to assess this experiment.
+Based on the poll, the effect of online discussion was mixed. Most
+PC members felt that online discussion made it easier to follow the
+arguments raised in discussion but a significant minority felt that
+online discussions decreased their level of engagement somewhat. One
+helpful addition to the process was the creation of a ``discussion
+committee'', one of whose members was assigned to every paper, with
+the responsibility of keeping discussion going in a productive
+way. Although all discussions were available to all non-conflicted
+reviewers, some reviewers missed having the ``global view'' of all
+papers to help with their personal calibration. Overall, the committee
+divided in half on whether to conduct future POPL PC discussions
+online.
 
-It is hard to overstate the fundamental importance of community to the good health and success of ICFP. Of course, this includes the authors and developers that share their work, and the attendees who provide a stimulating environment for discussion and debate. But special recognition is due for the many volunteers who---even when they are already very busy with other commitments---still step up to take on new responsibilities and roles in support of the conference. We are deeply humbled, impressed, and grateful for their commitment, hard work, and expertise. In particular, we would like to acknowledge the program committee, the external reviewers, and the artifact evaluation committee for their thorough and thoughtful reviews; Annabel Satin and Marta Zampollo, for their excellent arrangements; the members of the ICFP steering committee, for their long term stewardship and dedication to the success of the conference; Ryan Trinkle, for liaising with our industrial partners and sponsors; David Christiansen and Andres Löh for their leadership in organizing the associated workshops; Neelakantan Krishnaswami, Dan Licata, and Brigitte Pientka for chairing PLMW; Ilya Sergey for running the Student Research Competition; Sam Lindley for coordinating the ICFP Programming Contest; Lindsey Kuper for making sure that the ICFP community is informed and engaged; José Calderón for managing the process of recording and posting videos for many of the talks at ICFP and associated events; Dirk Beyer and Conference Publishing Consulting for compiling the proceedings; the PACMPL Editorial Board and the staff at ACM headquarters---especially Philip Wadler, Michael Hicks, Matthew Fluet, Scott Delman, Craig Rodkin, and Laura Lander---for guiding and supporting the transition to PACMPL; Ted Cooper and Larry Diehl for their assistance during the program committee meeting; and last, but not least, Yosuke Fukuda, Yuki Nishida, and Jakub Zalewski for organizing and leading the team of student volunteers that will be working to keep everything running smoothly during the conference.
+A second significant experiment was that the assignment of
+reviewers to papers was done in a much more automatic way than
+previously. Instead of having all PC members bids on a large number
+of papers or specify their topics of expertise according to some
+classification scheme, PC members had the option of identifying a
+small number ($\sim\!3$) of papers they were genuinely interested in
+reviewing. The remainder of their reviewing assignments were done
+using the Toronto Paper Matching System (TPMS), an unsupervised
+machine learning algorithm. TPMS has reviewers
+provide a corpus of their own publications, whose text is compared
+against the text of the submissions. A score is generated for each
+(reviewer, paper) pair, and reviewing assignments are then constructed
+to maximize the total score, subject to constraints such as
+avoiding conflicts of interest and equal reviewing load. Based on
+the poll of the PC, this approach seems to have been a success.  The
+overall response of the PC, was that their assigned papers tended
+to be better suited to their expertise than in previous conference
+reviewing, and less work was required from PC members. Overall,
+reviewers rated themselves as expert on 44\% of the reviews written;
+this was exactly the same percentage as for POPL 2017.
 
-We are indebted to our partners who made it possible to keep the cost of registration reasonable, and who provided support for students who would not have been able to attend without financial aid. We are also very grateful for the generous support of ACM and ACM SIGPLAN, including their commitment to PACMPL's Gold Open Access policy, making high-quality, peer-reviewed scientific research available without restrictions on access or (re-)use. The generosity of our supporters is key in helping our community to grow and thrive.
+\paragraph{Affiliated Events}
+%
+We are very pleased that POPL 2018 continues the tradition of being enriched
+by a host of co-located events.
+%
+These include three co-located conferences,
+%
+\begin{itemize}
+  \item CPP 2018:   The \emph{7\textsuperscript{th} ACM SIGPLAN Intl. Conference on Certified Programs and Proofs},
+  \item PADL 2018:  The \emph{20\textsuperscript{th} Intl. Symposium on Practical Aspects of Declarative Languages}, and
+  \item VMCAI 2018: The \emph{19\textsuperscript{th} Intl. Conference on Verification, Model Checking, and Abstract Interpretation}.
+\end{itemize}
+%
+seven co-located workshops focussed on variety of foundational and applied topics,
+%
+\begin{itemize}
+  \item CoqPL 2018: \emph{The 4\textsuperscript{th} Intl. Workshop on Coq for Programming Languages},
+  \item NetPL 2018: \emph{The 4\textsuperscript{th} Intl. Workshop on Networking and Programming Languages},
+  \item PEPM 2018:  \emph{The ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation}
+  \item OBT 2018:   \emph{Off the Beaten Track}
+  \item PriSC 2018: \emph{Principles of Secure Compilation}
+  \item PPS 2018:   \emph{Probabilistic Programming Languages, Semantics, and Systems},
+\end{itemize}
+%
+Finally, we are especially happy about two events that
+will focus on inspiring senior undergraduate and beginning
+graduate students to pursue programming languages and
+will help them find ways to become a part of the research
+community.
+%
+\begin{itemize}
+\item SRC: \emph{Student Research Competition}, and
+\item PLMW: \emph{Programming Languages Mentoring Workshop} at POPL.
+\end{itemize}
+%
+All the above events will have joint lunch and coffee breaks
+and the same overall schedule structure so that registrants
+at any event can attend talks at the other.
 
-Welcome again to ICFP. We hope you enjoy the conference, the affiliated events, the location, and the opportunities that it all provides to meet new people and, for those who have attended previously, to reconnect with colleagues and friends!
+\paragraph{Thanks}
+%
+POPL has grown and thrived for 45 years primarily thanks to
+the vibrant community that supports and sustains it.
+%
+This community includes the authors and developers who
+provide the talks and posters, the attendees -- both local
+as well as remote -- who provide a stimulating environment
+for discussion and debate.
+%
+However, we would like to especially recognize the \emph{many}
+volunteers who---despite their other onerous commitments---have
+taken on new responsibilities to help put together this symposium.
+%
+We are immeasurably thankful for their dedication, effort and expertise.
+%
+In particular, we would like to thank
+%
+the program committee, the external reviewers,
+and \person{Jean Yang} and \person{Catalin Hritcu}
+and the artifact evaluation committee for their
+thorough and thoughtful reviews;
+%
+\person{Marco Gaboardi} for skilfully organizing
+the fantastic TutorialFest and co-ordinating with
+all the co-locate events;
+%
+the members of the POPL steering committee --- especially the current
+chair \person{Giuseppe Castagna} and new chair \person{Michael Hicks} ---
+for their long term stewardship and dedication to the success
+of the symposium;
+%
+\person{Jan Vitek} for being incredibly generous with his time,
+helping us put together the website and for many helpful
+suggestions;
+%
+\person{David Walker}, for liaising with our industrial
+partners and arranging the generous support and
+sponsorships that make POPL possible;
+%
+\person{Alexandra Silva}, \person{Steve Zdancewic},
+\person{Nadia Polikarpova} and \person{Viktor Vafeiadis}
+for organizing PLMW;
+%
+\person{Benjamin Delaware} for running the Student Research Competition;
+%
+\person{Jean Yang} and \person{Rohit Singh}, for their many novel innovations
+using social media and the web to grow the POPL community and
+keep it informed, including the wonderful new ``People of Programming Languages''
+interviews;
+%
+\person{Michael Greenberg} for helping POPL transition into a remote participation
+era, that will allow anyone on the planet to engage with the speakers even
+if they couldn't be physically present in Los Angeles;
+%
+% CHECK: José Calderón for managing the process of recording and posting videos
+% CHECK: for many of the talks at ICFP and associated events;
+%
+\person{Dirk Beyer} and Conference Publishing Consulting
+for compiling the proceedings;
+%
+the PACMPL Editorial Board and the staff at ACM
+headquarters---especially \person{Philip Wadler}---for guiding
+and supporting the transition to PACMPL;
+%
+\person{Alex Sanchez-Stern} and \person{Jakub Zalewski} for organizing
+and leading the team of student volunteers that will be
+working to keep everything running like clockwork;
+%
+\person{John Otero} at ACM for helping us find a sweet
+venue in downtown Los Angeles.
+%
+Finally, we will be forever indebted to
+\person{Annabel Satin} and \person{Marta Zampollo},
+for being the real force behind the conference
+(and other SIGPLAN events!), and for making the
+task of organizing POPL 2018 miraculously pleasant.
+
+\paragraph{Supporters}
+%
+POPL 2018 was made possible by our partners, supporters
+and sponsors whose generosity helps the community grow
+and thrive by making it possible to keep the cost of
+registration affordable, and by providing support for
+students who would not have been able to attend without
+financial aid.
+%
+We are also very grateful for the generous support of
+ACM and ACM SIGPLAN, including their commitment to
+PACMPL's Gold Open Access policy, making high-quality,
+peer-reviewed scientific research available without
+restrictions on access or (re-)use.
+
+\medskip
+Welcome again to POPL 2018. We hope you learn new things,
+have fun, meet old friends and colleagues, make new
+ones, and go home inspired!
 
 \begin{flushright}
-\textit{Jeremy Gibbons, University of Oxford, UK} \\
-ICFP 2017 General Chair 
+\textit{Ranjit Jhala, University of California, San Diego, USA} \\
+POPL 2018 General Chair
 \medskip \\
-\textit{Mark P. Jones, Portland State University, USA} \\
-ICFP 2017 Program Chair
+\textit{Andrew Myers, Cornell University, USA} \\
+POPL 2018 Program Chair
 \medskip \\
-\textit{Ryan R. Newton, Indiana University, USA} \\
-\textit{Matthew Flatt, University of Utah, USA} \\
-ICFP 2017 Artifact Evaluation Committee Co-Chairs
 \end{flushright}
 
 

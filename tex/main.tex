@@ -12,11 +12,15 @@
 % \usepackage[T1]{fontenc}
 \usepackage[T1]{fontenc}
 \usepackage{fbb}
+% \usepackage{hyperref}
+
+\usepackage{incgraph,tikz}
 
 \usepackage{xcolor}
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage{enumitem} \setdescription{noitemsep}
+
 \DeclareUnicodeCharacter{00A0}{~}
 \setlength{\topmargin}{-2.5cm}
 \setlength{\textheight}{26.5cm}
@@ -61,11 +65,19 @@
 \fi
 
 \begin{document}
+
+
+% \incgraph[documentpaper, overlay={\node[red] at (page.center) {\Huge Picture sized to paper};}]
+\incgraph[documentpaper][width=\paperwidth,height=\paperheight]{img/cover.png}
+
+
 \input{out/overview}
 \input{tex/preface}
 \input{tex/committees}
 \ifpictures \input{floorplan} \fi
 \input{tex/keynotes}
+\input{tex/social}
 \input{out/schedule}
-\ifpictures\else \header{Notes}{}{}{Notes} \fi
+\ifpictures\else \header{Notes}{}{}{Notes} \fi \newpage
+\input{tex/sponsors}
 \end{document}
