@@ -66,14 +66,46 @@ leading the RustBelt project, which focuses on building the first formal
 foundations for the Rust programming language.  He also knows a thing or two
 about Scotch whisky.
 
-\medskip
+\newpage
 
 \talktitle{Some Principles of Differential Programming Languages}
 
 \speaker{Gordon Plotkin}{University of Edinburgh}
 
 \talkabstract
-TODO
+Languages for learning pose interesting foundational challenges. We
+look at one case: the foundations of differentiable programming
+languages with a first-class differentiation operator.  Graphical
+and linguistic facilities for differentiation have proved their
+worth over recent years for deep learning (deep learning makes
+use of gradient descent optimisation methods to choose weights in
+neural nets). Automatic differentiation, also known as algorithmic
+differentiation, goes much further back, at least to the early
+1960s, and provides efficient techniques for differentiation, e.g.,
+via source code transformation. It seems fair to say, however, that
+differentiable programming languages have begun to appear only
+recently. It seems further fair to say that, while there has certainly
+been some foundational study of differentiable programming languages,
+there is ample opportunity to do more.
+
+We investigate the semantics of a simple first-order functional
+programming language with reals, product types, and a first-class
+reverse-mode differentiation operator (reverse-mode differentiation
+generalises gradients). The semantics employs a standard concept of
+real analysis: smooth multivariate functions with open domain. It
+turns out that such partial functions fit well with programming
+constructs such as conditionals and recursion; indeed they form a
+complete partial order, and so standard fixed-point methods can be
+applied.  From a programming language point of view, however, many
+types are lacking, particularly sum types and recursive types, such
+as list types. We conclude with a brief presentation of notions of
+shapely datatypes and smooth functions. These can be used to give the
+semantics of such types and the usual functions between them while
+retaining first-class differentiation.
+
+This work constitutes only an initial exploration, and we look forward
+to a rich field connecting two worlds: programming languages and their
+foundations, and real analysis and allied areas of mathematics.
 
 \bio
 Gordon David Plotkin, FRS, FRSE is a theoretical
@@ -88,14 +120,40 @@ winner of the Royal Society Wolfson Research Merit Award. Plotkin received the
 semantics with lasting impact on both the principles and design of programming
 languages.''
 
-\medskip
+\newpage
 
 \talktitle{Formal Methods and the Law}
 
 \speaker{Sarah Lawsky}{Northwestern Pritzker School of Law}
 
 \talkabstract
-TODO
+This project distinguishes between two kinds of law, the common law,
+on the one hand, and code-based law, on the other, and argues that it
+is fruitful to apply formal methods and logic to the representation
+and analysis of certain kinds of law.
+
+Much recent work has taken a big data approach, sorting through and
+finding patterns in massive amounts of information. In contrast, a
+rule-based approach---Computational Law---formalizes the law using
+logic and analyzes the law using those formalizations. Computational
+Law has received relatively less attention in the United States than
+has the big data approach, perhaps because common-law reasoning
+appears to be not well-suited to logical formalization.
+
+The project argues that, in contrast to common law, certain types
+of code-based and regulation-heavy law, including U.S. federal tax
+law, are particularly susceptible to formalization and computational
+analysis. The difficulty presented by regulation-heavy law stems in
+large part from an immense number of interlocking rules, in contrast
+to difficulties presented by common law, which arise primarily from
+the ambiguity of terms or difficulty in predicting outcomes. The
+project takes the federal tax code as an example, and, based on the
+structure of and approach to drafting displayed in that law, proposes
+using a version of default logic to formalize the tax code and its
+accompanying regulations. Such formalization can locate drafting
+errors and structural ambiguities, and computational analysis of
+these formalizations may discover previously overlooked tax avoidance
+techniques.
 
 \bio
 Sarah Lawsky is Professor of Law at Northwestern Pritzker School of Law. She

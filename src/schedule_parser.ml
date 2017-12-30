@@ -42,13 +42,15 @@ type page =
   ; tr_title  : string
   ; tr_day    : int option
   ; tr_pos    : int
+  ; tr_par    : bool
   }
 
 type subevent =
-  { se_name   : string
-  ; se_dates  : string list
-  ; se_title  : string
-  ; se_pos    : int
+  { se_name   : string       (* full name to match against *)
+  ; se_dates  : string list  (* days on which the event runs *)
+  ; se_title  : string       (* short name *)
+  ; se_pos    : int          (* position to place this if multiple events on same day *)
+  ; se_par    : bool         (* does this have parallel tracks? *)
   }
 
 module SMap = Map.Make(String)
@@ -96,71 +98,80 @@ let subevents : subevent list =
     ; se_dates  = ["2018/01/07"; "2018/01/08"; "2018/01/09"]
     ; se_title  = "VMCAI"
     ; se_pos    = 1
+    ; se_par    = false
     }
   ; { se_name   = "— ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
     ; se_dates  = ["2018/01/08"; "2018/01/09"]
     ; se_title  = "PEPM"
     ; se_pos    = 2
+    ; se_par    = false
     }
   ; { se_name   = "Research Papers"
     ; se_dates  = ["2018/01/10"; "2018/01/11"; "2018/01/12"]
     ; se_title  = "POPL"
     ; se_pos    = 1
+    ; se_par    = true
     }
   ; { se_name   = "TutorialFest"
     ; se_dates  = ["2018/01/08"]
     ; se_title  = "TutorialFest"
     ; se_pos    = 5
+    ; se_par    = true
     }
   ; { se_name   = "CPP 2018 - The 7th ACM SIGPLAN International Conference on Certified Programs and Proofs"
     ; se_dates  = ["2018/01/08"; "2018/01/09"]
     ; se_title  = "CPP"
     ; se_pos    = 4
+    ; se_par    = false
     }
   ; { se_name   = "20th International Symposium on  Practical Aspects of Declarative Languages "
     ; se_dates  = ["2018/01/08"; "2018/01/09"]
     ; se_title  = "PADL"
     ; se_pos    = 3
+    ; se_par    = false
     }
   ; { se_name   = "Off the Beaten Track 2018"
     ; se_dates  = ["2018/01/13"]
     ; se_title  = "OBT"
     ; se_pos    = 2
+    ; se_par    = false
     }
   ; { se_name   = "NetPL 2018"
     ; se_dates  = ["2018/01/09"]
     ; se_title  = "NetPL"
     ; se_pos    = 5
+    ; se_par    = false
     }
   ; { se_name   = "Programming Languages Mentoring Workshop"
     ; se_dates  = ["2018/01/09"]
     ; se_title  = "PLMW"
     ; se_pos    = 7
+    ; se_par    = false
     }
   ; { se_name   = "The Fourth International Workshop on Coq for Programming Languages"
     ; se_dates  = ["2018/01/13"]
     ; se_title  = "CoqPL"
     ; se_pos    = 1
+    ; se_par    = false
     }
   ; { se_name   = "Probabilistic Programming Languages, Semantics, and Systems (PPS 2018)"
     ; se_dates  = ["2018/01/09"]
     ; se_title  = "PPS"
     ; se_pos    = 6
+    ; se_par    = false
     }
   ; { se_name   = "Principles of Secure Compilation"
     ; se_dates  = ["2018/01/13"]
     ; se_title  = "PriSC"
     ; se_pos    = 3
+    ; se_par    = false
     }
   ; { se_name   = "Student Research Competition"
     ; se_dates  = ["2018/01/11"]
     ; se_title  = "SRC"
     ; se_pos    = 20
+    ; se_par    = false
     }
-  (*
-  -- TODO: PPS
-  -- TODO: PriSC
-  *)
   ]
 
 let subevent_pages (e: subevent) : page list =
@@ -171,6 +182,7 @@ let subevent_pages (e: subevent) : page list =
                 ; tr_title  = e.se_title
                 ; tr_day    = if multi then Some (i + 1) else None
                 ; tr_pos    = e.se_pos
+                ; tr_par    = e.se_par
                 })
     e.se_dates
 
@@ -199,6 +211,32 @@ let pages : page list = List.concat (List.map subevent_pages subevents)
 *)
 
 let session_chairs =
+  [ ("Awards & Keynote-I"           , "Ranjit Jhala")
+  ; ("Strings"                      , "Zachary Tatlock")
+  ; ("Types and Effects"            , "")
+  ; ("Interpretation and Evaluation", "Atsushi Igarashi")
+  ; ("Verification I"               , "Zhong Shao")
+  ; ("Memory and Concurrency"       , "Azadeh Farzan")
+  ; ("Types"                        , "Thorsten Altenkirsch")
+  ; ("Keynote-II"                   , "Andrew Myers")
+  ; ("Consistency"                  , "Xinyu Feng")
+  ; ("Program Analysis I"           , "Tachio Terauchi")
+  ; ("Outside the box"              , "Lars Birkedal")
+  ; ("Termination"                  , "Constantin Enea")
+  ; ("Dependent Types"              , "Karl Crary")
+  ; ("Language Design"              , "Zachary Tatlock")
+  ; ("Business Meeting"             , "Ranjit Jhala \& Andrew Myers")
+  ; ("Keynote-III"                  , "Andrew Myers")
+  ; ("Dynamic Languages"            , "Jean Yang")
+  ; ("Testing and Verification"     , "Santosh Nagarakatte")
+  ; ("Probability"                  , "Lars Birkedal")
+  ; ("Synthesis"                    , "Nadia Polikarpova")
+  ; ("Program Analysis II"          , "Isil Dillig")
+  ; ("Types for State"              , "Neelakantan R. Krishnaswami")
+  ]
+
+(*
+let session_chairs =
   let c1 = ref 0 and c2 = ref 0 in
   List.map
     (fun name -> incr c1; sprintf "Keynote Talks: Keynote %d" !c1, name)
@@ -218,6 +256,7 @@ let session_chairs =
       "Alejandro Russo";
       "Jeremy Gibbons"
     ]
+*)
 
 let days = make_map
   [ "2018/01/07", "Sunday"
@@ -301,6 +340,15 @@ let omit_session_title s =
 let sort_by ~prj l = List.sort (fun a b -> compare (prj a) (prj b)) l
 let fst3 (x,_,_) = x
 let snd3 (_,x,_) = x
+let strip_prefix p s =
+  let pn = String.length p in
+  let sn = String.length s in
+  if sn < pn then
+    None
+  else if String.sub s 0 pn <> p then
+    None
+  else Some (String.sub s pn (sn - pn))
+
 
 let hashtbl_inserts k v t =
   let vs = try Hashtbl.find t k with Not_found -> [] in
@@ -458,7 +506,10 @@ let output_slot ~track ~poster oc sl =
 
 let output_session ~track ~room oc ss =
   let chair =
-    try List.assoc ss.s_title session_chairs with Not_found -> "" in
+    match strip_prefix "Research Papers: " ss.s_title with
+      | None -> ""
+      | Some sess -> (try List.assoc sess session_chairs with Not_found -> ("FIXME:" ^ sess))
+  in
   let poster = List.mem ss.s_title poster_sessions in
   let title = protect (remove_track ss.s_title) in
   let title = if omit_session_title title then "" else title in
@@ -474,6 +525,7 @@ let output_session ~track ~room oc ss =
     fprintf oc "\\emptysession{%s}{%s}\n" ss.s_time title
   else begin
     fprintf oc "\\session{%s}{%s}\n" ss.s_time title;
+    (* (if chair <> "" then fprintf oc "\\chair{%s}\\\\\n\\noindent" chair); *)
     List.iter (fun sl -> output_slot ~track ~poster oc sl) slots;
     fprintf oc "\\closesession\n"
   end
@@ -507,9 +559,7 @@ let output_page page (* ?(date="") ?(title=track) *) oc sessions =
     if first.s_date = last_date then (last_date, false) else
     (sprintf "%s -- %s" first.s_date last_date, true)
   in
-  let room = if List.mem title parallel_sessions then "" else
-             (* CUFP tutorials are in parallel, but the talks are not *)
-             if title = "CUFP 2017" && date <> "2017/09/09" then "" else first.s_room in
+  let room = if page.tr_par then "" else first.s_room in
   fprintf oc "\\header{%s}{%s}{%s}{%s}\n%s"
     title room date  (title ^ day_string page.tr_day)
     (if List.mem title compact_tracks then "\\vspace{-1ex}\n" else "");
