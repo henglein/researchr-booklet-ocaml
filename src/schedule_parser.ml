@@ -174,9 +174,15 @@ let subevents : subevent list =
     }
   ]
 
+let mapi f xs = 
+  let rec go i = function
+    | []    -> []
+    | x::xs -> (f i x) :: (go (i+1) xs) 
+  in go 0 xs 
+
 let subevent_pages (e: subevent) : page list =
   let multi = 2 <= List.length e.se_dates in
-  List.mapi
+  mapi
     (fun i d -> { tr_name   = e.se_name
                 ; tr_date   = d
                 ; tr_title  = e.se_title
