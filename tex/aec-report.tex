@@ -1,7 +1,8 @@
 \header{AEC Chairs' Report}{}{}{Artifact Evaluation Chairs' Report}
 \label{aec}
 
-In the programming languages community, artifact evaluation is concerned with
+% In the programming languages community,
+Artifact evaluation is concerned with
 the byproducts of theoretical and applied work. An ``artifact'' is something
 intended to support the scientific claims made in a paper. For instance, an
 artifact might be a program’s source code, a dataset, a test suite, a mechanized
@@ -13,7 +14,7 @@ benefits as well, such as encouraging authors to be precise in their claims and
 providing public recognition for the effort invested in creating artifacts. To
 encourage this beneficial behavior, since POPL 2015, authors of accepted papers
 have been invited to submit artifacts for evaluation by an Artifact Evaluation
-Committee (AEC). In this report we describe the process of artifact evaluation
+Committee (AEC). In this report we describe the artifact evaluation process
 for POPL 2019, and discuss what worked well and what can still be improved.
 
 Members of the POPL Program Committee were invited to nominate senior PhD
@@ -89,7 +90,7 @@ interface. Feedback from reviewers about this feature was
 overwhelmingly positive, so we plan to keep doing this in the
 future and we warmly recommend it to the AECs of other conferences.
 
-As always there are things which could be improved. One struggle we
+As always, there are also things which could be improved. One struggle we
 seem to have each year is getting enough time for artifact
 evaluation. Both this and last year the committee only had two weeks
 for the actual reviewing. This works in the limit, but it adds quite a
@@ -97,11 +98,10 @@ bit of stress. And even getting these two weeks required hard work,
 since the publishing process was revamped for this edition of POPL,
 and we had to ensure that the AEC feedback makes it to the authors in
 time to still make changes to the paper (e.g. if the paper sets
-certain inaccurate expectations about the artifacts, which is a not so
-uncommon complaint of AEC reviewers).
+certain inaccurate expectations about the artifacts, which is not so uncommon).
 
 Then the recent changes of the badging system imposed by the ACM
-brought both issues and opportunities. AT POPL we deployed these
+brought both issues and opportunities. At POPL we deployed these
 changes incrementally: last year we rolled out the “Artifacts
 Available” badge and this year we rolled out the “Functional” vs
 “Reusable” distinction.
@@ -126,9 +126,9 @@ AEC-accepted artifacts are clearly separated from uploads of other
 random materials, so that we can reduce unnecessary guesswork in
 awarding this badge.
 
-Implementing a distinction between the “Functional” and “Reusable”
-this year was trickier, since the official ACM guidelines were rather
-vague. We came up with a simple policy that incentivizes authors to:
+Implementing a distinction between the “Functional” and “Reusable” artifacts
+this year was trickier, since the official ACM guidelines were
+very open ended. We came up with a simple policy that incentivizes authors to:
 (1) make their artifacts as good as possible and (2) release their
 artifacts under an open source license. We felt that point (1) is
 useful, since with close to 100\% acceptance rate the authors of a
@@ -137,16 +137,17 @@ document it well and in general do the extra work required to make
 their artifact great. Point (2) is useful since having the source code
 available under an open source license makes easy reuse by others
 possible (at least in principle), while the “Artifacts Available”
-badge is happily given to artifacts that are only released as a binary
+badge is also % happily
+given to artifacts that are only released as a binary
 blob and/or under onerous licenses, as long as they are permanently
 archived. A pleasant side effect of having two levels of badges was
 that it encouraged more discussions in order to sort the
-artifacts. Last year, our very high average scores limited discussions
+artifacts. Last year, the very high average scores limited discussions
 to the few artifacts with the lowest scores.
 
 
-After a couple of quick iterations, we ended up with the following
-text for our policy: “The AEC will offer the ‘Artifacts Evaluated -
+After some quick iterations, we ended up with the following % text for our 
+policy: “The AEC will offer the ‘Artifacts Evaluated -
 Reusable’ badge to the artifacts that receive above average scores and
 that are additionally made available in a way that enables reuse (for
 software artifacts this means releasing the artifact under an open
@@ -157,26 +158,26 @@ year’s data, we were able to predict that the average would be around
 4.0 (which corresponds to “Accept” on the usual 5-point scale in
 HotCRP), and we communicated to the reviewers from the beginning that
 artifacts with a score of 4.0 or higher will be good candidates for
-the Reusable badge. Our average score this year turned out 3.99. Most
-artifacts with an average score of 4.0 or higher that were made open
-source were given the Reusable badge, with leeway for the reviewers to
-decide when the score was 4.0. In the end 69\% of the accepted
-artifacts got the Reusable badge and 31\% got the Functional badge.
+the Reusable badge. % Our average score this year turned out 3.99.
+%
+Most artifacts with an average score of 4.0 or higher that
+were made open source were given the Reusable badge, with leeway for
+the reviewers to decide when the score was 4.0. In the end 69\% of the
+accepted artifacts got the Reusable badge and 31\% got the Functional badge.
 
-
-Our impression is that this simple policy worked very well this year:
+% Our impression is that 
+This simple policy worked very well:
 93\% of the submitted artifacts were released as open source, which
 helps reusability. Moreover, many authors put serious energy into
-quickly answering questions and quickly fixing, improving, or
-documenting their artifacts in response of reviewer feedback, even
+answering questions and quickly fixing, improving, or
+documenting their artifacts in response to reviewer feedback, even
 when it was clear that their artifact would anyway be accepted, so the
 “Reusable” badge seems to incentivize authors to produce better
-artifacts. Finally, all the artifacts saw at least some discussion
-this year to decide between the two badges, which was great progress
+artifacts. Finally, all the artifacts saw at least some discussion % this year 
+to decide between the two badges, which was great progress
 from last year’s limited discussions. Beyond the increase in
-discussions, we don’t think that making this new distinction using the
-simple policy above made the review process more difficult for the
-reviewers.
+discussions, making this new distinction using the simple policy above
+didn't make the work of reviewers more difficult.
 
 
 So, we managed to make good use of the changes of the badging system
@@ -185,7 +186,7 @@ better and more reusable artifacts. We’re sure one can have
 philosophical discussions whether there are better ways one can better
 interpret the “Available”, “Functional”, and “Reusable” designations
 that the ACM threw at us, along with their strange policies for
-awarding these badges. We feel that the simple policies we have
+awarding these badges. However, we feel that the simple policies we have
 devised for POPL have the advantage of being easy to understand, easy
 to enforce, and easy to integrate into our already well-working
 artifact evaluation process. That’s why we appreciated trying this out
