@@ -14,7 +14,7 @@ providing public recognition for the effort invested in creating artifacts. To
 encourage this beneficial behavior, since POPL 2015, authors of accepted papers
 have been invited to submit artifacts for evaluation by an Artifact Evaluation
 Committee (AEC). In this report we describe the process of artifact evaluation
-for POPL 2019, and discuss ???.
+for POPL 2019, and discuss what worked well and what can still be improved.
 
 Members of the POPL Program Committee were invited to nominate senior PhD
 students, PostDocs, researchers, or themselves to serve on the AEC.
@@ -22,7 +22,7 @@ Participation in the AEC can provide researchers with useful insight into the
 value of artifacts and the process of artifact evaluation, and also helps
 establish community norms for artifacts. Starting from the nominations and after
 some targeted search aimed at balancing the AEC, the chairs formed a committee
-of 32 members.
+of 30 members.
 
 After the POPL 2019 decisions were announced, authors of conditionally accepted
 papers were invited to submit artifacts for evaluation. By design, the artifact
@@ -36,132 +36,173 @@ Each artifact was accompanied by the associated paper so that the AEC
 could evaluate each artifact against its paper's claims. A record
 number of 43 artifacts were submitted for evaluation out of 77 papers
 accepted this year (56\%). For comparison,
-POPL 2018 had 40 artifacts submitted out of 66 conditionally accepted (61\%) 
+POPL 2018 had 40 artifacts submitted out of 66 conditionally accepted (61\%),
 POPL 2017 had 31 artifacts submitted out of 64 accepted papers (48\%),
 POPL 2016 had 25 artifacts submitted out of 59 accepted papers (42\%), and
 POPL 2015 had 29 artifacts submitted out of 52 accepted papers (56\%).
 
-This is the third year when the POPL AEC has decided to not accept paper proofs
-in the artifact evaluation process. The AEC lacks the time and often the
-expertise to carefully review paper proofs. We also hope that reserving the
-artifact evaluated badge to mechanized proofs that are easy to check and reuse
-will incentivize more of the POPL authors to mechanize their metatheory in a
-proof assistant. Paper proofs can still be uploaded to the ACM Digital Library
-together with the final version, and this policy seems to have caused no strong
-objections so far.
+% This is the third year when the POPL AEC has decided to not accept paper proofs
+% in the artifact evaluation process. The AEC lacks the time and often the
+% expertise to carefully review paper proofs. We also hope that reserving the
+% artifact evaluated badge to mechanized proofs that are easy to check and reuse
+% will incentivize more of the POPL authors to mechanize their metatheory in a
+% proof assistant. Paper proofs can still be uploaded to the ACM Digital Library
+% together with the final version, and this policy seems to have caused no strong
+% objections so far.
 
-The schedule for artifact evaluation was very tight this year: the AEC only had
-a little under two weeks to evaluate the artifacts. The AEC members were given
-the deliberately vague instruction to evaluate whether the artifact met the
-expectations set by the paper. The AEC also purchased Amazon EC2 server
-instances in order to give reviewers access to more computational resource.
-(This year we spent \$150 on this.)
+% The schedule for artifact evaluation was again tight this year: the
+% AEC only had only two weeks to evaluate whether the artifacts met the
+% expectations set by the paper.
+%
+The AEC members did an amazing job at evaluating artifacts and
+providing helpful feedback.
+%
+The average AEC reviewer submitted 2.7 reviews and the large majority
+of reviews were submitted on time, which is a big achievement given
+the tight schedule.
+%
+After this, the AEC held an online discussion to decide, for each
+artifact, if it met, exceeded, or fell below the expectations set by
+its paper.
+%
+The scores were to a very large extent positive (the average merit
+score was 3.99 out of 5).
+%
+In the end 42 out of 43 submitted artifacts were judged to meet or
+exceed expectations (97.7\%).
+%
+We believe that artifact evaluation is simply confirming that the POPL
+community is great at producing high quality artifacts.
 
-One novelty this year is that with the help of Eddie Kohler we set up the HotCRP
-conference management system so that the anonymous reviewers could ask questions
-using author-visible comments and get immediate answers from the authors. So
-reviewers who get stuck on installing or trying an artifact or who noticed
-something that looked fishy with an artifact could directly and anonymously ask
-the authors for help or clarifications directly from the HotCRP interface. This
-new feature that Eddie Kohler added to HotCRP specially for us worked as
-expected and was greatly appreciated by both reviewers and authors alike, so we
-recommend continuing to use it in the next years. At the same time, turning on
-this feature in HotCRP meant not only that the author-visible comments were
-immediately visible to the authors but also the reviews. While the reviewers
-were made aware of this from the start, it did seem to confuse some of the
-authors to get the reviews as they were ready. Some of the reviewers also found
-it difficult to change their scores after the reviews were sent out, so ideally
-we would like that only explicitly marked comments be sent to authors
-immediately, but not the reviews, for which we could have a more traditional
-rebuttal period if time permits. Supporting this would require more work in
-HotCRP though and a less tight schedule to allow for rebuttals.
+Beyond the high quality of artifacts we receive, another reason we could
+achieve such a high acceptance rate is that since last year we set up
+the HotCRP conference management system so that the anonymous
+reviewers could ask questions using author-visible comments and get
+immediate answers from the authors. In addition, any finalized reviews
+are immediately made available to the authors, and authors can comment
+on those reviews as well. This was a new feature that Eddie Kohler
+added to HotCRP last year specially for us, so reviewers who get stuck
+on installing or trying an artifact or who noticed something that
+seems fishy with an artifact could directly and anonymously ask the
+authors for help or clarifications or fixes using the HotCRP
+interface. Feedback from reviewers about this feature was
+overwhelmingly positive, so we plan to keep doing this in the
+future and we warmly recommend it to the AECs of other conferences.
 
-The average AEC reviewer submitted 2.9 reviews and all reviews were submitted on
-time, which is a big achievement given the extremely tight schedule. After this,
-the AEC held a brief online discussion to decide, for each artifact, if it met,
-exceeded, or fell below the expectations set by its paper. The scores were to a
-very large extent positive (the average merit score was 4.15 out of 5) so there
-were few debates. In the end all 40 submitted artifacts were judged to meet or
-exceed expectations. The 100\% acceptance rate is quite remarkable. We believe
-this has to do on the one hand with the fact that the artifact evaluation
-process is now more streamlined, so authors have a better idea how to prepare
-good or at least acceptable artifacts. On the other hand, this seems to also be
-caused by allowing the anonymous reviewers to directly interact with the authors
-to sort out any issues. Fast feedback and dialogue helped reviewers avoid
-frustration and unduly harsh reviews.
+As always there are things which could be improved. One struggle we
+seem to have each year is getting enough time for artifact
+evaluation. Both this and last year the committee only had two weeks
+for the actual reviewing. This works in the limit, but it adds quite a
+bit of stress. And even getting these two weeks required hard work,
+since the publishing process was revamped for this edition of POPL,
+and we had to ensure that the AEC feedback makes it to the authors in
+time to still make changes to the paper (e.g. if the paper sets
+certain inaccurate expectations about the artifacts, which is a not so
+uncommon complaint of AEC reviewers).
 
-After the discussion phase, artifact decisions were communicated to authors
-almost one week before the final versions of papers were originally due, but the
-final version deadline was subsequently extended. With this extension at least,
-this timeline allowed authors sufficient time to incorporate feedback from the
-AEC reviewers in the final versions of papers and artifacts.
+Then the recent changes of the badging system imposed by the ACM
+brought both issues and opportunities. AT POPL we deployed these
+changes incrementally: last year we rolled out the “Artifacts
+Available” badge and this year we rolled out the “Functional” vs
+“Reusable” distinction.
 
-The papers that describe accepted artifacts can be recognized by ACM’s new
-``Artifacts Evaluated - Functional'' badge. After discussions with the AEC chairs
-of the other PACMPL conferences we decided that POPL’s old badges were closest
-to ACM’s new “Artifacts Evaluated - Functional” badges so we simply replaced our
-old badges with this for now. The ACM also provides more valuable “Artifacts
-Evaluated - Reusable” badges though, that we could decide to also use in the
-future for ``distinguished artifacts'', at the cost of moving to a 2-tier system
-that would be more work for the AEC, who would have to make this distinction.
+The “Artifacts Available” badge we implemented last year seemed easy,
+until we realized somewhere late in the process that the ACM policy
+that the publisher wanted to follow would blindly give this badge to
+every paper for which the authors uploaded any materials to the ACM
+DL, completely ignoring the artifact evaluation process. Since we
+didn’t want to water down the AEC badging process with such a lax
+policy, last year we escalated this to the PACMPL level, where the AEC
+chairs of the other conferences agreed we should give the “Artifacts
+Available” badge only to papers that successfully passed artifact
+evaluation and where the authors additionally upload their evaluated
+artifact (not random stuff) to the ACM DL. This became the policy by
+which we gave out the “Artifact Available” badges at POPL for the last
+two years. We had no complaints about this restriction to the ACM
+policy, and this year 88\% of the papers with successfully accepted
+artifacts got this extra badge. The only remaining (minor) issue is
+making the publishers improve their online forms so that uploads of
+AEC-accepted artifacts are clearly separated from uploads of other
+random materials, so that we can reduce unnecessary guesswork in
+awarding this badge.
 
-We additionally assigned the ``Artifacts Available'' badge to papers that passed
-artifact evaluation and where the authors also make their artifacts publicly
-available eternally on the ACM Digital Library. We were assured that the only
-permissions the authors need to grant the ACM is non-exclusive rights to
-distribute the artifact and that such artifacts will be available in perpetuity
-for free to anyone, without any paywall. The requirement to use the ACM Digital
-Library for getting this badge is still a bit debatable given that the ACM
-policy explicitly mentions that the ACM does ``not mandate the use of specific
-repositories''. Yet the immutability and permanence constraints the ACM imposes
-are very strong and they currently get interpreted as having to use ACM DL for
-getting the “Artifacts Available” badge. Saving a permanent snapshot of their
-artifacts to the ACM DL does not in any way prevent authors to also make them
-available in other ways, and we encourage authors to additionally make their
-artifacts open source on platforms like GitHub, and are considering having that
-as a requirement in the future for the cooler ``Artifacts Evaluated - Reusable''
-badges.
+Implementing a distinction between the “Functional” and “Reusable”
+this year was trickier, since the official ACM guidelines were rather
+vague. We came up with a simple policy that incentivizes authors to:
+(1) make their artifacts as good as possible and (2) release their
+artifacts under an open source license. We felt that point (1) is
+useful, since with close to 100\% acceptance rate the authors of a
+good enough artifact might not have much incentive to package and
+document it well and in general do the extra work required to make
+their artifact great. Point (2) is useful since having the source code
+available under an open source license makes easy reuse by others
+possible (at least in principle), while the “Artifacts Available”
+badge is happily given to artifacts that are only released as a binary
+blob and/or under onerous licenses, as long as they are permanently
+archived. A pleasant side effect of having two levels of badges was
+that it encouraged more discussions in order to sort the
+artifacts. Last year, our very high average scores limited discussions
+to the few artifacts with the lowest scores.
 
-We thank the authors of the all submitted artifacts for their work in preparing
-and documenting their research output. We hope that they found the feedback from
-the AEC to be helpful. And last but not least, we are immensely grateful to the
-members of the AEC for their energy and enthusiasm.
+
+After a couple of quick iterations, we ended up with the following
+text for our policy: “The AEC will offer the ‘Artifacts Evaluated -
+Reusable’ badge to the artifacts that receive above average scores and
+that are additionally made available in a way that enables reuse (for
+software artifacts this means releasing the artifact under an open
+source license, ideally on a platform like GitHub, GitLab, BitBucket,
+SourceForge, etc). All other artifacts that meet expectations will get
+the default ‘Artifacts Evaluated - Functional’ badge.” From the past
+year’s data, we were able to predict that the average would be around
+4.0 (which corresponds to “Accept” on the usual 5-point scale in
+HotCRP), and we communicated to the reviewers from the beginning that
+artifacts with a score of 4.0 or higher will be good candidates for
+the Reusable badge. Our average score this year turned out 3.99. Most
+artifacts with an average score of 4.0 or higher that were made open
+source were given the Reusable badge, with leeway for the reviewers to
+decide when the score was 4.0. In the end 69\% of the accepted
+artifacts got the Reusable badge and 31\% got the Functional badge.
+
+
+Our impression is that this simple policy worked very well this year:
+93\% of the submitted artifacts were released as open source, which
+helps reusability. Moreover, many authors put serious energy into
+quickly answering questions and quickly fixing, improving, or
+documenting their artifacts in response of reviewer feedback, even
+when it was clear that their artifact would anyway be accepted, so the
+“Reusable” badge seems to incentivize authors to produce better
+artifacts. Finally, all the artifacts saw at least some discussion
+this year to decide between the two badges, which was great progress
+from last year’s limited discussions. Beyond the increase in
+discussions, we don’t think that making this new distinction using the
+simple policy above made the review process more difficult for the
+reviewers.
+
+
+So, we managed to make good use of the changes of the badging system
+imposed by the ACM to further incentivize artifact authors to produce
+better and more reusable artifacts. We’re sure one can have
+philosophical discussions whether there are better ways one can better
+interpret the “Available”, “Functional”, and “Reusable” designations
+that the ACM threw at us, along with their strange policies for
+awarding these badges. We feel that the simple policies we have
+devised for POPL have the advantage of being easy to understand, easy
+to enforce, and easy to integrate into our already well-working
+artifact evaluation process. That’s why we appreciated trying this out
+incrementally on our own, and we believe this positive experience can
+inform potential future standardization efforts at the SIGPLAN level.
+
+We thank the authors of the all submitted artifacts for their work in
+preparing and documenting their research output. We hope that they
+found the feedback from the AEC to be helpful. And last but not least,
+we are immensely grateful to the members of the AEC for their energy
+and enthusiasm.
 
 \begin{flushright}
+\textit{Benjamin Delaware, Purdue University} \\
 \textit{C\u{a}t\u{a}lin Hri\c{t}cu, Inria Paris} \\
-POPL 2018 Artifact Evaluation Committee Co-Chair
-\medskip \\
-\textit{Jean Yang, Carnegie Mellon University} \\
-POPL 2018 Artifact Evaluation Committee Co-Chair
+POPL 2019 Artifact Evaluation Committee Chairs
 \medskip \\
 \end{flushright}
 
 \newpage
-
-%% POPL 2018 AEC members
-%% Sara Achour, MIT
-%% Ales Bizjak, Aahus University
-%% Joachim Breitner, University of Pennsylvania
-%% Stefan Ciobaca, Alexandru Ioan Cuza University of Iasi
-%% Michael Coblenz, Carnegie Mellon University
-%% Santiago Cuellar, Princeton
-%% Stefan Fehrenbach, University of Edinburgh
-%% Yu Feng, University of Texas at Austin
-%% Paul Gazillo, Yale University
-%% Nick Giannarakis, Princeton University
-%% Klaus Gleissenthall, University of California, San Diego
-%% Fredrik Kjolstad, MIT
-%% William Mansky, Princeton University
-%% Ruben Martins, Carnegie Mellon University
-%% Jedidiah McClurg, University of Colorado Boulder
-%% Sergio Mover, University of Colorado Boulder
-%% Daejun Park, University of Illinois at Urbana-Champaign
-%% Jennifer Paykin, University of Pennsylvania
-%% Clement Pit-Claudel, MIT
-%% Giselle Reis, Carnegie Mellon University
-%% Talia Ringer, University of Washington
-%% Taro Sekiyama, IBM Research, Japan
-%% Jan Stolarek, University of Edinburgh
-%% Pierre-Yves Strub, Ecole Polytechnique
-%% Martin Suda, TU Wien
-%% Andrea Vandin, DTU
