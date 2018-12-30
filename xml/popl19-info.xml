@@ -251,8 +251,18 @@ His recent work has combined ideas from PL and cryptography, e.g., to ensure pri
         <picture_url>https://popl19.sigplan.org/getProfileImage/vascovasconcelos/b1bd0216-3fdb-4835-a89a-1e03a5fd6714/small.jpg</picture_url>
       </person>
       <person>
-        <role>Committee Member in Steering Committee, Industrial Relations Chair in Organizing Committee</role>
+        <role>Student Research Competition Chair in Organizing Committee</role>
         <sort_key>23</sort_key>
+        <first_name>Niki</first_name>
+        <last_name>Vazou</last_name>
+        <affiliation>IMDEA Software Institute</affiliation>
+        <bio>undefined</bio>
+        <homepage_url>https://nikivazou.github.io/</homepage_url>
+        <picture_url>https://popl19.sigplan.org/getProfileImage/nikivazou/8cc6ddec-154b-47e9-b40d-c66e78476391/small.jpg</picture_url>
+      </person>
+      <person>
+        <role>Committee Member in Steering Committee, Industrial Relations Chair in Organizing Committee</role>
+        <sort_key>24</sort_key>
         <first_name>David</first_name>
         <last_name>Walker</last_name>
         <affiliation>Princeton University</affiliation>
@@ -262,7 +272,7 @@ His recent work has combined ideas from PL and cryptography, e.g., to ensure pri
       </person>
       <person>
         <role>Committee Member in Steering Committee, Program Chair in Organizing Committee</role>
-        <sort_key>24</sort_key>
+        <sort_key>25</sort_key>
         <first_name>Stephanie</first_name>
         <last_name>Weirich</last_name>
         <affiliation>University of Pennsylvania, USA</affiliation>
@@ -271,8 +281,8 @@ His recent work has combined ideas from PL and cryptography, e.g., to ensure pri
         <picture_url>https://popl19.sigplan.org/getProfileImage/stephanieweirich/1f63ace9-e52a-4efc-b20b-ee75b5d7d091/small.jpg</picture_url>
       </person>
       <person>
-        <role>Video Co-Chair in Organizing Committee</role>
-        <sort_key>25</sort_key>
+        <role>Video Chair in Organizing Committee</role>
+        <sort_key>26</sort_key>
         <first_name>Jakub</first_name>
         <last_name>Zalewski</last_name>
         <affiliation>undefined</affiliation>
@@ -5353,6 +5363,906 @@ In this paper, we present the Tyre library which provides type-indexed combinato
       </persons>
       <tracks>
         <track>PEPM 2019</track>
+      </tracks>
+    </timeslot>
+  </subevent>
+  <subevent>
+    <subevent_id>2649ce83-5617-4f6d-b2c7-c4de64e227f5</subevent_id>
+    <title>OPCT: EQUATIONAL CHARACTERISATIONS, TRANSACTIONS</title>
+    <timeslot>
+      <slot_id>b500905c-67e3-4cd0-b381-ed38ccc80418</slot_id>
+      <title>Session: OPCT - EQUATIONAL CHARACTERISATIONS, TRANSACTIONS</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>09:00</start_time>
+      <end_time>10:30</end_time>
+      <persons>
+        <person>
+          <role>Session Chair</role>
+          <sort_key>1</sort_key>
+          <first_name>Mohammad</first_name>
+          <last_name>Mousavi</last_name>
+          <affiliation>University of Leicester, UK</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>https://www2.le.ac.uk/departments/informatics/people/mohammad-mousavi</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/mohammadmousavi/f3d49346-8276-4207-a5e5-038fa1534a8a/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <subevent_type type="regular"/>
+    <room>Hotel Cascais Miragem | OPCT</room>
+    <date>2019/01/15</date>
+    <url>https://popl19.sigplan.org/track/opct-2019-papers</url>
+    <url_link_display>OPCT 2019</url_link_display>
+    <tracks>
+      <track>OPCT 2019</track>
+    </tracks>
+    <timeslot>
+      <slot_id>1e370d93-1f21-4347-b255-4d7043760795</slot_id>
+      <title>ULTraS at Work: Compositionality and Equational Characterization of Behavioral Metaequivalences</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>09:40</start_time>
+      <end_time>10:05</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Marco</first_name>
+          <last_name>Bernardo</last_name>
+          <affiliation>University of Urbino</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://www.sti.uniurb.it/bernardo/</homepage_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>5a4b50a7-4f59-47d6-8051-dffb0fcf7700</slot_id>
+      <title>A uniform framework of transactional consistency models for protocol verification and program analysis</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>10:05</start_time>
+      <end_time>10:30</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Andrea</first_name>
+          <last_name>Cerone</last_name>
+          <affiliation>Imperial College London</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>https://www.doc.ic.ac.uk/~acerone/contacts.html</homepage_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>6c071f54-51c5-4e12-baed-ae8e740bd62e</slot_id>
+      <title>Revised semantics for sequential composition in the presence of successful termination (tentative)</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>09:15</start_time>
+      <end_time>09:40</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Bas</first_name>
+          <last_name>Luttik</last_name>
+          <affiliation>Eindhoven University of Technology</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>https://www.win.tue.nl/~luttik/</homepage_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+  </subevent>
+  <subevent>
+    <subevent_id>e3872eb2-a897-49c1-973d-b5dedb2da14b</subevent_id>
+    <title>OPCT: SESSION TYPES,  GRAPH-REWRITING</title>
+    <timeslot>
+      <slot_id>2944498b-2baf-4c54-b6bd-caf5cb3cc84c</slot_id>
+      <title>Session: OPCT - SESSION TYPES,  GRAPH-REWRITING</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>13:50</start_time>
+      <end_time>15:30</end_time>
+      <persons>
+        <person>
+          <role>Session Chair</role>
+          <sort_key>1</sort_key>
+          <first_name>Antonio</first_name>
+          <last_name>Ravara</last_name>
+          <affiliation>Department of Informatics, Faculty of Sciences and Technology, NOVA University of Lisbon and NOVA LINCS</affiliation>
+          <bio>Associate Professor at the Department of Informatics, Faculty of Sciences and Technology, NOVA University of Lisbon, Portugal (since October 2018). Founding member and Integrated researcher at the NOVA Laboratory for Computer Science and Informatics (NOVA LINCS), Portugal (since 2013). Assistant Professor at the Department of Informatics, Faculty of Sciences and Technology, NOVA University of Lisbon, Portugal ()2009 to 2018). Assistant Professor at the Section of Logic and Computation of the Department of Mathematics of IST. Technical University of Lisbon, Portugal (2000 to 2009). 
+PhD in Mathematics at IST, of the Technical University of Lisbon, Portugal (December 2000). MSc in Applied Mathematics at IST of the Technical University of Lisbon, Portugal (May 1996). BSc in Geographical Engineering at the Faculty of Sciences of the University of Lisbon, Portugal (September 1991). 
+Main research problem is how to ensure that inherently concurrent, highly distributed, software systems behave correctly. The focus is on the development of techniques, program constructions, and tools that help creating safe and well-behaved systems, provably providing correctness guarantees. The toolbox used includes static analysis of source code, capturing defects before deployment, with decidable, low complexity, property-driven, proof systems, using behavioural descriptions of programs.</bio>
+          <homepage_url>http://nova-lincs.di.fct.unl.pt/person/47</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/antonioravara/dbb3f737-58d8-45cf-9c93-a54da5788412/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <subevent_type type="regular"/>
+    <room>Hotel Cascais Miragem | OPCT</room>
+    <date>2019/01/14</date>
+    <url>https://popl19.sigplan.org/track/opct-2019-papers</url>
+    <url_link_display>OPCT 2019</url_link_display>
+    <tracks>
+      <track>OPCT 2019</track>
+    </tracks>
+    <timeslot>
+      <slot_id>2f94a730-f080-4eca-a136-c9ac1b6b2436</slot_id>
+      <title>Independence, Concurrency and Abstraction in Graph-Rewriting Processes</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>15:05</start_time>
+      <end_time>15:30</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Malte</first_name>
+          <last_name>Lochau</last_name>
+          <affiliation>undefined</affiliation>
+          <bio>undefined</bio>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/maltelochau/8d3a8f9c-19e1-4e74-9891-58a38ab0f5de/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>cb851209-d5de-4fcf-ae9c-ca811ca47b3e</slot_id>
+      <title>Multiparty reactive sessions</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>14:40</start_time>
+      <end_time>15:05</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Cinzia</first_name>
+          <last_name>Di Giusto</last_name>
+          <affiliation>Laboratoire I3S</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://www.i3s.unice.fr/digiusto/</homepage_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>dc869a60-4e99-4c1b-8a24-1cfd340f1954</slot_id>
+      <title>From testing preorders to flaky tests</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>14:15</start_time>
+      <end_time>14:40</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Giovanni</first_name>
+          <last_name>Bernardi</last_name>
+          <affiliation>Université Paris Diderot</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>https://www.irif.fr/~gio/index.xhtml</homepage_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>e3d14b3d-ff14-4aa5-a000-6d3d163a47bc</slot_id>
+      <title>Taming Concurrency for Verification using Multiparty Session Types</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>13:50</start_time>
+      <end_time>14:15</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Kirstin</first_name>
+          <last_name>Peters</last_name>
+          <affiliation>TU Berlin</affiliation>
+          <bio>undefined</bio>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+  </subevent>
+  <subevent>
+    <subevent_id>926e6623-b139-461a-8a74-80016c5601c5</subevent_id>
+    <title>OPCT: ALGEBRA, COALGEBRA, MODEL CHECKING</title>
+    <timeslot>
+      <slot_id>e9df8d7b-5397-495d-ad27-3e1ecf014f0b</slot_id>
+      <title>Session: OPCT - ALGEBRA, COALGEBRA, MODEL CHECKING</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>13:50</start_time>
+      <end_time>15:30</end_time>
+      <persons>
+        <person>
+          <role>Session Chair</role>
+          <sort_key>1</sort_key>
+          <first_name>Barbara</first_name>
+          <last_name>Koenig</last_name>
+          <affiliation>University of Duisburg-Essen</affiliation>
+          <bio>undefined</bio>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <subevent_type type="regular"/>
+    <room>Hotel Cascais Miragem | OPCT</room>
+    <date>2019/01/15</date>
+    <url>https://popl19.sigplan.org/track/opct-2019-papers</url>
+    <url_link_display>OPCT 2019</url_link_display>
+    <tracks>
+      <track>OPCT 2019</track>
+    </tracks>
+    <timeslot>
+      <slot_id>76af802f-897d-4ced-a378-5dec059b2e76</slot_id>
+      <title>Model checking true concurrency properties</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>14:15</start_time>
+      <end_time>14:40</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Paolo</first_name>
+          <last_name>Baldan</last_name>
+          <affiliation>undefined</affiliation>
+          <bio>undefined</bio>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>cb5bf00f-2e5b-4d00-8341-29b52ec1d177</slot_id>
+      <title>Weak Bisimulation Metrics in Models with Nondeterminism and Continuous States Space: A Logical Characterization</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>15:05</start_time>
+      <end_time>15:30</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Simone</first_name>
+          <last_name>Tini</last_name>
+          <affiliation>University of Insubria</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>https://disat.uninsubria.it/~simone.tini/</homepage_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>ceb26058-db85-4edd-a744-43ed69f97b31</slot_id>
+      <title>A (Co)algebraic Approach to Hennessy-Milner Theorems for Weakly Expressive Logics</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>14:40</start_time>
+      <end_time>15:05</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Helle Hvid</first_name>
+          <last_name>Hansen</last_name>
+          <affiliation>Delft University of Technology</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>https://homepage.tudelft.nl/c9d1n/</homepage_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>ea0a53d8-b50c-4acb-9efb-8a8d5aea561a</slot_id>
+      <title>Bayes meets Dijkstra: Verifying Bayes Networks by Program Verification</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>13:50</start_time>
+      <end_time>14:15</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Joost-Pieter</first_name>
+          <last_name>Katoen</last_name>
+          <affiliation>RWTH Aachen University</affiliation>
+          <bio>I am full professor at the RWTH Aachen University in the Software Modeling and Verification (MOVES) group and part-time associated to the Formal Methods &amp;amp; Tools group at the University of Twente. Since 2013, I hold a distinguished professorship at RWTH Aachen University and am member of the Academia Europaea.</bio>
+          <homepage_url>http://www-i2.informatik.rwth-aachen.de/~katoen/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/joostpieterkatoen/1ea5c4a0-80d3-4a86-be9a-daf5471ea24d/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+  </subevent>
+  <subevent>
+    <subevent_id>f3712056-ece3-49c9-8074-ac9076bd30e1</subevent_id>
+    <title>OPCT: SESSION TYPES </title>
+    <timeslot>
+      <slot_id>0fa85d8d-e87e-4de6-9f37-cdeee6ff5264</slot_id>
+      <title>Session: OPCT - SESSION TYPES </title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>09:00</start_time>
+      <end_time>10:30</end_time>
+      <persons>
+        <person>
+          <role>Session Chair</role>
+          <sort_key>1</sort_key>
+          <first_name>Ilaria</first_name>
+          <last_name>Castellani</last_name>
+          <affiliation>INRIA Sophia Antipolis, France</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://www-sop.inria.fr/members/Ilaria.Castellani/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/ilariacastellani/47b6f877-6713-449c-8974-610a9bfd2cf1/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <subevent_type type="regular"/>
+    <room>Hotel Cascais Miragem | OPCT</room>
+    <date>2019/01/14</date>
+    <url>https://popl19.sigplan.org/track/opct-2019-papers</url>
+    <url_link_display>OPCT 2019</url_link_display>
+    <tracks>
+      <track>OPCT 2019</track>
+    </tracks>
+    <timeslot>
+      <slot_id>1d2506d0-e01e-46d0-bc80-60f6c3d01bc6</slot_id>
+      <title>Opening</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>09:00</start_time>
+      <end_time>09:15</end_time>
+      <description>undefined</description>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>53d76cd5-dfe7-4d85-a146-b52d98666b15</slot_id>
+      <title>A Foundation for Runtime Enforcement</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>09:40</start_time>
+      <end_time>10:05</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Adrian</first_name>
+          <last_name>Francalanza</last_name>
+          <affiliation>University of Malta</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://staff.um.edu.mt/afra1/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/adrianfrancalanza/6e6d0dd9-c580-4596-abde-30e3716ea961/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>90fb5981-70b9-4e1d-a86b-6e2bc1b7abce</slot_id>
+      <title>A concurrent functional language with session types and control effects based on linear logic</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>09:15</start_time>
+      <end_time>09:40</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Luís</first_name>
+          <last_name>Caires</last_name>
+          <affiliation>NOVA-LINCS, FCT NOVA / Universidade Nova de Lisboa</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://ctp.di.fct.unl.pt/~lcaires/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/luiscaires/019ae02e-ff01-4b8f-93eb-356665812a5d/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>bfeaf324-92f5-47f8-829c-cec003866c72</slot_id>
+      <title>Processes as names?</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>10:05</start_time>
+      <end_time>10:30</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Hans</first_name>
+          <last_name>Hüttel</last_name>
+          <affiliation>Department of Computer Science, Aalborg University</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://people.cs.aau.dk/~hans</homepage_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+  </subevent>
+  <subevent>
+    <subevent_id>510ef282-731a-46cf-8b14-fc4ff00045df</subevent_id>
+    <title>OPCT: CONCURRENT PROGRAMMING, MEMORY MODELS</title>
+    <timeslot>
+      <slot_id>f1500f89-cd43-431e-87ab-5fa7dc2e8d81</slot_id>
+      <title>Session: OPCT - CONCURRENT PROGRAMMING, MEMORY MODELS</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>16:00</start_time>
+      <end_time>17:15</end_time>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <subevent_type type="regular"/>
+    <room>Hotel Cascais Miragem | OPCT</room>
+    <date>2019/01/14</date>
+    <url>https://popl19.sigplan.org/track/opct-2019-papers</url>
+    <url_link_display>OPCT 2019</url_link_display>
+    <tracks>
+      <track>OPCT 2019</track>
+    </tracks>
+    <timeslot>
+      <slot_id>06ab8c32-6a99-4069-a7b7-3ad84683e9bb</slot_id>
+      <title>Compositional Reasoning for Termination of Fine-grained Concurrent Programs</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>16:50</start_time>
+      <end_time>17:15</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Emanuele</first_name>
+          <last_name>D'Osualdo</last_name>
+          <affiliation>Imperial College London, UK</affiliation>
+          <bio>I am a Marie-Curie Fellow at Imperial College London, working on verification of concurrent software with Prof. P. Gardner. 
+From 2017 to 2018 was a Research Associate in Philippa Gardner’s group at Imperial College London. From 2015 to 2017 I was a PostDoc in the Concurrency Theory Group at the University of Kaiserslautern, working with Prof. Roland Meyer. 
+In 2015 I received a PhD (DPhil) in Computer Science from the University of Oxford. My supervisor was Prof. C.-H. Luke Ong. My dissertation won the 2016 CPHC/BCS Distinguished Dissertation award.</bio>
+          <homepage_url>http://www.emanueledosualdo.com/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/emanueledosualdo/894cc572-3cb2-4925-a25d-91ee35a650d6/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>0dc4e53a-d756-4481-bf93-ef5111ee79f1</slot_id>
+      <title>IPA: Invariant-preserving Applications for Weakly Consistent Replicated Databases</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>16:25</start_time>
+      <end_time>16:50</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Carla</first_name>
+          <last_name>Ferreira</last_name>
+          <affiliation>Universidade Nova Lisboa</affiliation>
+          <bio>undefined</bio>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/carlaferreira/84cdc5a2-f01b-44cd-b28f-73ae8baed899/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>5ef91018-3e71-43cf-9f55-f0586ca2b132</slot_id>
+      <title>Linearizability in the context of weak memory models</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>16:00</start_time>
+      <end_time>16:25</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Kirsten</first_name>
+          <last_name>Winter</last_name>
+          <affiliation>The University of Queensland</affiliation>
+          <bio>undefined</bio>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+  </subevent>
+  <subevent>
+    <subevent_id>397d6d2c-3d5b-4db8-abcd-f0e6583c923f</subevent_id>
+    <title>OPCT: ALGEBRA, COALGEBRA</title>
+    <timeslot>
+      <slot_id>322ac301-9c66-4c71-acb8-d664240a84ac</slot_id>
+      <title>Session: OPCT - ALGEBRA, COALGEBRA</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>16:00</start_time>
+      <end_time>17:20</end_time>
+      <persons>
+        <person>
+          <role>Session Chair</role>
+          <sort_key>1</sort_key>
+          <first_name>Alexandra</first_name>
+          <last_name>Silva</last_name>
+          <affiliation>University College London</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://www.alexandrasilva.org/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/alexandrasilva/4b4137d3-8abf-423d-89b7-64b1a17139a5/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <subevent_type type="regular"/>
+    <room>Hotel Cascais Miragem | OPCT</room>
+    <date>2019/01/15</date>
+    <url>https://popl19.sigplan.org/track/opct-2019-papers</url>
+    <url_link_display>OPCT 2019</url_link_display>
+    <tracks>
+      <track>OPCT 2019</track>
+    </tracks>
+    <timeslot>
+      <slot_id>0275f045-60ec-46ff-84f5-b910bc20ab42</slot_id>
+      <title>Closing</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>17:15</start_time>
+      <end_time>17:20</end_time>
+      <description>undefined</description>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>131e9d8a-37b3-41f4-8e66-7e19cfa7b4b9</slot_id>
+      <title>A metric semantics for coordination languages</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>16:25</start_time>
+      <end_time>16:50</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Valentina</first_name>
+          <last_name>Castiglioni</last_name>
+          <affiliation>Inria Saclay - Ile de France</affiliation>
+          <bio>undefined</bio>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>238f2ff9-3629-4373-b2eb-b3f0954ab62e</slot_id>
+      <title>Hybrid system iteration</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>16:50</start_time>
+      <end_time>17:15</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Renato</first_name>
+          <last_name>Neves</last_name>
+          <affiliation>University of Minho &amp; INESC TEC</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://alfa.di.uminho.pt/~nevrenato/</homepage_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>a3571bec-480e-4a0b-a619-3d51718bdedd</slot_id>
+      <title>Coalgebra Learning via Duality</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>16:00</start_time>
+      <end_time>16:25</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Juriaan</first_name>
+          <last_name>Rot</last_name>
+          <affiliation>Radboud University Nijmegen</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://jurriaan.me/</homepage_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+  </subevent>
+  <subevent>
+    <subevent_id>accc1328-ae93-48af-907b-7872f086214c</subevent_id>
+    <title>OPCT: CAUSALITY, REVERSIBILITY</title>
+    <timeslot>
+      <slot_id>c16d1c90-9f79-403d-be62-e428005e0d1a</slot_id>
+      <title>Session: OPCT - CAUSALITY, REVERSIBILITY</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>11:15</start_time>
+      <end_time>12:30</end_time>
+      <persons>
+        <person>
+          <role>Session Chair</role>
+          <sort_key>1</sort_key>
+          <first_name>Gustavo</first_name>
+          <last_name>Petri</last_name>
+          <affiliation>IRIF, Université Paris Diderot</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://gpetri.github.io/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/gustavopetri/08af6041-7317-4929-9a80-b63b5f03a5b6/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <subevent_type type="regular"/>
+    <room>Hotel Cascais Miragem | OPCT</room>
+    <date>2019/01/14</date>
+    <url>https://popl19.sigplan.org/track/opct-2019-papers</url>
+    <url_link_display>OPCT 2019</url_link_display>
+    <tracks>
+      <track>OPCT 2019</track>
+    </tracks>
+    <timeslot>
+      <slot_id>0ddbaae9-8d21-4dcc-b8a4-9448d8448992</slot_id>
+      <title>A Calculus of Branching Processes</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>11:40</start_time>
+      <end_time>12:05</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Jean</first_name>
+          <last_name>Krivine</last_name>
+          <affiliation>CNRS</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>https://www.irif.fr/~jkrivine/homepage/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/jeankrivine/05622389-69f2-43b0-8623-9c313575aaeb/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>162e4405-2498-4f2e-9e88-2fddd0942176</slot_id>
+      <title>Causal Reasoning for Safety</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>11:15</start_time>
+      <end_time>11:40</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Georgiana</first_name>
+          <last_name>Caltais</last_name>
+          <affiliation>University of Konstanz</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>https://www.sen.uni-konstanz.de/members/research-staff/dr-georgiana-caltais/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/georgianacaltais/f4e1ab61-6a05-4356-8082-6220aa2b6fa2/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>73bac475-dc54-4dab-9571-a05fc70cad00</slot_id>
+      <title>An axiomatic approach to reversible computation</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/14</date>
+      <start_time>12:05</start_time>
+      <end_time>12:30</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Irek</first_name>
+          <last_name>Ulidowski</last_name>
+          <affiliation>University of Leicester</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>https://www.cs.le.ac.uk/people/iu3/</homepage_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+  </subevent>
+  <subevent>
+    <subevent_id>5ba15aeb-b489-4476-8815-ce1f2caed6c3</subevent_id>
+    <title>OPCT: CYBERPHYSICAL SYSTEMS, HYBRID SYSTEMS</title>
+    <timeslot>
+      <slot_id>0b7ab47b-8af0-4a1b-9636-56e7311d2a78</slot_id>
+      <title>Session: OPCT - CYBERPHYSICAL SYSTEMS, HYBRID SYSTEMS</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>11:15</start_time>
+      <end_time>12:30</end_time>
+      <persons>
+        <person>
+          <role>Session Chair</role>
+          <sort_key>1</sort_key>
+          <first_name>Philippa</first_name>
+          <last_name>Gardner</last_name>
+          <affiliation>Imperial College London</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://www.doc.ic.ac.uk/~pg/</homepage_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <subevent_type type="regular"/>
+    <room>Hotel Cascais Miragem | OPCT</room>
+    <date>2019/01/15</date>
+    <url>https://popl19.sigplan.org/track/opct-2019-papers</url>
+    <url_link_display>OPCT 2019</url_link_display>
+    <tracks>
+      <track>OPCT 2019</track>
+    </tracks>
+    <timeslot>
+      <slot_id>3675fa28-e78d-432d-b448-b9dccac8f29f</slot_id>
+      <title>Attribute based communication for Collective Adaptive Systems</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>11:40</start_time>
+      <end_time>12:05</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Rocco</first_name>
+          <last_name>De Nicola</last_name>
+          <affiliation>undefined</affiliation>
+          <bio>undefined</bio>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>9b6732f5-18e9-4c79-b1c7-25932c9262b4</slot_id>
+      <title>Designing Resilient Large Scaled CPS: Models, Languages and Tools </title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>12:05</start_time>
+      <end_time>12:30</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Michele</first_name>
+          <last_name>Loreti</last_name>
+          <affiliation>University of Camerino</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://www.micheleloreti.com</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/micheleloreti/9af2fa00-9085-40b2-af5b-484dade53f21/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>e883a236-8551-496b-b872-9f363f937b6c</slot_id>
+      <title>Hybrid systems reachability analysis</title>
+      <room>Hotel Cascais Miragem | OPCT</room>
+      <date>2019/01/15</date>
+      <start_time>11:15</start_time>
+      <end_time>11:40</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Erika</first_name>
+          <last_name>Abraham</last_name>
+          <affiliation>RWTH Aachen University</affiliation>
+          <bio> 
+  2013-today: Full professor, RWTH Aachen University, Germany. Head of the research group Theory of Hybrid Systems. Research topics: SMT solving, formal methods for probabilistic and hybrid systems.  
+  2008-2013: Junior professor, RWTH Aachen University, Germany. Head of the junior research group Theory of Hybrid Systems. Research topics: SMT solving, formal methods for probabilistic and hybrid systems.  
+  2007-2008: Postdoctoral researcher, Jülich Research Centre, Germany. Research topics: parallel and high-performance computing, performance analysis.  
+  2005-2007: Postdoctoral researcher, Albert-Ludwigs-University Freiburg, Germany. Research topics: Verification of hybrid systems, bounded model checking, SAT and SMT solving.  
+  1999-2005: Ph.D. student, Christian-Albrechts-University Kiel, Germany. Research topics: Deductive proof systems for multithreaded object-oriented languages.  
+</bio>
+          <homepage_url>http://ths.rwth-aachen.de/people/erika-abraham/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/erikaabraham/24df4f80-87f3-44d7-8a64-b57a03770233/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>OPCT 2019</track>
       </tracks>
     </timeslot>
   </subevent>
