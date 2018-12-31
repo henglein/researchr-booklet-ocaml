@@ -1,6 +1,6 @@
 \newif\ifbaskerville \baskervilletrue
 
-\newif\ifpictures \picturesfalse
+\newif\ifpictures \picturestrue
 
 \documentclass[a4paper,11pt]{article}
 \ifbaskerville
@@ -68,14 +68,14 @@
 
 
 % \incgraph[documentpaper, overlay={\node[red] at (page.center) {\Huge Picture sized to paper};}]
-\incgraph[documentpaper][width=\paperwidth,height=\paperheight]{img/cover.png}
+\incgraph[documentpaper][width=\paperwidth,height=\paperheight]{img/cover.pdf}
 
 
 \input{out/overview}
 \input{tex/preface}
 \input{tex/aec-report}
 \input{tex/committees}
-\ifpictures \input{floorplan} \fi
+\ifpictures \input{tex/floorplan} \fi
 \input{tex/keynotes}
 \input{tex/social}
 \input{out/schedule}
