@@ -6,168 +6,75 @@
 \def\talkabstract{\noindent \textbf{Abstract:}~}
 \def\bio{\medskip\noindent \textbf{Bio:}~}
 
-\talktitle{The Type Soundness Theorem That You Really Want to Prove (and Now You Can)}
+\talktitle{Automated Fault-Finding and Fixing at Facebook}
 
-\speaker{Derek Dreyer}{MPI-SWS}
+\speaker{Mark Harman}{Facebook and University College London}
 
 \talkabstract
-Type systems—and the associated concept of “type soundness”—are one of the
-biggest success stories of foundational PL research. Originally proposed by
-Robin Milner in 1978, type soundness asserts that well-typed programs can’t “go
-wrong” (\emph{i.e.}, exhibit undefined behaviors), and it is widely viewed as the
-canonical theorem one must prove to establish that a type system is doing its
-job. In the early 1990s, Wright and Felleisen introduced a simple syntactic
-approach to proving type soundness, which was subsequently popularized as the
-method of ``progress and preservation'' and has had a huge impact on the study and
-teaching of PL foundations. Many research papers that propose new type systems
-conclude with a triumphant statement of syntactic type soundness, and for many
-students it is the only thing they learn to prove about a type system.
-
-Unfortunately, syntactic type soundness is a rather weak theorem. First of all,
-its premise is too strong for many practical purposes. It only applies to
-programs that are completely well-typed, and thus tells us nothing about the
-many programs written in ``safe'' languages that make use of ``unsafe'' language
-features. Even worse, it tells us nothing about whether type systems achieve one
-of their main goals: enforcement of data abstraction. One can easily define a
-language that enjoys syntactic soundness and yet fails to support even the most
-basic modular reasoning principles for closures, objects, and ADTs.
-
-In this talk, I argue that we should no longer be satisfied with just proving
-syntactic type soundness, and should instead start proving a stronger
-theorem—semantic type soundness—that captures more accurately what type systems
-are actually good for. In a semantic soundness proof, one defines a semantic
-model of types as predicates on values, and then verifies the soundness of
-typing rules as lemmas about the model. By explaining directly what types
-``mean'', the semantic approach to type soundness is a lot more informative than
-the syntactic one. In particular, it can serve to establish what data
-abstraction guarantees a language provides, as well as what it means for uses of
-unsafe language features to be ``safely encapsulated''.
-
-Semantic type soundness is a very old idea—Milner’s original formulation of type
-soundness was a semantic one—but it fell out of favor in the 1990s due to
-limitations and complexities of denotational models. In the succeeding decades,
-such limitations have been overcome and complexities tamed, via proof techniques
-that work directly over operational semantics. Thanks to the development of
-step-indexed Kripke logical relations, we can now scale semantic soundness to
-handle real languages, and thanks to advances in higher-order concurrent
-separation logic, we can now build (machine-checked) semantic soundness proofs
-at a much higher level of abstraction than was previously possible. The
-resulting ``logical'' approach to semantic type soundness yields proofs that are
-demonstrably more useful than their syntactic counterparts, and more fun as
-well.
+This talk will describe the deployment of Sapienz, a system for automated test
+case design that uses Search Based Software Engineering (SBSE) and which has
+been deployed at Facebook since October 2017 to design test cases, localise
+and triage faults to developers and to monitor their fixes (and, since August
+2018, also to automate the process of fixing some of these faults). The talk
+will also cover the way in which we combine static and dynamic analysis for
+fault-finding and fixing at Facebook, concluding with a discussion of some
+open problems for static and dynamic analysis and challenges in deploying them
+at scale. This keynote is an account of the joint work of the whole Sapienz
+team and its partners and collaborators at Facebook.
 
 \bio
-Derek Dreyer is a professor of computer science at the Max Planck Institute for
-Software Systems (MPI-SWS), and recipient of the 2017 ACM SIGPLAN Robin Milner
-Young Researcher Award.  His research runs the gamut from the type theory of
-high-level functional languages, down to the verification of compilers and
-low-level concurrent programs under relaxed memory models.  He is currently
-leading the RustBelt project, which focuses on building the first formal
-foundations for the Rust programming language.  He also knows a thing or two
-about Scotch whisky.
+Mark Harman is an engineering manager at Facebook London, where he manages the
+Sapienz team, working on Search Based Software Engineering (SBSE) for
+automated test case design and fault fixing. Sapienz has been deployed to
+continuously test Facebook’s Android and iOS apps, leading to thousands of
+bugs being automatically found and fixed (mostly by developers, but more
+recently, some of these faults have also been automatically fixed by
+Sapienz). The software tackled by Sapienz consists of tens of millions of
+lines of code; apps that are among the largest and most complex in the app
+store and that are used by over a billion people worldwide every day for
+communication, social networking and community building. Mark is also a part
+time professor of Software Engineering in the Department of Computer Science
+at University College London, where he directed the CREST centre for ten years
+(2006-2017) and was Head of Software Systems Engineering (2012-2017). He is
+known for his scientific work on SBSE, source code analysis, software testing,
+app store analysis and empirical software engineering. He was the co-founder
+of the field SBSE, which has grown rapidly with over 1,700 scientific
+publications from authors spread over more than 40 countries. SBSE research
+and practice is now the primary focus of his current work in both the
+industrial and scientific communities. In addition to Facebook itself, Mark’s
+scientific work is also supported by an ERC advanced fellowship grant and by
+the UK EPSRC funding council.
 
 \newpage
 
-\talktitle{Some Principles of Differential Programming Languages}
+\talktitle{Mechanized Metatheory - The Next Chapter}
 
-\speaker{Gordon Plotkin}{University of Edinburgh}
+\speaker{Brigitte Pientka}{McGill University}
 
-\talkabstract
-Languages for learning pose interesting foundational challenges. We
-look at one case: the foundations of differentiable programming
-languages with a first-class differentiation operator.  Graphical
-and linguistic facilities for differentiation have proved their
-worth over recent years for deep learning (deep learning makes
-use of gradient descent optimisation methods to choose weights in
-neural nets). Automatic differentiation, also known as algorithmic
-differentiation, goes much further back, at least to the early
-1960s, and provides efficient techniques for differentiation, e.g.,
-via source code transformation. It seems fair to say, however, that
-differentiable programming languages have begun to appear only
-recently. It seems further fair to say that, while there has certainly
-been some foundational study of differentiable programming languages,
-there is ample opportunity to do more.
+\talkabstract Mechanizing formal systems and proofs about them plays an
+important role in establishing trust in programming languages and verifying
+software systems in general. Over the past decades, we have seen significant
+progress and success: the POPLMark challenge popularized the use of proof
+assistants in mechanizing the metatheory of programming languages; the
+development of the first verified compiler in Coq demonstrated the feasibility
+and value of building verified compilers. Today, mechanizing proofs is a
+stable fixture in the daily life of programming languages researchers.
 
-We investigate the semantics of a simple first-order functional
-programming language with reals, product types, and a first-class
-reverse-mode differentiation operator (reverse-mode differentiation
-generalises gradients). The semantics employs a standard concept of
-real analysis: smooth multivariate functions with open domain. It
-turns out that such partial functions fit well with programming
-constructs such as conditionals and recursion; indeed they form a
-complete partial order, and so standard fixed-point methods can be
-applied.  From a programming language point of view, however, many
-types are lacking, particularly sum types and recursive types, such
-as list types. We conclude with a brief presentation of notions of
-shapely datatypes and smooth functions. These can be used to give the
-semantics of such types and the usual functions between them while
-retaining first-class differentiation.
+One might be tempted to assume that all is well – yet, the reality is that we
+seem to accept the status quo and focus on engineering solutions to get the
+next job done, although mechanizations can be time consuming and require
+substantial (sometimes heroic) effort. In this talk I will argue that we
+should strive to develop high-level abstractions, primitives, and tools to
+standardize common tasks and operations arising when working with formal
+systems and proofs about them.
 
-This work constitutes only an initial exploration, and we look forward
-to a rich field connecting two worlds: programming languages and their
-foundations, and real analysis and allied areas of mathematics.
+Taking a look back at some of the foundational theoretical ideas and choices
+that underly type-theoretic proof environments today, I will survey recent
+achievements and sketch a dependently typed language that would make it easier
+to represent, maintain, and communicate formal systems and proofs about them –
+an elegant proof language for a more civilized age.
+
 
 \bio
-Gordon David Plotkin, FRS, FRSE is a theoretical
-computer scientist in the School of Informatics at the University of Edinburgh.
-Plotkin is probably best known for his introduction of structural operational
-semantics (SOS) and his work on denotational semantics. In particular, his notes
-on A Structural Approach to Operational Semantics were very influential.
-Plotkin was elected a Fellow of the Royal Society in 1992, is a Fellow of the
-Royal Society of Edinburgh and a Member of the Academia Europaea. He is also a
-winner of the Royal Society Wolfson Research Merit Award. Plotkin received the
-2012 Royal Society Milner Award for ``his fundamental research into programming
-semantics with lasting impact on both the principles and design of programming
-languages.''
-
-\newpage
-
-\talktitle{Formal Methods and the Law}
-
-\speaker{Sarah Lawsky}{Northwestern Pritzker School of Law}
-
-\talkabstract
-This project distinguishes between two kinds of law, the common law,
-on the one hand, and code-based law, on the other, and argues that it
-is fruitful to apply formal methods and logic to the representation
-and analysis of certain kinds of law.
-
-Much recent work has taken a big data approach, sorting through and
-finding patterns in massive amounts of information. In contrast, a
-rule-based approach---Computational Law---formalizes the law using
-logic and analyzes the law using those formalizations. Computational
-Law has received relatively less attention in the United States than
-has the big data approach, perhaps because common-law reasoning
-appears to be not well-suited to logical formalization.
-
-The project argues that, in contrast to common law, certain types
-of code-based and regulation-heavy law, including U.S. federal tax
-law, are particularly susceptible to formalization and computational
-analysis. The difficulty presented by regulation-heavy law stems in
-large part from an immense number of interlocking rules, in contrast
-to difficulties presented by common law, which arise primarily from
-the ambiguity of terms or difficulty in predicting outcomes. The
-project takes the federal tax code as an example, and, based on the
-structure of and approach to drafting displayed in that law, proposes
-using a version of default logic to formalize the tax code and its
-accompanying regulations. Such formalization can locate drafting
-errors and structural ambiguities, and computational analysis of
-these formalizations may discover previously overlooked tax avoidance
-techniques.
-
-\bio
-Sarah Lawsky is Professor of Law at Northwestern Pritzker School of Law. She
-teaches or has taught federal income tax, corporate tax, partnership tax, tax
-policy, tax deals, and contracts. Her research focuses on tax law and on the
-application of formal logic and artificial intelligence to the law.
-%
-Prior to joining Northwestern Pritzker in 2016, Lawsky taught at UC Irvine
-School of Law and George Washington University Law School, and as an adjunct in
-NYU’s tax LL.M. program. Before beginning her teaching career, she practiced tax
-law in New York.
-%
-Lawsky received her B.A. from the University of Chicago, her J.D. from Yale Law
-School, her LL.M. in tax from NYU School of Law, and her Ph.D. in philosophy
-from the UC Irvine Department of Logic and Philosophy of Science.
 
 \newpage
