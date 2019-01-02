@@ -231,7 +231,7 @@ let session_chairs =
   ; ("Termination"                  , "Constantin Enea")
   ; ("Dependent Types"              , "Karl Crary")
   ; ("Language Design"              , "Zachary Tatlock")
-  ; ("Business Meeting"             , "Ranjit Jhala \& Andrew Myers")
+  ; ("Business Meeting"             , "Ranjit Jhala and Andrew Myers")
   ; ("Keynote-III"                  , "Andrew Myers")
   ; ("Dynamic Languages"            , "Jean Yang")
   ; ("Testing and Verification"     , "Santosh Nagarakatte")
