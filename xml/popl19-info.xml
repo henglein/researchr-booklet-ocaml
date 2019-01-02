@@ -1843,11 +1843,37 @@ His recent work has combined ideas from PL and cryptography, e.g., to ensure pri
     </tracks>
     <timeslot>
       <slot_id>acb1f2b3-d8e9-4a8d-a64a-b4cc553c4222</slot_id>
-      <title>Panel: How to Do Great PL Research</title>
+      <title>Research Skills: How to Bootstrap a Research Project</title>
       <room>Hotel Cascais Miragem | Sala II</room>
       <date>2019/01/15</date>
       <start_time>16:00</start_time>
       <end_time>16:30</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Speaker</role>
+          <sort_key>1</sort_key>
+          <first_name>Ilya</first_name>
+          <last_name>Sergey</last_name>
+          <affiliation>Yale-NUS College</affiliation>
+          <bio>I am a tenure-track Associate Professor at Yale-NUS College and NUS School of Computing (Singapore). 
+Prior to joining Yale-NUS, I was a faculty at University College London. Before then, I was a postdoctoral researcher at IMDEA Software Institute (Madrid, Spain). I defended my PhD in 2012 in the DistriNet research group at the Department of Computer Sciences of KU Leuven (Belgium). Before that I received my MSc degree in Mathematics and Computer Science from Saint Petersburg State University (Russia) in 2008. 
+My research interests dwell in the area of the design and implementation of programming languages, including but not limited to program semantics, certified programming, concurrency and abstract interpretation. I am particularly interested in developing verification techniques and static analyses for higher-order and concurrent programs.</bio>
+          <homepage_url>http://ilyasergey.net</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/ilyasergey/b2941c89-4843-4194-852a-81c8a30814fa/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>Programming Languages Mentoring Workshop 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>c595a4f3-69f3-4b5b-b4dd-719e95055e7f</slot_id>
+      <title>Panel: How to Do Great PL Research</title>
+      <room>Hotel Cascais Miragem | Sala II</room>
+      <date>2019/01/15</date>
+      <start_time>16:30</start_time>
+      <end_time>17:30</end_time>
       <description>undefined</description>
       <persons>
         <person>
@@ -1898,32 +1924,6 @@ His recent work has combined ideas from PL and cryptography, e.g., to ensure pri
           <bio>undefined</bio>
           <homepage_url>http://www.di.fc.ul.pt/~vv/</homepage_url>
           <picture_url>https://popl19.sigplan.org/getProfileImage/vascovasconcelos/b1bd0216-3fdb-4835-a89a-1e03a5fd6714/small.jpg</picture_url>
-        </person>
-      </persons>
-      <tracks>
-        <track>Programming Languages Mentoring Workshop 2019</track>
-      </tracks>
-    </timeslot>
-    <timeslot>
-      <slot_id>c595a4f3-69f3-4b5b-b4dd-719e95055e7f</slot_id>
-      <title>Research Skills: How to Bootstrap a Research Project</title>
-      <room>Hotel Cascais Miragem | Sala II</room>
-      <date>2019/01/15</date>
-      <start_time>16:30</start_time>
-      <end_time>17:30</end_time>
-      <description>undefined</description>
-      <persons>
-        <person>
-          <role>Speaker</role>
-          <sort_key>1</sort_key>
-          <first_name>Ilya</first_name>
-          <last_name>Sergey</last_name>
-          <affiliation>Yale-NUS College</affiliation>
-          <bio>I am a tenure-track Associate Professor at Yale-NUS College and NUS School of Computing (Singapore). 
-Prior to joining Yale-NUS, I was a faculty at University College London. Before then, I was a postdoctoral researcher at IMDEA Software Institute (Madrid, Spain). I defended my PhD in 2012 in the DistriNet research group at the Department of Computer Sciences of KU Leuven (Belgium). Before that I received my MSc degree in Mathematics and Computer Science from Saint Petersburg State University (Russia) in 2008. 
-My research interests dwell in the area of the design and implementation of programming languages, including but not limited to program semantics, certified programming, concurrency and abstract interpretation. I am particularly interested in developing verification techniques and static analyses for higher-order and concurrent programs.</bio>
-          <homepage_url>http://ilyasergey.net</homepage_url>
-          <picture_url>https://popl19.sigplan.org/getProfileImage/ilyasergey/b2941c89-4843-4194-852a-81c8a30814fa/small.jpg</picture_url>
         </person>
       </persons>
       <tracks>
@@ -2287,7 +2287,7 @@ While SerAPI works reasonably well today, is far from being a mature language se
       <date>2019/01/15</date>
       <start_time>10:00</start_time>
       <end_time>10:30</end_time>
-      <description>undefined</description>
+      <description>To give a talk (or more generally, to do a thing), loop through these four steps: establish your intent, develop a plan, practice, and learn. For a research talk, your intent might be to convey a single idea you need to choose, so your plan would be a tree whose node hierarchy and edge traversal you need to optimize and declare. Whereas your practice might follow a script, the memory and feedback you get would help you engage your audience and execute your intent in the present. Above all, a talk is an episode of cooperation with other people! So be honest, stand up straight, and breathe.</description>
       <persons>
         <person>
           <role>Speaker</role>
@@ -3821,10 +3821,12 @@ In 2014, I moved to Chalmers where I became a tenured Associate Professor in 201
         <person>
           <role>Session Chair</role>
           <sort_key>1</sort_key>
-          <first_name>Thomas</first_name>
-          <last_name>H. Hildebrandt</last_name>
-          <affiliation>undefined</affiliation>
+          <first_name>Gustavo</first_name>
+          <last_name>Petri</last_name>
+          <affiliation>IRIF, Université Paris Diderot</affiliation>
           <bio>undefined</bio>
+          <homepage_url>http://gpetri.github.io/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/gustavopetri/08af6041-7317-4929-9a80-b63b5f03a5b6/small.jpg</picture_url>
         </person>
       </persons>
       <tracks>
@@ -5755,12 +5757,10 @@ Research interests: Energy-Aware Computing, Resource / non-functional property a
         <person>
           <role>Session Chair</role>
           <sort_key>1</sort_key>
-          <first_name>Gustavo</first_name>
-          <last_name>Petri</last_name>
-          <affiliation>IRIF, Université Paris Diderot</affiliation>
+          <first_name>Thomas</first_name>
+          <last_name>H. Hildebrandt</last_name>
+          <affiliation>undefined</affiliation>
           <bio>undefined</bio>
-          <homepage_url>http://gpetri.github.io/</homepage_url>
-          <picture_url>https://popl19.sigplan.org/getProfileImage/gustavopetri/08af6041-7317-4929-9a80-b63b5f03a5b6/small.jpg</picture_url>
         </person>
       </persons>
       <tracks>
