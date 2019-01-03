@@ -1289,6 +1289,7 @@ Our approach starts by adding a new memory handle type to Wasm that expresses me
           <last_name>Watt</last_name>
           <affiliation>University of Cambridge</affiliation>
           <bio>undefined</bio>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/conradwatt/d6df970c-7c11-418a-adb0-789ef78042eb/small.jpg</picture_url>
         </person>
       </persons>
       <tracks>
@@ -2592,6 +2593,8 @@ My research interests dwell in the area of the design and implementation of prog
           <last_name>Larsen</last_name>
           <affiliation>DIKU, University of Copenhagen</affiliation>
           <bio>undefined</bio>
+          <homepage_url>https://www.diku.dk/~kflarsen</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/kenfriislarsen/c3bd441d-cbd0-4363-8229-cc220e96a887/small.jpg</picture_url>
         </person>
       </persons>
       <tracks>
@@ -4158,6 +4161,18 @@ References:
       <date>2019/01/14</date>
       <start_time>14:00</start_time>
       <end_time>15:30</end_time>
+      <persons>
+        <person>
+          <role>Session Chair</role>
+          <sort_key>1</sort_key>
+          <first_name>Thomas P.</first_name>
+          <last_name>Jensen</last_name>
+          <affiliation>INRIA Rennes</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://www.irisa.fr/celtique/jensen/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/thomaspjensen/88563f7d-114a-474a-aa4d-4eb39db60f73/small.jpg</picture_url>
+        </person>
+      </persons>
       <tracks>
         <track>PEPM 2019</track>
       </tracks>
@@ -9316,12 +9331,24 @@ Guarded recursion in the sense of Nakano has recently been suggested as a possib
     </timeslot>
     <timeslot>
       <slot_id>6031916f-9b33-4c96-a591-f9f0a9bb2e67</slot_id>
-      <title>Town Hall</title>
+      <title>State of SIGPLAN</title>
       <room>Hotel Cascais Miragem | Sala I + II</room>
       <date>2019/01/17</date>
       <start_time>17:50</start_time>
       <end_time>18:00</end_time>
       <description>undefined</description>
+      <persons>
+        <person>
+          <role>SIGPLAN Chair</role>
+          <sort_key>1</sort_key>
+          <first_name>Jens</first_name>
+          <last_name>Palsberg</last_name>
+          <affiliation>University of California, Los Angeles (UCLA)</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://www.cs.ucla.edu/~palsberg</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/jenspalsberg/9e470c6a-532d-472c-9fea-253b7fa22c7c/small.jpg</picture_url>
+        </person>
+      </persons>
       <tracks>
         <track>Research Papers</track>
       </tracks>
@@ -12193,6 +12220,7 @@ We provide two implementations of CT-Wasm: an OCaml reference interpreter and a 
           <last_name>Watt</last_name>
           <affiliation>University of Cambridge</affiliation>
           <bio>undefined</bio>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/conradwatt/d6df970c-7c11-418a-adb0-789ef78042eb/small.jpg</picture_url>
         </person>
         <person>
           <role>Author</role>
