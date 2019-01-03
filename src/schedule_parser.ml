@@ -94,82 +94,83 @@ let pages = [
 *)
 
 let subevents : subevent list =
-  [ { se_name   = "19th International Conference on Verification, Model Checking, and Abstract Interpretation"
-    ; se_dates  = ["2018/01/07"; "2018/01/08"; "2018/01/09"]
+  [ { se_name   = "VMCAI 2019 - 20th International Conference on Verification, Model Checking, and Abstract Interpretation"
+    ; se_dates  = ["2019/01/13"; "2019/01/14"; "2019/01/15"]
     ; se_title  = "VMCAI"
     ; se_pos    = 1
     ; se_par    = false
     }
-  ; { se_name   = "— ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
-    ; se_dates  = ["2018/01/08"; "2018/01/09"]
-    ; se_title  = "PEPM"
-    ; se_pos    = 2
-    ; se_par    = false
-    }
   ; { se_name   = "Research Papers"
-    ; se_dates  = ["2018/01/10"; "2018/01/11"; "2018/01/12"]
+    ; se_dates  = ["2019/01/16"; "2019/01/17"; "2019/01/18"]
     ; se_title  = "POPL"
     ; se_pos    = 1
     ; se_par    = true
     }
   ; { se_name   = "TutorialFest"
-    ; se_dates  = ["2018/01/08"]
+    ; se_dates  = ["2019/01/14"]
     ; se_title  = "TutorialFest"
-    ; se_pos    = 5
+    ; se_pos    = 6
     ; se_par    = true
     }
-  ; { se_name   = "CPP 2018 - The 7th ACM SIGPLAN International Conference on Certified Programs and Proofs"
-    ; se_dates  = ["2018/01/08"; "2018/01/09"]
-    ; se_title  = "CPP"
-    ; se_pos    = 4
-    ; se_par    = false
-    }
-  ; { se_name   = "20th International Symposium on  Practical Aspects of Declarative Languages "
-    ; se_dates  = ["2018/01/08"; "2018/01/09"]
-    ; se_title  = "PADL"
+  ; { se_name   = "BEAT 2019: Fourth Workshop on Behavioral Types"
+    ; se_dates  = ["2019/01/13"]
+    ; se_title  = "BEAT"
     ; se_pos    = 3
     ; se_par    = false
     }
-  ; { se_name   = "Off the Beaten Track 2018"
-    ; se_dates  = ["2018/01/13"]
+  ; { se_name   = "OPCT 2019"
+    ; se_dates  = ["2019/01/14"; "2019/01/15"]
+    ; se_title  = "OPCT"
+    ; se_pos    = 5
+    ; se_par    = false
+    }
+
+  ; { se_name   = "CPP 2019 - The 8th ACM SIGPLAN International Conference on Certified Programs and Proofs, January 14-15 2019"
+    ; se_dates  = ["2019/01/14"; "2019/01/15"]
+    ; se_title  = "CPP"
+    ; se_pos    = 3
+    ; se_par    = false
+    }
+  ; { se_name   = "PADL 2019 - 21st International Symposium on Practical Aspects of Declarative Languages"
+    ; se_dates  = ["2019/01/14"; "2019/01/15"]
+    ; se_title  = "PADL"
+    ; se_pos    = 2
+    ; se_par    = false
+    }
+  ; { se_name   = "PEPM 2019"
+    ; se_dates  = ["2019/01/14"; "2019/01/15"]
+    ; se_title  = "PEPM"
+    ; se_pos    = 4
+    ; se_par    = false
+    }
+  ; { se_name   = "Off the Beaten Track 2019"
+    ; se_dates  = ["2019/01/19"]
     ; se_title  = "OBT"
     ; se_pos    = 2
     ; se_par    = false
     }
-  ; { se_name   = "NetPL 2018"
-    ; se_dates  = ["2018/01/09"]
-    ; se_title  = "NetPL"
-    ; se_pos    = 5
-    ; se_par    = false
-    }
-  ; { se_name   = "Programming Languages Mentoring Workshop"
-    ; se_dates  = ["2018/01/09"]
+  ; { se_name   = "Programming Languages Mentoring Workshop 2019"
+    ; se_dates  = ["2019/01/15"]
     ; se_title  = "PLMW"
     ; se_pos    = 7
     ; se_par    = false
     }
-  ; { se_name   = "The Fourth International Workshop on Coq for Programming Languages"
-    ; se_dates  = ["2018/01/13"]
+  ; { se_name   = "The Fifth International Workshop on Coq for Programming Languages"
+    ; se_dates  = ["2019/01/19"]
     ; se_title  = "CoqPL"
     ; se_pos    = 1
     ; se_par    = false
     }
-  ; { se_name   = "Probabilistic Programming Languages, Semantics, and Systems (PPS 2018)"
-    ; se_dates  = ["2018/01/09"]
-    ; se_title  = "PPS"
+  ; { se_name   = "LAFI 2019: Languages for Inference (formerly PPS)"
+    ; se_dates  = ["2019/01/15"]
+    ; se_title  = "LAFI"
     ; se_pos    = 6
     ; se_par    = false
     }
   ; { se_name   = "Principles of Secure Compilation"
-    ; se_dates  = ["2018/01/13"]
+    ; se_dates  = ["2019/01/13"]
     ; se_title  = "PriSC"
-    ; se_pos    = 3
-    ; se_par    = false
-    }
-  ; { se_name   = "Student Research Competition"
-    ; se_dates  = ["2018/01/11"]
-    ; se_title  = "SRC"
-    ; se_pos    = 20
+    ; se_pos    = 2
     ; se_par    = false
     }
   ]
@@ -265,13 +266,13 @@ let session_chairs =
 *)
 
 let days = make_map
-  [ "2018/01/07", "Sunday"
-  ; "2018/01/08", "Monday"
-  ; "2018/01/09", "Tuesday"
-  ; "2018/01/10", "Wednesday"
-  ; "2018/01/11", "Thursday"
-  ; "2018/01/12", "Friday"
-  ; "2018/01/13", "Saturday"
+  [ "2019/01/13", "Sunday"
+  ; "2019/01/14", "Monday"
+  ; "2019/01/15", "Tuesday"
+  ; "2019/01/16", "Wednesday"
+  ; "2019/01/17", "Thursday"
+  ; "2019/01/18", "Friday"
+  ; "2019/01/19", "Saturday"
   ; "",           "Week"
   ]
 
@@ -325,6 +326,7 @@ let replacements = [
   Str.regexp "ė", "e";
   Str.regexp "Σ", "$\\Sigma$";
   Str.regexp "Π", "$\\Pi$";
+  Str.regexp "∇", "$\nabla$";
   Str.regexp "[#%&]", "\\\\\\0";  (* require escaping in TeX *)
 ]
 let protect s =
@@ -454,8 +456,14 @@ let parse_timeslot lst =
   }
 
 
+let starts_with prefix str =
+  let prefix_len = String.length prefix in
+  prefix_len < String.length str
+  && prefix = String.sub str 0 prefix_len
+
 let parse_subevent lst =
   let slots = List.map parse_timeslot (find_elements ~key:"timeslot" lst) in
+  let slots = List.filter (fun slot -> not (starts_with "Session:" slot.t_title)) slots in (* Remove timeslots corresponding to session names *)
   let slots = sort_by (fun t -> t.t_start) slots in
   let time =
     if slots = [] then "" else
@@ -545,7 +553,9 @@ let date_day date =
   String.sub ~pos ~len:(String.length date - pos) date
 
 let get_sessions track sorted =
-    try SMap.find track sorted with Not_found -> []
+  try SMap.find track sorted with Not_found ->
+    prerr_endline ("No sessions for " ^ track);
+    []
 
 let output_page page (* ?(date="") ?(title=track) *) oc sessions =
   let date = page.tr_date in
