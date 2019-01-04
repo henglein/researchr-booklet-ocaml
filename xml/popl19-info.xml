@@ -295,13 +295,13 @@ His recent work has combined ideas from PL and cryptography, e.g., to ensure pri
   </event_details>
   <subevent>
     <subevent_id>b446a052-3e47-410e-8386-1dfe779069f7</subevent_id>
-    <title>POPL Student Research Competition: SRC Reception</title>
+    <title>POPL Student Research Competition: Microsoft and SRC Reception</title>
     <timeslot>
       <slot_id>1d8634ef-86b2-40fd-9004-94136b0dd3a0</slot_id>
-      <title>Session: POPL Student Research Competition - SRC Reception</title>
+      <title>Session: POPL Student Research Competition - Microsoft and SRC Reception</title>
       <room>Hotel Cascais Miragem | Galeria</room>
       <date>2019/01/16</date>
-      <start_time>18:30</start_time>
+      <start_time>18:00</start_time>
       <end_time>19:30</end_time>
       <tracks>
         <track>Student Research Competition</track>
@@ -316,11 +316,11 @@ His recent work has combined ideas from PL and cryptography, e.g., to ensure pri
       <track>Student Research Competition</track>
     </tracks>
     <timeslot>
-      <slot_id>0052ec68-15fe-48db-be4c-d718b4121cab</slot_id>
-      <title>SRC Reception</title>
+      <slot_id>eca33e38-ff5e-496f-bad0-d4b07471b66d</slot_id>
+      <title>Microsoft and SRC Reception</title>
       <room>Hotel Cascais Miragem | Galeria</room>
       <date>2019/01/16</date>
-      <start_time>18:30</start_time>
+      <start_time>18:00</start_time>
       <end_time>19:30</end_time>
       <description>undefined</description>
       <tracks>
@@ -558,7 +558,7 @@ I was the Program Chair for OOPSLA 2014.</bio>
     </timeslot>
     <timeslot>
       <slot_id>6ee06ea3-5287-4d22-8a18-738a8a2d7d63</slot_id>
-      <title>Verified equational reasoning on a little language of measures</title>
+      <title>Verified Equational Reasoning on a Little Language of Measures</title>
       <room>Hotel Cascais Miragem | Sala VI   </room>
       <date>2019/01/15</date>
       <start_time>17:00</start_time>
@@ -619,29 +619,6 @@ Moreover it is intensional: occurrences of sampling and conditioning are recorde
         <track>LAFI 2019: Languages for Inference (formerly PPS)</track>
       </tracks>
     </timeslot>
-  </subevent>
-  <subevent>
-    <subevent_id>561d406f-dcb2-4f2b-a90a-f9e0403f395d</subevent_id>
-    <title>Off the Beaten Track: Informal + Business meeting</title>
-    <timeslot>
-      <slot_id>e9b2cdec-6700-4532-ac52-9d24e53d1b28</slot_id>
-      <title>Session: Off the Beaten Track - Informal + Business meeting</title>
-      <room>Hotel Cascais Miragem | Sala VII</room>
-      <date>2019/01/19</date>
-      <start_time>16:00</start_time>
-      <end_time>17:30</end_time>
-      <tracks>
-        <track>Off the Beaten Track 2019</track>
-      </tracks>
-    </timeslot>
-    <subevent_type type="regular"/>
-    <room>Hotel Cascais Miragem | Sala VII</room>
-    <date>2019/01/19</date>
-    <url>https://popl19.sigplan.org/track/OBT-2019-papers</url>
-    <url_link_display>Off the Beaten Track 2019</url_link_display>
-    <tracks>
-      <track>Off the Beaten Track 2019</track>
-    </tracks>
   </subevent>
   <subevent>
     <subevent_id>bdbb53da-f53e-41a2-a96f-3f0349786fe3</subevent_id>
@@ -806,10 +783,10 @@ Moreover it is intensional: occurrences of sampling and conditioning are recorde
   </subevent>
   <subevent>
     <subevent_id>63b6789c-b57d-4f6e-8fcb-0717b9731d10</subevent_id>
-    <title>CoqPL: Contributed talks 3 &amp; Coq developers</title>
+    <title>CoqPL: Contributed Talks 3 &amp; Coq Developers</title>
     <timeslot>
       <slot_id>66799446-89a4-4dc2-b8d8-e0bf3b2e153b</slot_id>
-      <title>Session: CoqPL - Contributed talks 3 &amp; Coq developers</title>
+      <title>Session: CoqPL - Contributed Talks 3 &amp; Coq Developers</title>
       <room>Hotel Cascais Miragem | Sala VI</room>
       <date>2019/01/19</date>
       <start_time>14:00</start_time>
@@ -828,7 +805,7 @@ Moreover it is intensional: occurrences of sampling and conditioning are recorde
     </tracks>
     <timeslot>
       <slot_id>3c065112-fdc6-4ae9-b683-547b4eb8daea</slot_id>
-      <title>Reifying and translating a monadic fragment of Gallina</title>
+      <title>Reifying and Translating a Monadic Fragment of Gallina</title>
       <room>Hotel Cascais Miragem | Sala VI</room>
       <date>2019/01/19</date>
       <start_time>14:25</start_time>
@@ -850,7 +827,7 @@ Moreover it is intensional: occurrences of sampling and conditioning are recorde
     </timeslot>
     <timeslot>
       <slot_id>a35159cf-5f72-403f-9e2f-5c9ba77111d7</slot_id>
-      <title>Reification of shallow-embedded DSLs in Coq with automated verification</title>
+      <title>Reification of Shallow-Embedded DSLs in Coq with Automated Verification</title>
       <room>Hotel Cascais Miragem | Sala VI</room>
       <date>2019/01/19</date>
       <start_time>14:00</start_time>
@@ -1016,7 +993,7 @@ Main research problem is how to ensure that inherently concurrent, highly distri
     </timeslot>
     <timeslot>
       <slot_id>87c8a713-6b4b-4e60-9a77-f1d704681548</slot_id>
-      <title>Checking the equivalence of context-free session types</title>
+      <title>Checking the Equivalence of Context-Free Session Types</title>
       <room>Hotel Cascais Miragem | Sala VII</room>
       <date>2019/01/13</date>
       <start_time>09:50</start_time>
@@ -1048,7 +1025,7 @@ Main research problem is how to ensure that inherently concurrent, highly distri
     </timeslot>
     <timeslot>
       <slot_id>a85143b7-dd78-4c7e-a7fc-d673715d7a37</slot_id>
-      <title>Effpi: concurrent programming with dependent behavioural types</title>
+      <title>Effpi: Concurrent Programming with Dependent Behavioural Types</title>
       <room>Hotel Cascais Miragem | Sala VII</room>
       <date>2019/01/13</date>
       <start_time>10:10</start_time>
@@ -1125,10 +1102,10 @@ The foundation of Effpi is a concurrent functional language with a novel blend o
   </subevent>
   <subevent>
     <subevent_id>64a67941-b47a-491b-8411-ac22b0c55cec</subevent_id>
-    <title>CoqPL: Contributed talks 4</title>
+    <title>CoqPL: Contributed Talks 4</title>
     <timeslot>
       <slot_id>17c28538-e3f4-48e9-8a3f-c65f0169dda4</slot_id>
-      <title>Session: CoqPL - Contributed talks 4</title>
+      <title>Session: CoqPL - Contributed Talks 4</title>
       <room>Hotel Cascais Miragem | Sala VI</room>
       <date>2019/01/19</date>
       <start_time>16:00</start_time>
@@ -1324,6 +1301,7 @@ Our approach starts by adding a new memory handle type to Wasm that expresses me
           <last_name>Watt</last_name>
           <affiliation>University of Cambridge</affiliation>
           <bio>undefined</bio>
+          <homepage_url>https://www.cl.cam.ac.uk/~caw77/</homepage_url>
           <picture_url>https://popl19.sigplan.org/getProfileImage/conradwatt/d6df970c-7c11-418a-adb0-789ef78042eb/small.jpg</picture_url>
         </person>
       </persons>
@@ -1333,7 +1311,7 @@ Our approach starts by adding a new memory handle type to Wasm that expresses me
     </timeslot>
     <timeslot>
       <slot_id>bf76f2b9-0c79-4264-b218-90f6657be8bd</slot_id>
-      <title>Protecting C++ applications using CHERI</title>
+      <title>Protecting C++ Applications Using CHERI</title>
       <room>Hotel Cascais Miragem | Sala VI   </room>
       <date>2019/01/13</date>
       <start_time>11:30</start_time>
@@ -1512,64 +1490,6 @@ Our approach starts by adding a new memory handle type to Wasm that expresses me
       </persons>
       <tracks>
         <track>Programming Languages Mentoring Workshop 2019</track>
-      </tracks>
-    </timeslot>
-  </subevent>
-  <subevent>
-    <subevent_id>6d880da9-3e15-41d1-9a82-6753312dc3e6</subevent_id>
-    <title>Off the Beaten Track: Keynote</title>
-    <timeslot>
-      <slot_id>7a94d797-0da2-4a9d-b22b-4ec215b33014</slot_id>
-      <title>Session: Off the Beaten Track - Keynote</title>
-      <room>Hotel Cascais Miragem | Sala VII</room>
-      <date>2019/01/19</date>
-      <start_time>09:00</start_time>
-      <end_time>10:30</end_time>
-      <persons>
-        <person>
-          <role>Session Chair</role>
-          <sort_key>1</sort_key>
-          <first_name>Luke</first_name>
-          <last_name>Church</last_name>
-          <affiliation>undefined</affiliation>
-          <bio>undefined</bio>
-          <picture_url>https://popl19.sigplan.org/getProfileImage/lukechurch/3ab26f57-3738-4a38-a8be-8f6d1b69cd8f/small.jpg</picture_url>
-        </person>
-      </persons>
-      <tracks>
-        <track>Off the Beaten Track 2019</track>
-      </tracks>
-    </timeslot>
-    <subevent_type type="regular"/>
-    <room>Hotel Cascais Miragem | Sala VII</room>
-    <date>2019/01/19</date>
-    <url>https://popl19.sigplan.org/track/OBT-2019-papers</url>
-    <url_link_display>Off the Beaten Track 2019</url_link_display>
-    <tracks>
-      <track>Off the Beaten Track 2019</track>
-    </tracks>
-    <timeslot>
-      <slot_id>ce3104a2-c62b-49cf-ac62-499709087c84</slot_id>
-      <title>De-escalating software (Keynote by Stephen Kell)</title>
-      <room>Hotel Cascais Miragem | Sala VII</room>
-      <date>2019/01/19</date>
-      <start_time>09:30</start_time>
-      <end_time>10:30</end_time>
-      <description>What are the principles of programming languages? The world-view of mainstream programming language-related research has changed little since the 1970s. Programs should be correct and efficient; languages should engender those qualities, Latent among this is another 1970s idea: that growth in infrastructural complexity is the expected trajectory of development, and that the power of mechanisation will render that complexity tractable. In many domains of human activity, such as farming, transportation, corporate management and education, that thinking is showing its limitations. What about software? In this talk, which will offer far more questions than answers, I’ll consider what research goals and avenues might emerge from certain alternative principles inspired by an analogous reaction against convention. Among the alternative principles I’ll discuss are ones I’ll call authorial capability (influencing e.g. approaches to modularity and refactoring), complexity budgeting (influencing e.g. approaches to build tooling, dependency management and testing), and scaling via federation (influencing approaches to distribution and interface specification).</description>
-      <persons>
-        <person>
-          <role>Author</role>
-          <sort_key>1</sort_key>
-          <first_name>Stephen</first_name>
-          <last_name>Kell</last_name>
-          <affiliation>University of Kent</affiliation>
-          <bio>undefined</bio>
-          <homepage_url>http://www.cs.kent.ac.uk/people/staff/srk21</homepage_url>
-          <picture_url>https://popl19.sigplan.org/getProfileImage/stephenkell/53088184-3e8c-4a2c-b34f-b2a290cff411/small.jpg</picture_url>
-        </person>
-      </persons>
-      <tracks>
-        <track>Off the Beaten Track 2019</track>
       </tracks>
     </timeslot>
   </subevent>
@@ -2028,7 +1948,7 @@ We present on-going work which is motivated –on one hand– by such a question
     </timeslot>
     <timeslot>
       <slot_id>dab3b1e4-3ca1-4490-81f7-c35252cf98cb</slot_id>
-      <title>Invited talk: Connecting probabilistic programming theory to applications in Stan</title>
+      <title>Invited talk: Connecting Probabilistic Programming Theory to Applications in Stan</title>
       <room>Hotel Cascais Miragem | Sala VI   </room>
       <date>2019/01/15</date>
       <start_time>09:30</start_time>
@@ -2179,7 +2099,7 @@ Combinators are functions that accept probabilistic programs and return probabil
     </timeslot>
     <timeslot>
       <slot_id>faaac943-15d2-4482-a7c2-d86d1edf94b1</slot_id>
-      <title>Strongly typed tracing of probabilistic programs</title>
+      <title>Strongly Typed Tracing of Probabilistic Programs</title>
       <room>Hotel Cascais Miragem | Sala VI   </room>
       <date>2019/01/15</date>
       <start_time>11:00</start_time>
@@ -2212,10 +2132,10 @@ In this work we propose a method for constructing traces in PPLs in a statically
   </subevent>
   <subevent>
     <subevent_id>a855ef73-4a02-4d9d-a518-cf96fd0709c9</subevent_id>
-    <title>CoqPL: Keynote &amp; Contributed talks 1</title>
+    <title>CoqPL: Keynote &amp; Contributed Talks 1</title>
     <timeslot>
       <slot_id>90bfcc9d-534e-44b2-9a64-42726c49f128</slot_id>
-      <title>Session: CoqPL - Keynote &amp; Contributed talks 1</title>
+      <title>Session: CoqPL - Keynote &amp; Contributed Talks 1</title>
       <room>Hotel Cascais Miragem | Sala VI</room>
       <date>2019/01/19</date>
       <start_time>09:00</start_time>
@@ -2382,10 +2302,10 @@ A common practice is to model a program and its invariants using logical formula
   </subevent>
   <subevent>
     <subevent_id>4589cfb1-5100-43ca-96de-dbf88da5f3fc</subevent_id>
-    <title>CoqPL: Contributed talks 2</title>
+    <title>CoqPL: Contributed Talks 2</title>
     <timeslot>
       <slot_id>e603bff3-aebe-49f4-87c4-7d4cb8e9631e</slot_id>
-      <title>Session: CoqPL - Contributed talks 2</title>
+      <title>Session: CoqPL - Contributed Talks 2</title>
       <room>Hotel Cascais Miragem | Sala VI</room>
       <date>2019/01/19</date>
       <start_time>11:15</start_time>
@@ -2450,7 +2370,7 @@ My research interests dwell in the area of the design and implementation of prog
     </timeslot>
     <timeslot>
       <slot_id>c325b1e2-bcda-41c4-a314-82bdb1e896bf</slot_id>
-      <title>WIP: Formalizing the Concordium consensus protocol in Coq</title>
+      <title>WIP: Formalizing the Concordium Consensus Protocol in Coq</title>
       <room>Hotel Cascais Miragem | Sala VI</room>
       <date>2019/01/19</date>
       <start_time>12:05</start_time>
@@ -2549,175 +2469,6 @@ My research interests dwell in the area of the design and implementation of prog
     </timeslot>
   </subevent>
   <subevent>
-    <subevent_id>278fd069-7151-4706-8784-1e463ba65c06</subevent_id>
-    <title>Off the Beaten Track: Afternoon talks</title>
-    <timeslot>
-      <slot_id>29dd379a-9b1f-4f7b-befd-4df1453f72c8</slot_id>
-      <title>Session: Off the Beaten Track - Afternoon talks</title>
-      <room>Hotel Cascais Miragem | Sala VII</room>
-      <date>2019/01/19</date>
-      <start_time>14:00</start_time>
-      <end_time>15:30</end_time>
-      <persons>
-        <person>
-          <role>Session Chair</role>
-          <sort_key>1</sort_key>
-          <first_name>Luke</first_name>
-          <last_name>Church</last_name>
-          <affiliation>undefined</affiliation>
-          <bio>undefined</bio>
-          <picture_url>https://popl19.sigplan.org/getProfileImage/lukechurch/3ab26f57-3738-4a38-a8be-8f6d1b69cd8f/small.jpg</picture_url>
-        </person>
-      </persons>
-      <tracks>
-        <track>Off the Beaten Track 2019</track>
-      </tracks>
-    </timeslot>
-    <subevent_type type="regular"/>
-    <room>Hotel Cascais Miragem | Sala VII</room>
-    <date>2019/01/19</date>
-    <url>https://popl19.sigplan.org/track/OBT-2019-papers</url>
-    <url_link_display>Off the Beaten Track 2019</url_link_display>
-    <tracks>
-      <track>Off the Beaten Track 2019</track>
-    </tracks>
-    <timeslot>
-      <slot_id>000b876b-8c96-4b15-b8e0-7cbfe0ec5bb1</slot_id>
-      <title>Design Critique and discussion</title>
-      <room>Hotel Cascais Miragem | Sala VII</room>
-      <date>2019/01/19</date>
-      <start_time>14:00</start_time>
-      <end_time>14:45</end_time>
-      <description>undefined</description>
-      <persons>
-        <person>
-          <role>Chair</role>
-          <sort_key>1</sort_key>
-          <first_name>Luke</first_name>
-          <last_name>Church</last_name>
-          <affiliation>undefined</affiliation>
-          <bio>undefined</bio>
-          <picture_url>https://popl19.sigplan.org/getProfileImage/lukechurch/3ab26f57-3738-4a38-a8be-8f6d1b69cd8f/small.jpg</picture_url>
-        </person>
-      </persons>
-      <tracks>
-        <track>Off the Beaten Track 2019</track>
-      </tracks>
-    </timeslot>
-    <timeslot>
-      <slot_id>22411843-0afe-4596-b715-624e44bb5927</slot_id>
-      <title>F a Language for Music Composition</title>
-      <room>Hotel Cascais Miragem | Sala VII</room>
-      <date>2019/01/19</date>
-      <start_time>14:45</start_time>
-      <end_time>15:30</end_time>
-      <description>In this paper we introduce the declarative language F for music composition. F supports music composition at a higher level of abstraction than traditional sheet music. Composers are able to express themselves at a high level of abstraction throughout the entire process of composing a piece, and we sketch some of the available transformation of the various component of a composition. F is currently still at a prototype stage (version 0.8), but we hope to evolve the language to be useful in many areas of computer aided music composition and analysis.</description>
-      <persons>
-        <person>
-          <role>Author</role>
-          <sort_key>1</sort_key>
-          <first_name>Joachim</first_name>
-          <last_name>Kristensen</last_name>
-          <affiliation>undefined</affiliation>
-          <bio>undefined</bio>
-        </person>
-        <person>
-          <role>Author</role>
-          <sort_key>2</sort_key>
-          <first_name>Ken Friis</first_name>
-          <last_name>Larsen</last_name>
-          <affiliation>DIKU, University of Copenhagen</affiliation>
-          <bio>undefined</bio>
-          <homepage_url>https://www.diku.dk/~kflarsen</homepage_url>
-          <picture_url>https://popl19.sigplan.org/getProfileImage/kenfriislarsen/c3bd441d-cbd0-4363-8229-cc220e96a887/small.jpg</picture_url>
-        </person>
-      </persons>
-      <tracks>
-        <track>Off the Beaten Track 2019</track>
-      </tracks>
-    </timeslot>
-  </subevent>
-  <subevent>
-    <subevent_id>23a658db-384b-441f-9a7b-31808d9d80b9</subevent_id>
-    <title>Off the Beaten Track: Morning Papers</title>
-    <timeslot>
-      <slot_id>e5bf72bc-a622-4e93-a94c-533e4df86eda</slot_id>
-      <title>Session: Off the Beaten Track - Morning Papers</title>
-      <room>Hotel Cascais Miragem | Sala VII</room>
-      <date>2019/01/19</date>
-      <start_time>11:00</start_time>
-      <end_time>12:30</end_time>
-      <persons>
-        <person>
-          <role>Session Chair</role>
-          <sort_key>1</sort_key>
-          <first_name>Michael</first_name>
-          <last_name>Greenberg</last_name>
-          <affiliation>Pomona College</affiliation>
-          <bio>undefined</bio>
-          <homepage_url>http://www.cs.pomona.edu/~michael/</homepage_url>
-          <picture_url>https://popl19.sigplan.org/getProfileImage/michaelgreenberg/3c177ea6-ac3c-4ddb-9f4e-ac5d7b568e07/small.jpg</picture_url>
-        </person>
-      </persons>
-      <tracks>
-        <track>Off the Beaten Track 2019</track>
-      </tracks>
-    </timeslot>
-    <subevent_type type="regular"/>
-    <room>Hotel Cascais Miragem | Sala VII</room>
-    <date>2019/01/19</date>
-    <url>https://popl19.sigplan.org/track/OBT-2019-papers</url>
-    <url_link_display>Off the Beaten Track 2019</url_link_display>
-    <tracks>
-      <track>Off the Beaten Track 2019</track>
-    </tracks>
-    <timeslot>
-      <slot_id>4de42d54-19c1-4153-a0a8-b4aa32a3506c</slot_id>
-      <title>From Tactics to Structure Editors for Proofs</title>
-      <room>Hotel Cascais Miragem | Sala VII</room>
-      <date>2019/01/19</date>
-      <start_time>11:45</start_time>
-      <end_time>12:30</end_time>
-      <description>For many users of theorem provers, tactics are merely an inelegant solution to a difficult problem. However, we believe that tactics deserve more attention and appraisal, and well-designed tactics are actually a well-structured way to construct programs. In this work, we will explore the connection between tactics and structure editors, as well as emphasize the importance of designing tactics with well-defined semantics with respect to proof terms and proof states.</description>
-      <persons>
-        <person>
-          <role>Author</role>
-          <sort_key>1</sort_key>
-          <first_name>Xuanrui (Ray)</first_name>
-          <last_name>Qi</last_name>
-          <affiliation>Tufts University</affiliation>
-          <bio>I am a master’s student in computer science at Tufts University, where I am advised by Sam Guyer. Previously, I was a research visitor at Nagoya University, Japan, working with Jacques Garrigue, and before that an undergraduate student at Tufts University, from where I graduated with a B.S. in 2018.</bio>
-          <homepage_url>https://www.xuanruiqi.com</homepage_url>
-        </person>
-      </persons>
-      <tracks>
-        <track>Off the Beaten Track 2019</track>
-      </tracks>
-    </timeslot>
-    <timeslot>
-      <slot_id>a238d80f-e5ed-46a6-bef9-b0c34db4d91c</slot_id>
-      <title>Facile : A Domain Specific Language and Compiler for Program Analysis and Optimization </title>
-      <room>Hotel Cascais Miragem | Sala VII</room>
-      <date>2019/01/19</date>
-      <start_time>11:00</start_time>
-      <end_time>11:45</end_time>
-      <description>Research on program analyses and optimizations has advanced a lot and is able to provide insightful diagnostics and generate high performant code for various targets over past few years. However, it is still a cumbersome task to implement compiler algorithms which analyze or perform optimizations as it requires the knowledge of compiler infrastructure and related tools; a researcher, who is well versed in compilers needs to know the internals of the compiler infrastructure (like LLVM or GCC) in order to implement even a simple analysis pass. This poses hindrance in rapid prototyping and experimentation of new compiler algorithms. We propose a domain specific language called Facile which aims to reduce this burden off the compiler developers by allowing them to express data-flow and control-flow algorithms at higher lever of abstraction. The Facile compiler lowers the code written in Facile language to a compiler infrastructure specific pass(es) and generates final executable. We demonstrate the effectiveness of our language with a real-world use case and explain the tool chain required to implement the language.</description>
-      <persons>
-        <person>
-          <role>Author</role>
-          <sort_key>1</sort_key>
-          <first_name>Madhur</first_name>
-          <last_name>Amilkanthwar</last_name>
-          <affiliation>undefined</affiliation>
-          <bio>undefined</bio>
-        </person>
-      </persons>
-      <tracks>
-        <track>Off the Beaten Track 2019</track>
-      </tracks>
-    </timeslot>
-  </subevent>
-  <subevent>
     <subevent_id>a349c411-9dfd-45e2-8e0c-2b89e078882a</subevent_id>
     <title>BEAT: Session 3</title>
     <timeslot>
@@ -2805,7 +2556,7 @@ Before joining Carnegie Mellon, I was an Associate Research Scientist in the Dep
     </timeslot>
     <timeslot>
       <slot_id>ec9116a7-b5de-46de-919d-e39df3359099</slot_id>
-      <title>Getting rid of null-dereferences – Behavioural types to the rescue</title>
+      <title>Getting Rid of Null-Dereferences – Behavioural Types to the Rescue</title>
       <room>Hotel Cascais Miragem | Sala VII</room>
       <date>2019/01/13</date>
       <start_time>15:10</start_time>
@@ -2965,7 +2716,7 @@ Main research problem is how to ensure that inherently concurrent, highly distri
     </timeslot>
     <timeslot>
       <slot_id>4d41af4e-39d3-47d3-8041-61849daf9131</slot_id>
-      <title>Behavioral Types as a Semantic Foundation for the GDPR notion of Purpose</title>
+      <title>Behavioral Types as a Semantic Foundation for the GDPR Notion of Purpose</title>
       <room>Hotel Cascais Miragem | Sala VII</room>
       <date>2019/01/13</date>
       <start_time>16:50</start_time>
@@ -3106,7 +2857,7 @@ The talk is about an extension of multi-party session types to capture faults du
     </timeslot>
     <timeslot>
       <slot_id>91d56044-5d0e-4745-87ab-a029adf730d0</slot_id>
-      <title>Hardware interactions as behavioural types</title>
+      <title>Hardware Interactions as Behavioural Types</title>
       <room>Hotel Cascais Miragem | Sala VII</room>
       <date>2019/01/13</date>
       <start_time>18:00</start_time>
@@ -3175,7 +2926,7 @@ Past experience, includes being a research assistant at Imperial College London,
     </tracks>
     <timeslot>
       <slot_id>31568763-c8fa-40c1-bc8e-e8384a53fb3e</slot_id>
-      <title>Kotlin∇: Differentiable functional programming with algebraic data types</title>
+      <title>Kotlin∇: Differentiable Functional Programming with Algebraic Data Types</title>
       <room>Hotel Cascais Miragem | Sala VI   </room>
       <date>2019/01/15</date>
       <start_time>14:30</start_time>
@@ -3258,10 +3009,10 @@ We obtain significant speed ups across a suite of PPL workloads, compared to oth
   </subevent>
   <subevent>
     <subevent_id>2649ce83-5617-4f6d-b2c7-c4de64e227f5</subevent_id>
-    <title>OPCT: EQUATIONAL CHARACTERISATIONS, TRANSACTIONS</title>
+    <title>OPCT: Equational Characterisations, Transactions</title>
     <timeslot>
       <slot_id>b500905c-67e3-4cd0-b381-ed38ccc80418</slot_id>
-      <title>Session: OPCT - EQUATIONAL CHARACTERISATIONS, TRANSACTIONS</title>
+      <title>Session: OPCT - Equational Characterisations, Transactions</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/15</date>
       <start_time>09:00</start_time>
@@ -3315,7 +3066,7 @@ We obtain significant speed ups across a suite of PPL workloads, compared to oth
     </timeslot>
     <timeslot>
       <slot_id>5a4b50a7-4f59-47d6-8051-dffb0fcf7700</slot_id>
-      <title>A uniform framework of transactional consistency models for protocol verification and program analysis</title>
+      <title>A Uniform Framework of Transactional Consistency Models for Protocol Verification and Program Analysis</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/15</date>
       <start_time>10:05</start_time>
@@ -3338,7 +3089,7 @@ We obtain significant speed ups across a suite of PPL workloads, compared to oth
     </timeslot>
     <timeslot>
       <slot_id>6c071f54-51c5-4e12-baed-ae8e740bd62e</slot_id>
-      <title>Revised semantics for sequential composition in the presence of successful termination (tentative)</title>
+      <title>Revised Semantics for Sequential Composition in the Presence of Successful Termination (Tentative)</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/15</date>
       <start_time>09:15</start_time>
@@ -3384,7 +3135,7 @@ We obtain significant speed ups across a suite of PPL workloads, compared to oth
     </tracks>
     <timeslot>
       <slot_id>0be3ccf3-b32b-40b8-9f94-424b85918bfe</slot_id>
-      <title>A proof-theoretic approach to certifying skolemization</title>
+      <title>A Proof-Theoretic Approach to Certifying Skolemization</title>
       <room>Hotel Cascais Miragem | Sala XII</room>
       <date>2019/01/14</date>
       <start_time>11:00</start_time>
@@ -3519,10 +3270,10 @@ Miller was a two-term editor-in-chief of the ACM Transactions on Computational L
   </subevent>
   <subevent>
     <subevent_id>e3872eb2-a897-49c1-973d-b5dedb2da14b</subevent_id>
-    <title>OPCT: SESSION TYPES,  GRAPH-REWRITING</title>
+    <title>OPCT: Session Types, Graph-Rewriting</title>
     <timeslot>
       <slot_id>2944498b-2baf-4c54-b6bd-caf5cb3cc84c</slot_id>
-      <title>Session: OPCT - SESSION TYPES,  GRAPH-REWRITING</title>
+      <title>Session: OPCT - Session Types, Graph-Rewriting</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/14</date>
       <start_time>13:50</start_time>
@@ -3578,7 +3329,7 @@ Main research problem is how to ensure that inherently concurrent, highly distri
     </timeslot>
     <timeslot>
       <slot_id>cb851209-d5de-4fcf-ae9c-ca811ca47b3e</slot_id>
-      <title>Multiparty reactive sessions</title>
+      <title>Multiparty Reactive Sessions</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/14</date>
       <start_time>14:40</start_time>
@@ -3601,7 +3352,7 @@ Main research problem is how to ensure that inherently concurrent, highly distri
     </timeslot>
     <timeslot>
       <slot_id>dc869a60-4e99-4c1b-8a24-1cfd340f1954</slot_id>
-      <title>From testing preorders to flaky tests</title>
+      <title>From Testing Preorders to Flaky Tests</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/14</date>
       <start_time>14:15</start_time>
@@ -3849,10 +3600,10 @@ In 2014, I moved to Chalmers where I became a tenured Associate Professor in 201
   </subevent>
   <subevent>
     <subevent_id>510ef282-731a-46cf-8b14-fc4ff00045df</subevent_id>
-    <title>OPCT: CONCURRENT PROGRAMMING, MEMORY MODELS</title>
+    <title>OPCT: Concurrent Programming, Memory Models</title>
     <timeslot>
       <slot_id>f1500f89-cd43-431e-87ab-5fa7dc2e8d81</slot_id>
-      <title>Session: OPCT - CONCURRENT PROGRAMMING, MEMORY MODELS</title>
+      <title>Session: OPCT - Concurrent Programming, Memory Models</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/14</date>
       <start_time>16:00</start_time>
@@ -3932,7 +3683,7 @@ In 2015 I received a PhD (DPhil) in Computer Science from the University of Oxfo
     </timeslot>
     <timeslot>
       <slot_id>5ef91018-3e71-43cf-9f55-f0586ca2b132</slot_id>
-      <title>Linearizability in the context of weak memory models</title>
+      <title>Linearizability in the Context of Weak Memory Models</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/14</date>
       <start_time>16:00</start_time>
@@ -4047,7 +3798,7 @@ Research interests: Energy-Aware Computing, Resource / non-functional property a
     </timeslot>
     <timeslot>
       <slot_id>856c0cfa-3d1b-45eb-8e89-87e88fb098dc</slot_id>
-      <title>Applying Futamura projections to compose languages and tools in GraalVM (Invited Talk)</title>
+      <title>Applying Futamura Projections to Compose Languages and Tools in GraalVM (Invited Talk)</title>
       <room>Hotel Cascais Miragem | Sala X</room>
       <date>2019/01/14</date>
       <start_time>11:05</start_time>
@@ -4073,10 +3824,10 @@ References:
   </subevent>
   <subevent>
     <subevent_id>397d6d2c-3d5b-4db8-abcd-f0e6583c923f</subevent_id>
-    <title>OPCT: ALGEBRA, COALGEBRA</title>
+    <title>OPCT: Algebra, Coalgebra</title>
     <timeslot>
       <slot_id>322ac301-9c66-4c71-acb8-d664240a84ac</slot_id>
-      <title>Session: OPCT - ALGEBRA, COALGEBRA</title>
+      <title>Session: OPCT - Algebra, Coalgebra</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/15</date>
       <start_time>16:00</start_time>
@@ -4119,7 +3870,7 @@ References:
     </timeslot>
     <timeslot>
       <slot_id>131e9d8a-37b3-41f4-8e66-7e19cfa7b4b9</slot_id>
-      <title>A metric semantics for coordination languages</title>
+      <title>A Metric Semantics for Coordination Languages</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/15</date>
       <start_time>16:25</start_time>
@@ -4141,7 +3892,7 @@ References:
     </timeslot>
     <timeslot>
       <slot_id>238f2ff9-3629-4373-b2eb-b3f0954ab62e</slot_id>
-      <title>Hybrid system iteration</title>
+      <title>Hybrid System Iteration</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/15</date>
       <start_time>16:50</start_time>
@@ -4357,10 +4108,10 @@ In this paper, we present the Tyre library which provides type-indexed combinato
   </subevent>
   <subevent>
     <subevent_id>926e6623-b139-461a-8a74-80016c5601c5</subevent_id>
-    <title>OPCT: ALGEBRA, COALGEBRA, MODEL CHECKING</title>
+    <title>OPCT: Algebra, Coalgebra, Model Checking</title>
     <timeslot>
       <slot_id>e9df8d7b-5397-495d-ad27-3e1ecf014f0b</slot_id>
-      <title>Session: OPCT - ALGEBRA, COALGEBRA, MODEL CHECKING</title>
+      <title>Session: OPCT - Algebra, Coalgebra, Model Checking</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/15</date>
       <start_time>13:50</start_time>
@@ -4389,7 +4140,7 @@ In this paper, we present the Tyre library which provides type-indexed combinato
     </tracks>
     <timeslot>
       <slot_id>76af802f-897d-4ced-a378-5dec059b2e76</slot_id>
-      <title>Model checking true concurrency properties</title>
+      <title>Model Checking True Concurrency Properties</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/15</date>
       <start_time>14:15</start_time>
@@ -4484,10 +4235,10 @@ In this paper, we present the Tyre library which provides type-indexed combinato
   </subevent>
   <subevent>
     <subevent_id>5ba15aeb-b489-4476-8815-ce1f2caed6c3</subevent_id>
-    <title>OPCT: CYBERPHYSICAL SYSTEMS, HYBRID SYSTEMS</title>
+    <title>OPCT: Cyberphysical Systems, Hybrid Systems</title>
     <timeslot>
       <slot_id>0b7ab47b-8af0-4a1b-9636-56e7311d2a78</slot_id>
-      <title>Session: OPCT - CYBERPHYSICAL SYSTEMS, HYBRID SYSTEMS</title>
+      <title>Session: OPCT - Cyberphysical Systems, Hybrid Systems</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/15</date>
       <start_time>11:15</start_time>
@@ -4517,7 +4268,7 @@ In this paper, we present the Tyre library which provides type-indexed combinato
     </tracks>
     <timeslot>
       <slot_id>3675fa28-e78d-432d-b448-b9dccac8f29f</slot_id>
-      <title>Attribute based communication for Collective Adaptive Systems</title>
+      <title>Attribute Based Communication for Collective Adaptive Systems</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/15</date>
       <start_time>11:40</start_time>
@@ -4563,7 +4314,7 @@ In this paper, we present the Tyre library which provides type-indexed combinato
     </timeslot>
     <timeslot>
       <slot_id>e883a236-8551-496b-b872-9f363f937b6c</slot_id>
-      <title>Hybrid systems reachability analysis</title>
+      <title>Hybrid Systems Reachability Analysis</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/15</date>
       <start_time>11:15</start_time>
@@ -4934,7 +4685,7 @@ Unfortunately, currently MetaOCaml can only build recursive groups whose size is
     </tracks>
     <timeslot>
       <slot_id>24198080-1563-456b-93f0-5830959ad170</slot_id>
-      <title>A formal proof of Hensel's lemma over the p-adic integers</title>
+      <title>A Formal Proof of Hensel's Lemma over the p-adic Integers</title>
       <room>Hotel Cascais Miragem | Sala XII</room>
       <date>2019/01/14</date>
       <start_time>16:00</start_time>
@@ -5152,7 +4903,7 @@ In this paper, we have strengthened the root-counting ability in Isabelle/HOL by
     </tracks>
     <timeslot>
       <slot_id>33dc2adf-8c5a-4820-9762-1a4bfafee9f6</slot_id>
-      <title>A Coq mechanised formal semantics for realistic SQL queries - Formally reconciling SQL and bag relational algebra</title>
+      <title>A Coq Mechanised Formal Semantics for Realistic SQL Queries - Formally Reconciling SQL and Bag Relational Algebra</title>
       <room>Hotel Cascais Miragem | Sala XII</room>
       <date>2019/01/15</date>
       <start_time>14:30</start_time>
@@ -5385,7 +5136,7 @@ In this work, we formally verify a compiler for a realistic subset of the popula
     </tracks>
     <timeslot>
       <slot_id>84e7ad6f-d622-4006-a08e-2f0273001a0e</slot_id>
-      <title>What is the type of a partial evaluator? (Invited Talk)</title>
+      <title>What Is the Type of a Partial Evaluator? (Invited Talk)</title>
       <room>Hotel Cascais Miragem | Sala X</room>
       <date>2019/01/14</date>
       <start_time>16:00</start_time>
@@ -5751,7 +5502,7 @@ Research interests: Energy-Aware Computing, Resource / non-functional property a
     </tracks>
     <timeslot>
       <slot_id>f8e2efe8-155f-4621-b70a-71b97baee018</slot_id>
-      <title>Making proofs easy: Horn clause transformations to the aid of program verification (Invited Talk)</title>
+      <title>Making Proofs Easy: Horn Clause Transformations to the Aid of Program Verification (Invited Talk)</title>
       <room>Hotel Cascais Miragem | Sala X</room>
       <date>2019/01/15</date>
       <start_time>11:00</start_time>
@@ -5797,10 +5548,10 @@ Research interests: Energy-Aware Computing, Resource / non-functional property a
   </subevent>
   <subevent>
     <subevent_id>accc1328-ae93-48af-907b-7872f086214c</subevent_id>
-    <title>OPCT: CAUSALITY, REVERSIBILITY</title>
+    <title>OPCT: Causality, Reversibility</title>
     <timeslot>
       <slot_id>c16d1c90-9f79-403d-be62-e428005e0d1a</slot_id>
-      <title>Session: OPCT - CAUSALITY, REVERSIBILITY</title>
+      <title>Session: OPCT - Causality, Reversibility</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/14</date>
       <start_time>11:15</start_time>
@@ -5877,7 +5628,7 @@ Research interests: Energy-Aware Computing, Resource / non-functional property a
     </timeslot>
     <timeslot>
       <slot_id>73bac475-dc54-4dab-9571-a05fc70cad00</slot_id>
-      <title>An axiomatic approach to reversible computation</title>
+      <title>An Axiomatic Approach to Reversible Computation</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/14</date>
       <start_time>12:05</start_time>
@@ -6310,10 +6061,10 @@ His interests span several topics, including the design and implementation of hi
   </subevent>
   <subevent>
     <subevent_id>f3712056-ece3-49c9-8074-ac9076bd30e1</subevent_id>
-    <title>OPCT: SESSION TYPES </title>
+    <title>OPCT: Session Types</title>
     <timeslot>
       <slot_id>0fa85d8d-e87e-4de6-9f37-cdeee6ff5264</slot_id>
-      <title>Session: OPCT - SESSION TYPES </title>
+      <title>Session: OPCT - Session Types</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/14</date>
       <start_time>09:00</start_time>
@@ -6380,7 +6131,7 @@ His interests span several topics, including the design and implementation of hi
     </timeslot>
     <timeslot>
       <slot_id>90fb5981-70b9-4e1d-a86b-6e2bc1b7abce</slot_id>
-      <title>A concurrent functional language with session types and control effects based on linear logic</title>
+      <title>A Concurrent Functional Language with Session Types and Control Effects Based on Linear Logic</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/14</date>
       <start_time>09:15</start_time>
@@ -6404,7 +6155,7 @@ His interests span several topics, including the design and implementation of hi
     </timeslot>
     <timeslot>
       <slot_id>bfeaf324-92f5-47f8-829c-cec003866c72</slot_id>
-      <title>Processes as names?</title>
+      <title>Processes as Names?</title>
       <room>Hotel Cascais Miragem | Sala VII   </room>
       <date>2019/01/14</date>
       <start_time>10:05</start_time>
@@ -6423,6 +6174,268 @@ His interests span several topics, including the design and implementation of hi
       </persons>
       <tracks>
         <track>OPCT 2019</track>
+      </tracks>
+    </timeslot>
+  </subevent>
+  <subevent>
+    <subevent_id>6d880da9-3e15-41d1-9a82-6753312dc3e6</subevent_id>
+    <title>Off the Beaten Track: Keynote</title>
+    <timeslot>
+      <slot_id>7a94d797-0da2-4a9d-b22b-4ec215b33014</slot_id>
+      <title>Session: Off the Beaten Track - Keynote</title>
+      <room>Hotel Cascais Miragem | Sala VII</room>
+      <date>2019/01/19</date>
+      <start_time>09:00</start_time>
+      <end_time>10:30</end_time>
+      <persons>
+        <person>
+          <role>Session Chair</role>
+          <sort_key>1</sort_key>
+          <first_name>Luke</first_name>
+          <last_name>Church</last_name>
+          <affiliation>undefined</affiliation>
+          <bio>undefined</bio>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/lukechurch/3ab26f57-3738-4a38-a8be-8f6d1b69cd8f/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>Off the Beaten Track 2019</track>
+      </tracks>
+    </timeslot>
+    <subevent_type type="regular"/>
+    <room>Hotel Cascais Miragem | Sala VII</room>
+    <date>2019/01/19</date>
+    <url>https://popl19.sigplan.org/track/OBT-2019-papers</url>
+    <url_link_display>Off the Beaten Track 2019</url_link_display>
+    <tracks>
+      <track>Off the Beaten Track 2019</track>
+    </tracks>
+    <timeslot>
+      <slot_id>ce3104a2-c62b-49cf-ac62-499709087c84</slot_id>
+      <title>De-escalating Software (Keynote)</title>
+      <room>Hotel Cascais Miragem | Sala VII</room>
+      <date>2019/01/19</date>
+      <start_time>09:30</start_time>
+      <end_time>10:30</end_time>
+      <description>What are the principles of programming languages? The world-view of mainstream programming language-related research has changed little since the 1970s. Programs should be correct and efficient; languages should engender those qualities, Latent among this is another 1970s idea: that growth in infrastructural complexity is the expected trajectory of development, and that the power of mechanisation will render that complexity tractable. In many domains of human activity, such as farming, transportation, corporate management and education, that thinking is showing its limitations. What about software? In this talk, which will offer far more questions than answers, I’ll consider what research goals and avenues might emerge from certain alternative principles inspired by an analogous reaction against convention. Among the alternative principles I’ll discuss are ones I’ll call authorial capability (influencing e.g. approaches to modularity and refactoring), complexity budgeting (influencing e.g. approaches to build tooling, dependency management and testing), and scaling via federation (influencing approaches to distribution and interface specification).</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Stephen</first_name>
+          <last_name>Kell</last_name>
+          <affiliation>University of Kent</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://www.cs.kent.ac.uk/people/staff/srk21</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/stephenkell/53088184-3e8c-4a2c-b34f-b2a290cff411/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>Off the Beaten Track 2019</track>
+      </tracks>
+    </timeslot>
+  </subevent>
+  <subevent>
+    <subevent_id>23a658db-384b-441f-9a7b-31808d9d80b9</subevent_id>
+    <title>Off the Beaten Track: Morning Papers</title>
+    <timeslot>
+      <slot_id>e5bf72bc-a622-4e93-a94c-533e4df86eda</slot_id>
+      <title>Session: Off the Beaten Track - Morning Papers</title>
+      <room>Hotel Cascais Miragem | Sala VII</room>
+      <date>2019/01/19</date>
+      <start_time>11:00</start_time>
+      <end_time>12:30</end_time>
+      <persons>
+        <person>
+          <role>Session Chair</role>
+          <sort_key>1</sort_key>
+          <first_name>Michael</first_name>
+          <last_name>Greenberg</last_name>
+          <affiliation>Pomona College</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://www.cs.pomona.edu/~michael/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/michaelgreenberg/3c177ea6-ac3c-4ddb-9f4e-ac5d7b568e07/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>Off the Beaten Track 2019</track>
+      </tracks>
+    </timeslot>
+    <subevent_type type="regular"/>
+    <room>Hotel Cascais Miragem | Sala VII</room>
+    <date>2019/01/19</date>
+    <url>https://popl19.sigplan.org/track/OBT-2019-papers</url>
+    <url_link_display>Off the Beaten Track 2019</url_link_display>
+    <tracks>
+      <track>Off the Beaten Track 2019</track>
+    </tracks>
+    <timeslot>
+      <slot_id>4de42d54-19c1-4153-a0a8-b4aa32a3506c</slot_id>
+      <title>From Tactics to Structure Editors for Proofs</title>
+      <room>Hotel Cascais Miragem | Sala VII</room>
+      <date>2019/01/19</date>
+      <start_time>11:45</start_time>
+      <end_time>12:30</end_time>
+      <description>For many users of theorem provers, tactics are merely an inelegant solution to a difficult problem. However, we believe that tactics deserve more attention and appraisal, and well-designed tactics are actually a well-structured way to construct programs. In this work, we will explore the connection between tactics and structure editors, as well as emphasize the importance of designing tactics with well-defined semantics with respect to proof terms and proof states.</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Xuanrui (Ray)</first_name>
+          <last_name>Qi</last_name>
+          <affiliation>Tufts University</affiliation>
+          <bio>I am a master’s student in computer science at Tufts University, where I am advised by Sam Guyer. Previously, I was a research visitor at Nagoya University, Japan, working with Jacques Garrigue, and before that an undergraduate student at Tufts University, from where I graduated with a B.S. in 2018.</bio>
+          <homepage_url>https://www.xuanruiqi.com</homepage_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>Off the Beaten Track 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>a238d80f-e5ed-46a6-bef9-b0c34db4d91c</slot_id>
+      <title>Facile : A Domain Specific Language and Compiler for Program Analysis and Optimization </title>
+      <room>Hotel Cascais Miragem | Sala VII</room>
+      <date>2019/01/19</date>
+      <start_time>11:00</start_time>
+      <end_time>11:45</end_time>
+      <description>Research on program analyses and optimizations has advanced a lot and is able to provide insightful diagnostics and generate high performant code for various targets over past few years. However, it is still a cumbersome task to implement compiler algorithms which analyze or perform optimizations as it requires the knowledge of compiler infrastructure and related tools; a researcher, who is well versed in compilers needs to know the internals of the compiler infrastructure (like LLVM or GCC) in order to implement even a simple analysis pass. This poses hindrance in rapid prototyping and experimentation of new compiler algorithms. We propose a domain specific language called Facile which aims to reduce this burden off the compiler developers by allowing them to express data-flow and control-flow algorithms at higher lever of abstraction. The Facile compiler lowers the code written in Facile language to a compiler infrastructure specific pass(es) and generates final executable. We demonstrate the effectiveness of our language with a real-world use case and explain the tool chain required to implement the language.</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Madhur</first_name>
+          <last_name>Amilkanthwar</last_name>
+          <affiliation>undefined</affiliation>
+          <bio>undefined</bio>
+        </person>
+      </persons>
+      <tracks>
+        <track>Off the Beaten Track 2019</track>
+      </tracks>
+    </timeslot>
+  </subevent>
+  <subevent>
+    <subevent_id>278fd069-7151-4706-8784-1e463ba65c06</subevent_id>
+    <title>Off the Beaten Track: Afternoon Talks</title>
+    <timeslot>
+      <slot_id>29dd379a-9b1f-4f7b-befd-4df1453f72c8</slot_id>
+      <title>Session: Off the Beaten Track - Afternoon Talks</title>
+      <room>Hotel Cascais Miragem | Sala VII</room>
+      <date>2019/01/19</date>
+      <start_time>14:00</start_time>
+      <end_time>15:30</end_time>
+      <persons>
+        <person>
+          <role>Session Chair</role>
+          <sort_key>1</sort_key>
+          <first_name>Luke</first_name>
+          <last_name>Church</last_name>
+          <affiliation>undefined</affiliation>
+          <bio>undefined</bio>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/lukechurch/3ab26f57-3738-4a38-a8be-8f6d1b69cd8f/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>Off the Beaten Track 2019</track>
+      </tracks>
+    </timeslot>
+    <subevent_type type="regular"/>
+    <room>Hotel Cascais Miragem | Sala VII</room>
+    <date>2019/01/19</date>
+    <url>https://popl19.sigplan.org/track/OBT-2019-papers</url>
+    <url_link_display>Off the Beaten Track 2019</url_link_display>
+    <tracks>
+      <track>Off the Beaten Track 2019</track>
+    </tracks>
+    <timeslot>
+      <slot_id>000b876b-8c96-4b15-b8e0-7cbfe0ec5bb1</slot_id>
+      <title>Design Critique and Discussion</title>
+      <room>Hotel Cascais Miragem | Sala VII</room>
+      <date>2019/01/19</date>
+      <start_time>14:00</start_time>
+      <end_time>14:45</end_time>
+      <description>undefined</description>
+      <persons>
+        <person>
+          <role>Chair</role>
+          <sort_key>1</sort_key>
+          <first_name>Luke</first_name>
+          <last_name>Church</last_name>
+          <affiliation>undefined</affiliation>
+          <bio>undefined</bio>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/lukechurch/3ab26f57-3738-4a38-a8be-8f6d1b69cd8f/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>Off the Beaten Track 2019</track>
+      </tracks>
+    </timeslot>
+    <timeslot>
+      <slot_id>22411843-0afe-4596-b715-624e44bb5927</slot_id>
+      <title>F a Language for Music Composition</title>
+      <room>Hotel Cascais Miragem | Sala VII</room>
+      <date>2019/01/19</date>
+      <start_time>14:45</start_time>
+      <end_time>15:30</end_time>
+      <description>In this paper we introduce the declarative language F for music composition. F supports music composition at a higher level of abstraction than traditional sheet music. Composers are able to express themselves at a high level of abstraction throughout the entire process of composing a piece, and we sketch some of the available transformation of the various component of a composition. F is currently still at a prototype stage (version 0.8), but we hope to evolve the language to be useful in many areas of computer aided music composition and analysis.</description>
+      <persons>
+        <person>
+          <role>Author</role>
+          <sort_key>1</sort_key>
+          <first_name>Joachim</first_name>
+          <last_name>Kristensen</last_name>
+          <affiliation>undefined</affiliation>
+          <bio>undefined</bio>
+        </person>
+        <person>
+          <role>Author</role>
+          <sort_key>2</sort_key>
+          <first_name>Ken Friis</first_name>
+          <last_name>Larsen</last_name>
+          <affiliation>DIKU, University of Copenhagen</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>https://www.diku.dk/~kflarsen</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/kenfriislarsen/c3bd441d-cbd0-4363-8229-cc220e96a887/small.jpg</picture_url>
+        </person>
+      </persons>
+      <tracks>
+        <track>Off the Beaten Track 2019</track>
+      </tracks>
+    </timeslot>
+  </subevent>
+  <subevent>
+    <subevent_id>561d406f-dcb2-4f2b-a90a-f9e0403f395d</subevent_id>
+    <title>Off the Beaten Track: Informal + Business Meeting</title>
+    <timeslot>
+      <slot_id>e9b2cdec-6700-4532-ac52-9d24e53d1b28</slot_id>
+      <title>Session: Off the Beaten Track - Informal + Business Meeting</title>
+      <room>Hotel Cascais Miragem | Sala VII</room>
+      <date>2019/01/19</date>
+      <start_time>16:00</start_time>
+      <end_time>17:30</end_time>
+      <tracks>
+        <track>Off the Beaten Track 2019</track>
+      </tracks>
+    </timeslot>
+    <subevent_type type="regular"/>
+    <room>Hotel Cascais Miragem | Sala VII</room>
+    <date>2019/01/19</date>
+    <url>https://popl19.sigplan.org/track/OBT-2019-papers</url>
+    <url_link_display>Off the Beaten Track 2019</url_link_display>
+    <tracks>
+      <track>Off the Beaten Track 2019</track>
+    </tracks>
+    <timeslot>
+      <slot_id>3b94bab5-8a8e-449d-8a17-a6407dd359cc</slot_id>
+      <title>Informal + Business Meeting</title>
+      <room>Hotel Cascais Miragem | Sala VII</room>
+      <date>2019/01/19</date>
+      <start_time>16:00</start_time>
+      <end_time>17:30</end_time>
+      <description>undefined</description>
+      <tracks>
+        <track>Off the Beaten Track 2019</track>
       </tracks>
     </timeslot>
   </subevent>
@@ -6956,10 +6969,10 @@ Undefined behavior (UB) has been used in production compilers’ IRs for a long 
   </subevent>
   <subevent>
     <subevent_id>2124501f-ddcc-44ea-a9e7-790a13b1ffb2</subevent_id>
-    <title>VMCAI: Abstract interpretation (1)</title>
+    <title>VMCAI: Abstract Interpretation (1)</title>
     <timeslot>
       <slot_id>c38436e9-8fb3-4c11-a531-ad439281ff54</slot_id>
-      <title>Session: VMCAI - Abstract interpretation (1)</title>
+      <title>Session: VMCAI - Abstract Interpretation (1)</title>
       <room>Hotel Cascais Miragem | Sala III</room>
       <date>2019/01/13</date>
       <start_time>11:00</start_time>
@@ -7008,7 +7021,7 @@ Undefined behavior (UB) has been used in production compilers’ IRs for a long 
     </timeslot>
     <timeslot>
       <slot_id>87f458f8-d630-4039-b4c9-2317e38e450c</slot_id>
-      <title>Static Analysis Of Binary Code With Memory Indirections Using Polyhedra</title>
+      <title>Static Analysis of Binary Code with Memory Indirections Using Polyhedra</title>
       <room>Hotel Cascais Miragem | Sala III</room>
       <date>2019/01/13</date>
       <start_time>11:00</start_time>
@@ -7320,33 +7333,53 @@ The central research question is to design a certificate format which is compreh
     </tracks>
     <timeslot>
       <slot_id>681ebde3-be92-43d8-ad11-9452e55684c0</slot_id>
-      <title>Relatively Complete Pushdown Analysis of Escape Continuations</title>
+      <title>Effect-driven Flow Analysis</title>
       <room>Hotel Cascais Miragem | Sala III</room>
       <date>2019/01/13</date>
       <start_time>16:30</start_time>
       <end_time>17:00</end_time>
-      <description>Escape continuations are weaker than full, first-class continuations but nevertheless can express many common control operators. Although language and compiler designs profitably leverage escape continuations, all previous approaches to analyze them statically in a higher-order setting have been ad hoc or imprecise. We present MCCFA2, a generalization of CFA2 that analyzes them with pushdown precision in their most-general form. In particular, the summarization algorithm of MCCFA2 is both sound and complete with respect to a conservative extension of CFA2’s abstract semantics. We also sketch an integration into our framework of Vardoulakis and Shivers’ technique to handle first-class continuations that offers the full precision of MCCFA2 to uses of them as mere escape continuations.</description>
+      <description>Traditional machine-based static analyses use a worklist algorithm to explore the analysis state space, and compare each state in the worklist against a set of seen states as part of their fixed-point computation. This may require many state comparisons, which gives rise to a computational overhead. Even an analysis with a global store has to clear its set of seen states each time the store updates because of allocation or side-effects, which results in more states being reanalyzed and compared. 
+In this work we present a static analysis technique, ModF, that does not rely on a set of seen states, and apply it to a machine-based analysis with global-store widening. ModF analyzes one function execution at a time to completion while tracking read, write, and call effects. These effects trigger the analysis of other function executions, and the analysis terminates when no new effects can be discovered. 
+We compared ModF to a traditional machine-based analysis implementation on a set of 20 benchmark programs and found that ModF is faster for 17 programs with speedups ranging between 1.4x and 12.3x. Furthermore, ModF exhibits similar precision as the traditional analysis and yields state graphs that are comparable in size.</description>
       <persons>
         <person>
           <role>Author</role>
           <sort_key>1</sort_key>
-          <first_name>Kimball</first_name>
-          <last_name>Germane</last_name>
-          <affiliation>University of Utah</affiliation>
+          <first_name>Jens</first_name>
+          <last_name>Nicolay</last_name>
+          <affiliation>Vrije Universiteit Brussel, Belgium</affiliation>
           <bio>undefined</bio>
+          <homepage_url>https://soft.vub.ac.be/~jnicolay/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/jensnicolay/307f2d75-b933-43f4-ae6c-1cb9a2db8e92/small.jpg</picture_url>
         </person>
         <person>
           <role>Author</role>
           <sort_key>2</sort_key>
-          <first_name>Matthew</first_name>
-          <last_name>Might</last_name>
-          <affiliation>University of Alabama at Birmingham | Harvard Medical School</affiliation>
-          <bio>Professor of Internal Medicine and Computer Science, UAB 
-Hugh Kaul Endowed Chair in Personalized Medicine 
-Director, Hugh Kaul Precision Medicine Institute 
-Senior Lecturer, Harvard Medical School</bio>
-          <homepage_url>http://matt.might.net/</homepage_url>
-          <picture_url>https://popl19.sigplan.org/getProfileImage/matthewmight/ec69937a-3cff-49b4-aedb-73494c1181ac/small.jpg</picture_url>
+          <first_name>Quentin</first_name>
+          <last_name>Stiévenart</last_name>
+          <affiliation>Vrije Universiteit Brussel, Belgium</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>https://soft.vub.ac.be/~qstieven</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/quentinstievenart/7d195a5f-4ea9-4d26-a55f-2b8d1c5853b8/small.jpg</picture_url>
+        </person>
+        <person>
+          <role>Author</role>
+          <sort_key>3</sort_key>
+          <first_name>Wolfgang</first_name>
+          <last_name>De Meuter</last_name>
+          <affiliation>Vrije Universiteit Brussel</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>https://soft.vub.ac.be/soft/users/wdmeuter</homepage_url>
+        </person>
+        <person>
+          <role>Author</role>
+          <sort_key>4</sort_key>
+          <first_name>Coen</first_name>
+          <last_name>De Roover</last_name>
+          <affiliation>Vrije Universiteit Brussel</affiliation>
+          <bio>undefined</bio>
+          <homepage_url>http://soft.vub.ac.be/~cderoove/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/coenderoover/ef3a26a6-56c3-420e-b1ce-b4a0e6cd653e/small.jpg</picture_url>
         </person>
       </persons>
       <tracks>
@@ -7408,53 +7441,33 @@ Senior Lecturer, Harvard Medical School</bio>
     </timeslot>
     <timeslot>
       <slot_id>c0465375-0302-439a-aeac-0464fabed8d4</slot_id>
-      <title>Effect-driven Flow Analysis</title>
+      <title>Relatively Complete Pushdown Analysis of Escape Continuations</title>
       <room>Hotel Cascais Miragem | Sala III</room>
       <date>2019/01/13</date>
       <start_time>17:00</start_time>
       <end_time>17:30</end_time>
-      <description>Traditional machine-based static analyses use a worklist algorithm to explore the analysis state space, and compare each state in the worklist against a set of seen states as part of their fixed-point computation. This may require many state comparisons, which gives rise to a computational overhead. Even an analysis with a global store has to clear its set of seen states each time the store updates because of allocation or side-effects, which results in more states being reanalyzed and compared. 
-In this work we present a static analysis technique, ModF, that does not rely on a set of seen states, and apply it to a machine-based analysis with global-store widening. ModF analyzes one function execution at a time to completion while tracking read, write, and call effects. These effects trigger the analysis of other function executions, and the analysis terminates when no new effects can be discovered. 
-We compared ModF to a traditional machine-based analysis implementation on a set of 20 benchmark programs and found that ModF is faster for 17 programs with speedups ranging between 1.4x and 12.3x. Furthermore, ModF exhibits similar precision as the traditional analysis and yields state graphs that are comparable in size.</description>
+      <description>Escape continuations are weaker than full, first-class continuations but nevertheless can express many common control operators. Although language and compiler designs profitably leverage escape continuations, all previous approaches to analyze them statically in a higher-order setting have been ad hoc or imprecise. We present MCCFA2, a generalization of CFA2 that analyzes them with pushdown precision in their most-general form. In particular, the summarization algorithm of MCCFA2 is both sound and complete with respect to a conservative extension of CFA2’s abstract semantics. We also sketch an integration into our framework of Vardoulakis and Shivers’ technique to handle first-class continuations that offers the full precision of MCCFA2 to uses of them as mere escape continuations.</description>
       <persons>
         <person>
           <role>Author</role>
           <sort_key>1</sort_key>
-          <first_name>Jens</first_name>
-          <last_name>Nicolay</last_name>
-          <affiliation>Vrije Universiteit Brussel, Belgium</affiliation>
+          <first_name>Kimball</first_name>
+          <last_name>Germane</last_name>
+          <affiliation>University of Utah</affiliation>
           <bio>undefined</bio>
-          <homepage_url>https://soft.vub.ac.be/~jnicolay/</homepage_url>
-          <picture_url>https://popl19.sigplan.org/getProfileImage/jensnicolay/307f2d75-b933-43f4-ae6c-1cb9a2db8e92/small.jpg</picture_url>
         </person>
         <person>
           <role>Author</role>
           <sort_key>2</sort_key>
-          <first_name>Quentin</first_name>
-          <last_name>Stiévenart</last_name>
-          <affiliation>Vrije Universiteit Brussel, Belgium</affiliation>
-          <bio>undefined</bio>
-          <homepage_url>https://soft.vub.ac.be/~qstieven</homepage_url>
-          <picture_url>https://popl19.sigplan.org/getProfileImage/quentinstievenart/7d195a5f-4ea9-4d26-a55f-2b8d1c5853b8/small.jpg</picture_url>
-        </person>
-        <person>
-          <role>Author</role>
-          <sort_key>3</sort_key>
-          <first_name>Wolfgang</first_name>
-          <last_name>De Meuter</last_name>
-          <affiliation>Vrije Universiteit Brussel</affiliation>
-          <bio>undefined</bio>
-          <homepage_url>https://soft.vub.ac.be/soft/users/wdmeuter</homepage_url>
-        </person>
-        <person>
-          <role>Author</role>
-          <sort_key>4</sort_key>
-          <first_name>Coen</first_name>
-          <last_name>De Roover</last_name>
-          <affiliation>Vrije Universiteit Brussel</affiliation>
-          <bio>undefined</bio>
-          <homepage_url>http://soft.vub.ac.be/~cderoove/</homepage_url>
-          <picture_url>https://popl19.sigplan.org/getProfileImage/coenderoover/ef3a26a6-56c3-420e-b1ce-b4a0e6cd653e/small.jpg</picture_url>
+          <first_name>Matthew</first_name>
+          <last_name>Might</last_name>
+          <affiliation>University of Alabama at Birmingham | Harvard Medical School</affiliation>
+          <bio>Professor of Internal Medicine and Computer Science, UAB 
+Hugh Kaul Endowed Chair in Personalized Medicine 
+Director, Hugh Kaul Precision Medicine Institute 
+Senior Lecturer, Harvard Medical School</bio>
+          <homepage_url>http://matt.might.net/</homepage_url>
+          <picture_url>https://popl19.sigplan.org/getProfileImage/matthewmight/ec69937a-3cff-49b4-aedb-73494c1181ac/small.jpg</picture_url>
         </person>
       </persons>
       <tracks>
@@ -7881,10 +7894,10 @@ Finally, we propose an algorithm for finding the minimal DFA consistent with inp
   </subevent>
   <subevent>
     <subevent_id>57cf0f4a-069f-4e99-9891-216294aee62c</subevent_id>
-    <title>POPL TutorialFest: Linear and Graded Modal Types for Fine-Grained Program Reasoning I</title>
+    <title>POPL TutorialFest: Tutorial 3A</title>
     <timeslot>
       <slot_id>d0d938c9-bb90-4863-8c1c-cc3f7d506e9b</slot_id>
-      <title>Session: POPL TutorialFest - Linear and Graded Modal Types for Fine-Grained Program Reasoning I</title>
+      <title>Session: POPL TutorialFest - Tutorial 3A</title>
       <room>Hotel Cascais Miragem | Sala VI</room>
       <date>2019/01/14</date>
       <start_time>09:00</start_time>
@@ -7962,10 +7975,10 @@ In the context of a distributed ledger infrastructure built using Haskell, I wor
   </subevent>
   <subevent>
     <subevent_id>ecc1152b-b5f9-4746-9631-02344b064f62</subevent_id>
-    <title>POPL TutorialFest: Building Your Own Modular Static Analyser with Infer I</title>
+    <title>POPL TutorialFest: Tutorial 7A</title>
     <timeslot>
       <slot_id>3810729e-2361-49f5-baf4-1b5ff9709fca</slot_id>
-      <title>Session: POPL TutorialFest - Building Your Own Modular Static Analyser with Infer I</title>
+      <title>Session: POPL TutorialFest - Tutorial 7A</title>
       <room>Hotel Cascais Miragem | Sala IX</room>
       <date>2019/01/14</date>
       <start_time>14:00</start_time>
@@ -8009,10 +8022,10 @@ In the context of a distributed ledger infrastructure built using Haskell, I wor
   </subevent>
   <subevent>
     <subevent_id>fbc53a97-fcc3-4292-af2e-b83c7bacb07b</subevent_id>
-    <title>POPL TutorialFest: QuickChick: Property-Based Testing in Coq II</title>
+    <title>POPL TutorialFest: Tutorial 1B</title>
     <timeslot>
       <slot_id>7142d065-cfc1-4348-8c6a-269729111852</slot_id>
-      <title>Session: POPL TutorialFest - QuickChick: Property-Based Testing in Coq II</title>
+      <title>Session: POPL TutorialFest - Tutorial 1B</title>
       <room>Hotel Cascais Miragem | Sala V</room>
       <date>2019/01/14</date>
       <start_time>11:00</start_time>
@@ -8066,10 +8079,10 @@ In the context of a distributed ledger infrastructure built using Haskell, I wor
   </subevent>
   <subevent>
     <subevent_id>1698632d-853e-4ca6-8f98-509076b615b5</subevent_id>
-    <title>POPL TutorialFest: Engineering Distributed Systems via Protocols and Commitments I</title>
+    <title>POPL TutorialFest: Tutorial 2A</title>
     <timeslot>
       <slot_id>279568ff-c78d-4629-94d6-2baa4e1b0098</slot_id>
-      <title>Session: POPL TutorialFest - Engineering Distributed Systems via Protocols and Commitments I</title>
+      <title>Session: POPL TutorialFest - Tutorial 2A</title>
       <room>Hotel Cascais Miragem | Sala VIII</room>
       <date>2019/01/14</date>
       <start_time>09:00</start_time>
@@ -8124,10 +8137,10 @@ Both BSPL and Cupid stem from research done in the multiagent systems community 
   </subevent>
   <subevent>
     <subevent_id>1e18ac60-44be-4506-b64e-12da8f1246f3</subevent_id>
-    <title>POPL TutorialFest: Correct-by-Construction Programming in Agda I</title>
+    <title>POPL TutorialFest: Tutorial 5A</title>
     <timeslot>
       <slot_id>fe80682e-d176-4151-8404-4d1b48e74142</slot_id>
-      <title>Session: POPL TutorialFest - Correct-by-Construction Programming in Agda I</title>
+      <title>Session: POPL TutorialFest - Tutorial 5A</title>
       <room>Hotel Cascais Miragem | Sala V</room>
       <date>2019/01/14</date>
       <start_time>14:00</start_time>
@@ -8180,10 +8193,10 @@ In this tutorial, you will learn how to write correct-by-construction programs i
   </subevent>
   <subevent>
     <subevent_id>f7cf16aa-2405-4d93-8cb6-b6554eb91e25</subevent_id>
-    <title>POPL TutorialFest: Programming Cyber-Physical Systems With Logic II</title>
+    <title>POPL TutorialFest: Tutorial 4B</title>
     <timeslot>
       <slot_id>38a4c439-01f9-401c-8eb2-0c764c5973d9</slot_id>
-      <title>Session: POPL TutorialFest - Programming Cyber-Physical Systems With Logic II</title>
+      <title>Session: POPL TutorialFest - Tutorial 4B</title>
       <room>Hotel Cascais Miragem | Sala IX</room>
       <date>2019/01/14</date>
       <start_time>11:00</start_time>
@@ -8202,7 +8215,7 @@ In this tutorial, you will learn how to write correct-by-construction programs i
     </tracks>
     <timeslot>
       <slot_id>ba34e37f-2516-4bb1-b3ab-a6637a3ef0f0</slot_id>
-      <title>[T4] Programming Cyber-Physical Systems With Logic</title>
+      <title>[T4] Programming Cyber-Physical Systems with Logic</title>
       <room>Hotel Cascais Miragem | Sala IX</room>
       <date>2019/01/14</date>
       <start_time>11:00</start_time>
@@ -8229,10 +8242,10 @@ André Platzer has a Ph.D. from the University of Oldenburg, Germany, received a
   </subevent>
   <subevent>
     <subevent_id>ba7a658e-b261-44a4-bb94-a0d1ac0fc62e</subevent_id>
-    <title>POPL TutorialFest: Correct-by-Construction Programming in Agda II</title>
+    <title>POPL TutorialFest: Tutorial 5B</title>
     <timeslot>
       <slot_id>4d053efd-cc60-4781-855d-dfa24591e614</slot_id>
-      <title>Session: POPL TutorialFest - Correct-by-Construction Programming in Agda II</title>
+      <title>Session: POPL TutorialFest - Tutorial 5B</title>
       <room>Hotel Cascais Miragem | Sala V</room>
       <date>2019/01/14</date>
       <start_time>16:00</start_time>
@@ -8285,10 +8298,10 @@ In this tutorial, you will learn how to write correct-by-construction programs i
   </subevent>
   <subevent>
     <subevent_id>bb20d7c5-83cc-4fc2-9f81-0f5bb9536c9a</subevent_id>
-    <title>POPL TutorialFest: QuickChick: Property-Based Testing in Coq I</title>
+    <title>POPL TutorialFest: Tutorial 1A</title>
     <timeslot>
       <slot_id>04eba6e2-3fbc-4cae-9b16-76979c0a87f4</slot_id>
-      <title>Session: POPL TutorialFest - QuickChick: Property-Based Testing in Coq I</title>
+      <title>Session: POPL TutorialFest - Tutorial 1A</title>
       <room>Hotel Cascais Miragem | Sala V</room>
       <date>2019/01/14</date>
       <start_time>09:00</start_time>
@@ -8342,10 +8355,10 @@ In this tutorial, you will learn how to write correct-by-construction programs i
   </subevent>
   <subevent>
     <subevent_id>c7c9f0bc-88b1-4479-8bc3-dbb778f1d3fd</subevent_id>
-    <title>POPL TutorialFest: Higher-Order Probabilistic Programming II</title>
+    <title>POPL TutorialFest: Tutorial 8B</title>
     <timeslot>
       <slot_id>1493d9f7-1f79-4260-9a38-c222bc5b8a4f</slot_id>
-      <title>Session: POPL TutorialFest - Higher-Order Probabilistic Programming II</title>
+      <title>Session: POPL TutorialFest - Tutorial 8B</title>
       <room>Hotel Cascais Miragem | Sala VI</room>
       <date>2019/01/14</date>
       <start_time>16:00</start_time>
@@ -8424,10 +8437,10 @@ The goal of this tutorial is to explain the capabilities of this framework and e
   </subevent>
   <subevent>
     <subevent_id>8cb13e7f-0312-4ec4-b546-17d27146d3a5</subevent_id>
-    <title>POPL TutorialFest: Session-Typed Concurrent Programming II</title>
+    <title>POPL TutorialFest: Tutorial 6B</title>
     <timeslot>
       <slot_id>e3549e5f-4c6a-418b-ab47-237299f068a3</slot_id>
-      <title>Session: POPL TutorialFest - Session-Typed Concurrent Programming II</title>
+      <title>Session: POPL TutorialFest - Tutorial 6B</title>
       <room>Hotel Cascais Miragem | Sala VIII</room>
       <date>2019/01/14</date>
       <start_time>16:00</start_time>
@@ -8472,10 +8485,10 @@ In this tutorial, we review linear session types and their logical foundation, b
   </subevent>
   <subevent>
     <subevent_id>7f58dc30-82fc-41ac-8a0e-5015d800294f</subevent_id>
-    <title>POPL TutorialFest: Higher-Order Probabilistic Programming I</title>
+    <title>POPL TutorialFest: Tutorial 8A</title>
     <timeslot>
       <slot_id>54a1d47d-7070-4688-9516-ed36f9f8b273</slot_id>
-      <title>Session: POPL TutorialFest - Higher-Order Probabilistic Programming I</title>
+      <title>Session: POPL TutorialFest - Tutorial 8A</title>
       <room>Hotel Cascais Miragem | Sala VI</room>
       <date>2019/01/14</date>
       <start_time>14:00</start_time>
@@ -8554,10 +8567,10 @@ The goal of this tutorial is to explain the capabilities of this framework and e
   </subevent>
   <subevent>
     <subevent_id>917cad76-7680-4c5e-97a7-01bfeb905de6</subevent_id>
-    <title>POPL TutorialFest: Session-Typed Concurrent Programming I</title>
+    <title>POPL TutorialFest: Tutorial 6A</title>
     <timeslot>
       <slot_id>0ae47819-d4a5-4526-b572-016f6676448e</slot_id>
-      <title>Session: POPL TutorialFest - Session-Typed Concurrent Programming I</title>
+      <title>Session: POPL TutorialFest - Tutorial 6A</title>
       <room>Hotel Cascais Miragem | Sala VIII</room>
       <date>2019/01/14</date>
       <start_time>14:00</start_time>
@@ -8602,10 +8615,10 @@ In this tutorial, we review linear session types and their logical foundation, b
   </subevent>
   <subevent>
     <subevent_id>f11639b4-3fab-49ef-a24e-3090a81b170f</subevent_id>
-    <title>POPL TutorialFest: Engineering Distributed Systems via Protocols and Commitments II</title>
+    <title>POPL TutorialFest: Tutorial 2B</title>
     <timeslot>
       <slot_id>689ea4db-10bd-4644-8c7d-5547d4da72c1</slot_id>
-      <title>Session: POPL TutorialFest - Engineering Distributed Systems via Protocols and Commitments II</title>
+      <title>Session: POPL TutorialFest - Tutorial 2B</title>
       <room>Hotel Cascais Miragem | Sala VIII</room>
       <date>2019/01/14</date>
       <start_time>11:00</start_time>
@@ -8660,10 +8673,10 @@ Both BSPL and Cupid stem from research done in the multiagent systems community 
   </subevent>
   <subevent>
     <subevent_id>3742400a-abb0-4ca5-9393-a3c9a1b20b4d</subevent_id>
-    <title>POPL TutorialFest: Programming Cyber-Physical Systems With Logic I</title>
+    <title>POPL TutorialFest: Tutorial 4A</title>
     <timeslot>
       <slot_id>1f6aadd3-2537-4643-bb95-cb3d114417be</slot_id>
-      <title>Session: POPL TutorialFest - Programming Cyber-Physical Systems With Logic I</title>
+      <title>Session: POPL TutorialFest - Tutorial 4A</title>
       <room>Hotel Cascais Miragem | Sala IX</room>
       <date>2019/01/14</date>
       <start_time>09:00</start_time>
@@ -8682,7 +8695,7 @@ Both BSPL and Cupid stem from research done in the multiagent systems community 
     </tracks>
     <timeslot>
       <slot_id>4b7b014f-e953-47d9-aca0-a90af3acd4d3</slot_id>
-      <title>[T4] Programming Cyber-Physical Systems With Logic</title>
+      <title>[T4] Programming Cyber-Physical Systems with Logic</title>
       <room>Hotel Cascais Miragem | Sala IX</room>
       <date>2019/01/14</date>
       <start_time>09:00</start_time>
@@ -8709,10 +8722,10 @@ André Platzer has a Ph.D. from the University of Oldenburg, Germany, received a
   </subevent>
   <subevent>
     <subevent_id>0b94be10-fb23-44db-a55c-043b1bec5ac6</subevent_id>
-    <title>POPL TutorialFest: Linear and Graded Modal Types for Fine-Grained Program Reasoning II</title>
+    <title>POPL TutorialFest: Tutorial 3B</title>
     <timeslot>
       <slot_id>0c2298d3-f1c3-4dd6-adf8-f2942f641c41</slot_id>
-      <title>Session: POPL TutorialFest - Linear and Graded Modal Types for Fine-Grained Program Reasoning II</title>
+      <title>Session: POPL TutorialFest - Tutorial 3B</title>
       <room>Hotel Cascais Miragem | Sala VI</room>
       <date>2019/01/14</date>
       <start_time>11:00</start_time>
@@ -8790,10 +8803,10 @@ In the context of a distributed ledger infrastructure built using Haskell, I wor
   </subevent>
   <subevent>
     <subevent_id>6450a860-eb66-4a17-b602-1b51ecbcbe17</subevent_id>
-    <title>POPL TutorialFest: Building Your Own Modular Static Analyser with Infer II</title>
+    <title>POPL TutorialFest: Tutorial 7B</title>
     <timeslot>
       <slot_id>26ff8e8d-f3db-4046-a792-c38db16a5625</slot_id>
-      <title>Session: POPL TutorialFest - Building Your Own Modular Static Analyser with Infer II</title>
+      <title>Session: POPL TutorialFest - Tutorial 7B</title>
       <room>Hotel Cascais Miragem | Sala IX</room>
       <date>2019/01/14</date>
       <start_time>16:00</start_time>
@@ -9509,6 +9522,7 @@ We provide two implementations of CT-Wasm: an OCaml reference interpreter and a 
           <last_name>Watt</last_name>
           <affiliation>University of Cambridge</affiliation>
           <bio>undefined</bio>
+          <homepage_url>https://www.cl.cam.ac.uk/~caw77/</homepage_url>
           <picture_url>https://popl19.sigplan.org/getProfileImage/conradwatt/d6df970c-7c11-418a-adb0-789ef78042eb/small.jpg</picture_url>
         </person>
         <person>
@@ -10898,7 +10912,7 @@ Bodden is one of the chief maintainers of the Soot program analysis and optimiza
     </timeslot>
     <timeslot>
       <slot_id>fab714a8-be2d-4eac-a578-7c0aa22c7701</slot_id>
-      <title>Inferring frame conditions with static correlation analysis</title>
+      <title>Inferring Frame Conditions with Static Correlation Analysis</title>
       <room>Hotel Cascais Miragem | Sala II</room>
       <date>2019/01/18</date>
       <start_time>15:43</start_time>
@@ -12110,7 +12124,7 @@ We provide an efficient implementation of our decision procedure (assuming our f
     </timeslot>
     <timeslot>
       <slot_id>c59a6ffd-35a8-4315-a3aa-29792aea275b</slot_id>
-      <title>Formal verification of higher-order probabilistic programs</title>
+      <title>Formal Verification of Higher-Order Probabilistic Programs</title>
       <room>Hotel Cascais Miragem | Sala I</room>
       <date>2019/01/16</date>
       <start_time>10:35</start_time>
@@ -12663,7 +12677,7 @@ I am an assistant professor in the Department of Computer Science at University 
     </tracks>
     <timeslot>
       <slot_id>1659023e-ef5c-4c84-8b91-0017f0b0f9e9</slot_id>
-      <title>Categorical combinatorics of scheduling and synchronization in game semantics</title>
+      <title>Categorical Combinatorics of Scheduling and Synchronization in Game Semantics</title>
       <room>Hotel Cascais Miragem | Sala II</room>
       <date>2019/01/16</date>
       <start_time>14:29</start_time>
@@ -12737,7 +12751,7 @@ I am an assistant professor in the Department of Computer Science at University 
     </timeslot>
     <timeslot>
       <slot_id>ffc896fb-ba51-4cab-b42c-f2cb5059beb5</slot_id>
-      <title>Familial monads and structural operational semantics</title>
+      <title>Familial Monads and Structural Operational Semantics</title>
       <room>Hotel Cascais Miragem | Sala II</room>
       <date>2019/01/16</date>
       <start_time>13:45</start_time>
@@ -13119,7 +13133,7 @@ At Oracle labs, he is responsible for research in language design and implementa
     </timeslot>
     <timeslot>
       <slot_id>f327dbdc-2887-4547-b844-b72452df8d50</slot_id>
-      <title>Bisimulation as path type for guarded recursive types</title>
+      <title>Bisimulation as Path Type for Guarded Recursive Types</title>
       <room>Hotel Cascais Miragem | Sala I</room>
       <date>2019/01/18</date>
       <start_time>11:41</start_time>
