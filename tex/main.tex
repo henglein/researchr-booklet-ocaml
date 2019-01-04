@@ -66,8 +66,7 @@
 
 \begin{document}
 
-
-% \incgraph[documentpaper, overlay={\node[red] at (page.center) {\Huge Picture sized to paper};}]
+% Cover
 \incgraph[documentpaper][width=\paperwidth,height=\paperheight]{img/cover.pdf}
 
 
@@ -81,5 +80,8 @@
 \input{out/schedule}
 % \input{out/schedule-final}
 \ifpictures\else \header{Notes}{}{}{Notes} \fi \newpage
-\input{tex/sponsors}
+
+% Back cover with sponsors
+%\input{tex/sponsors}
+\incgraph[documentpaper][width=\paperwidth,height=\paperheight]{img/backcover.pdf}
 \end{document}
