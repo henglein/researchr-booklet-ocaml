@@ -6,7 +6,7 @@
 
 # XMLFILE=acmdlxml.xml
 PDFFILE=out/main.pdf
-XMLFILE=xml/popl19-info.xml
+XMLFILE=xml/popl19-info-new.xml
 TEXFILE=tex/main
 SCHEDULE=out/schedule.tex
 OVERVIEW=out/overview.tex
